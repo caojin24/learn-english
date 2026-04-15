@@ -1,0 +1,114 @@
+[
+  {
+    "id": "video-caterpillar",
+    "bvid": "BV1jE411u7nD",
+    "slug": "the-very-hungry-caterpillar-cover",
+    "status": "downloaded",
+    "coverUrl": "http://i0.hdslb.com/bfs/archive/32d2d630acf8ef76073f80b7d998a56966d6494d.jpg",
+    "file": "public/images/videos/the-very-hungry-caterpillar-cover.jpg"
+  },
+  {
+    "id": "video-guess-love",
+    "bvid": "BV1Fx411n7XQ",
+    "slug": "guess-how-much-i-love-you-cover",
+    "status": "error",
+    "error": "Missing cover URL"
+  },
+  {
+    "id": "video-my-dad",
+    "bvid": "BV17x411779E",
+    "slug": "my-dad-cover",
+    "status": "downloaded",
+    "coverUrl": "http://i1.hdslb.com/bfs/archive/37ba9e56cdee728d63fb2c716b9e148e32619e8d.jpg",
+    "file": "public/images/videos/my-dad-cover.jpg"
+  },
+  {
+    "id": "video-my-mum",
+    "bvid": "BV17x411779F",
+    "slug": "my-mum-cover",
+    "status": "error",
+    "error": "Missing cover URL"
+  },
+  {
+    "id": "video-brownbear",
+    "bvid": "BV1YK4y177NQ",
+    "slug": "brown-bear-brown-bear-cover",
+    "status": "error",
+    "error": "Missing cover URL"
+  },
+  {
+    "id": "video-no-david",
+    "bvid": "BV18p4y1x7nK",
+    "slug": "no-david-cover",
+    "status": "error",
+    "error": "Missing cover URL"
+  },
+  {
+    "id": "video-goodnight-moon",
+    "bvid": "BV12K4y1Z7mN",
+    "slug": "goodnight-moon-cover",
+    "status": "downloaded",
+    "coverUrl": "http://i1.hdslb.com/bfs/archive/8585e712b13877e2158e952a15ab2b1c2f6f88bd.jpg",
+    "file": "public/images/videos/goodnight-moon-cover.jpg"
+  },
+  {
+    "id": "video-gruffalo",
+    "bvid": "BV17K4y1C7fE",
+    "slug": "the-gruffalo-cover",
+    "status": "error",
+    "error": "Missing cover URL"
+  },
+  {
+    "id": "video-bear-hunt",
+    "bvid": "BV12p4y1x7nZ",
+    "slug": "were-going-on-a-bear-hunt-cover",
+    "status": "downloaded",
+    "coverUrl": "http://i2.hdslb.com/bfs/archive/2b9744d541773415da848d7abd6dc37c7d497d83.jpg",
+    "file": "public/images/videos/were-going-on-a-bear-hunt-cover.jpg"
+  },
+  {
+    "id": "video-green-monster",
+    "bvid": "BV18K4y1s7hM",
+    "slug": "go-away-big-green-monster-cover",
+    "status": "downloaded",
+    "coverUrl": "http://i0.hdslb.com/bfs/archive/6988bb8b25702245e9f3206f0bb3d7c5358c067d.jpg",
+    "file": "public/images/videos/go-away-big-green-monster-cover.jpg"
+  },
+  {
+    "id": "video-chicka",
+    "bvid": "BV17x411779D",
+    "slug": "chicka-chicka-boom-boom-cover",
+    "status": "error",
+    "error": "Missing cover URL"
+  },
+  {
+    "id": "video-mouse-cookie",
+    "bvid": "BV12K4y1Z7mL",
+    "slug": "if-you-give-a-mouse-a-cookie-cover",
+    "status": "downloaded",
+    "coverUrl": "http://i1.hdslb.com/bfs/archive/095a2d4114201e68168fd42f0d716eaaf6829c59.jpg",
+    "file": "public/images/videos/if-you-give-a-mouse-a-cookie-cover.jpg"
+  },
+  {
+    "id": "video-napping-house",
+    "bvid": "BV18p4y1x7nL",
+    "slug": "the-napping-house-cover",
+    "status": "downloaded",
+    "coverUrl": "http://i0.hdslb.com/bfs/archive/c2c5a7ff9755c5501dcbf20473d4c826a5d8e264.jpg",
+    "file": "public/images/videos/the-napping-house-cover.jpg"
+  },
+  {
+    "id": "video-giraffe-dance",
+    "bvid": "BV17K4y1C7fF",
+    "slug": "giraffes-cant-dance-cover",
+    "status": "error",
+    "error": "Missing cover URL"
+  },
+  {
+    "id": "video-little-blue-yellow",
+    "bvid": "BV12p4y1x7nM",
+    "slug": "little-blue-and-little-yellow-cover",
+    "status": "error",
+    "error": "Missing cover URL"
+  }
+]
