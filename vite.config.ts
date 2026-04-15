@@ -4,6 +4,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   server: {
+    port: 3333,
     proxy: {
       "/api/tts": {
         target: "http://101.43.4.79:8080",
