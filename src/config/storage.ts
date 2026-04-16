@@ -19,6 +19,8 @@ export const defaultProgress: LearningProgressState = {
   spokenIds: [],
   solvedWordIds: [],
   completedPhraseIds: [],
+  pocketWordIds: [],
+  pocketPhraseIds: [],
   rewards: {
     stars: 0,
     badges: 0,
@@ -35,6 +37,9 @@ export const defaultProgress: LearningProgressState = {
     words: {
       mode: "pick",
       cursorByCategory: {},
+    },
+    pocket: {
+      tab: "words",
     },
   },
 };
@@ -61,6 +66,10 @@ export function normalizeProgress(progress: LearningProgressState): LearningProg
           ...defaultProgress.moduleState.words.cursorByCategory,
           ...progress.moduleState?.words?.cursorByCategory,
         },
+      },
+      pocket: {
+        ...defaultProgress.moduleState.pocket,
+        ...progress.moduleState?.pocket,
       },
     },
   };

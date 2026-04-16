@@ -13,6 +13,8 @@ interface PhrasesPageProps {
   onPositionChange: (category: string, id: string | null) => void;
   onPhraseComplete: (id: string) => void;
   onRefreshRecommendations: () => void;
+  pocketPhraseIds: string[];
+  onTogglePocketPhrase: (id: string) => void;
 }
 
 export function PhrasesPage({
@@ -25,6 +27,8 @@ export function PhrasesPage({
   onPositionChange,
   onPhraseComplete,
   onRefreshRecommendations,
+  pocketPhraseIds,
+  onTogglePocketPhrase,
 }: PhrasesPageProps) {
   const [category, setCategory] = useState(initialCategory);
   const [currentId, setCurrentId] = useState<string | null>(initialCurrentId);
@@ -47,6 +51,7 @@ export function PhrasesPage({
   const currentIndex = visibleItems.findIndex((item) => item.id === currentId);
   const resolvedIndex = currentIndex >= 0 ? currentIndex : 0;
   const currentItem = visibleItems[resolvedIndex] ?? visibleItems[0];
+  const isCurrentInPocket = currentItem ? pocketPhraseIds.includes(currentItem.id) : false;
 
   useEffect(() => {
     if (safeCategory !== category) {
@@ -140,6 +145,20 @@ export function PhrasesPage({
             className="min-h-[52px] rounded-full bg-white px-6 font-semibold shadow-bubble transition active:scale-95"
           >
             换今天推荐
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              if (currentItem) {
+                onTogglePocketPhrase(currentItem.id);
+              }
+            }}
+            className={`min-h-[52px] rounded-full px-6 font-semibold shadow-bubble transition active:scale-95 ${
+              isCurrentInPocket ? "bg-peach" : "bg-white"
+            }`}
+            disabled={!currentItem}
+          >
+            {isCurrentInPocket ? "已放进魔法口袋" : "这句先放进魔法口袋"}
           </button>
         </div>
       </section>

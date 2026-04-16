@@ -16,7 +16,8 @@ export type RouteKey =
   | "speaking"
   | "words"
   | "phrases"
-  | "videos";
+  | "videos"
+  | "pocket";
 
 export interface SettingsState {
   listeningDifficulty: Difficulty;
@@ -43,6 +44,9 @@ export interface ModuleProgressState {
     mode: WordGameMode;
     cursorByCategory: Partial<Record<WordCategory | "all", number>>;
   };
+  pocket: {
+    tab: "words" | "phrases";
+  };
 }
 
 export interface LearningProgressState {
@@ -50,6 +54,8 @@ export interface LearningProgressState {
   spokenIds: string[];
   solvedWordIds: string[];
   completedPhraseIds: string[];
+  pocketWordIds: string[];
+  pocketPhraseIds: string[];
   rewards: RewardState;
   phraseRotationSeed: string;
   recommendedPhraseIds: string[];

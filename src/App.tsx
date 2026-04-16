@@ -8,6 +8,7 @@ import { pickRecommendedPhraseIds } from "./lib/recommendations";
 import { HomePage } from "./pages/HomePage";
 import { ListeningPage } from "./pages/ListeningPage";
 import { PhrasesPage } from "./pages/PhrasesPage";
+import { PocketPage } from "./pages/PocketPage";
 import { SettingsPage } from "./pages/SettingsPage";
 import { SpeakingPage } from "./pages/SpeakingPage";
 import { VideosPage } from "./pages/VideosPage";
@@ -21,6 +22,7 @@ const pageMeta: Record<RouteKey, { title: string; subtitle: string }> = {
   speaking: { title: "跟读练习", subtitle: "录音回放 + 鼓励反馈，不评分。" },
   words: { title: "看图识词", subtitle: "点击识词和配对游戏都能玩。" },
   phrases: { title: "日常短句", subtitle: "每天 5 句，学完就能换新。" },
+  pocket: { title: "魔法口袋", subtitle: "把暂时不会的内容留在这里，随时回来复习。" },
   videos: { title: "绘本动画", subtitle: "本地视频占位已接好，后续可直接替换。" },
 };
 
@@ -182,6 +184,28 @@ export default function App() {
     [setProgress],
   );
 
+  const handlePocketTabChange = useCallback(
+    (tab: "words" | "phrases") => {
+      setProgress((current) => {
+        const next = normalizeProgress(current);
+        if (next.moduleState.pocket.tab === tab) {
+          return current;
+        }
+
+        return {
+          ...next,
+          moduleState: {
+            ...next.moduleState,
+            pocket: {
+              tab,
+            },
+          },
+        };
+      });
+    },
+    [setProgress],
+  );
+
   const rightSlot =
     route === "home" ? (
       <button
@@ -265,6 +289,18 @@ export default function App() {
                 };
               })
             }
+            pocketWordIds={safeProgress.pocketWordIds}
+            onTogglePocketWord={(id) =>
+              setProgress((current) => {
+                const next = normalizeProgress(current);
+                const hasId = next.pocketWordIds.includes(id);
+
+                return {
+                  ...next,
+                  pocketWordIds: hasId ? next.pocketWordIds.filter((item) => item !== id) : [...next.pocketWordIds, id],
+                };
+              })
+            }
           />
         ) : null}
 
@@ -287,6 +323,50 @@ export default function App() {
               })
             }
             onRefreshRecommendations={refreshRecommendations}
+            pocketPhraseIds={safeProgress.pocketPhraseIds}
+            onTogglePocketPhrase={(id) =>
+              setProgress((current) => {
+                const next = normalizeProgress(current);
+                const hasId = next.pocketPhraseIds.includes(id);
+
+                return {
+                  ...next,
+                  pocketPhraseIds: hasId
+                    ? next.pocketPhraseIds.filter((item) => item !== id)
+                    : [...next.pocketPhraseIds, id],
+                };
+              })
+            }
+          />
+        ) : null}
+
+        {route === "pocket" ? (
+          <PocketPage
+            words={wordItems}
+            phrases={phraseItems}
+            settings={settings}
+            pocketWordIds={safeProgress.pocketWordIds}
+            pocketPhraseIds={safeProgress.pocketPhraseIds}
+            initialTab={safeProgress.moduleState.pocket.tab}
+            onTabChange={handlePocketTabChange}
+            onRemoveWord={(id) =>
+              setProgress((current) => {
+                const next = normalizeProgress(current);
+                return {
+                  ...next,
+                  pocketWordIds: next.pocketWordIds.filter((item) => item !== id),
+                };
+              })
+            }
+            onRemovePhrase={(id) =>
+              setProgress((current) => {
+                const next = normalizeProgress(current);
+                return {
+                  ...next,
+                  pocketPhraseIds: next.pocketPhraseIds.filter((item) => item !== id),
+                };
+              })
+            }
           />
         ) : null}
 

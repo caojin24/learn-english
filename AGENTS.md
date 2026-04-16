@@ -1,79 +1,145 @@
 # AGENTS.md
 
-这个文件用于帮助编码代理在当前仓库中安全、稳定地协作。
+这个文件用于帮助编码代理在当前仓库中基于“现有实现”安全、稳定地协作。
 
 ## 项目概览
 
-- 项目类型：面向儿童英语学习的单页前端应用
+- 项目类型：面向低龄儿童的英语启蒙单页前端应用
 - 技术栈：Vite + React 18 + TypeScript + Tailwind CSS
 - 包管理器：npm
-- 语言：界面文案以简体中文为主
-- 当前路由方式：在 `src/App.tsx` 中使用本地状态切换页面，而不是 `react-router`
+- 文案语言：界面以简体中文为主，英文内容主要来自单词、短句和视频标题
+- 路由方式：未使用 `react-router`，而是在 `src/App.tsx` 中通过本地 `route` 状态切换页面
+- 数据来源：当前核心内容全部来自本地静态文件 `src/data/content.ts`
+- 持久化方式：通过 `usePersistentState` + `localStorage` 保存设置和学习进度
 
-## 核心目标
+## 当前产品范围
 
-- 保持应用简单、友好，方便孩子或家长使用
-- 优先选择低门槛、低摩擦的交互方式，而不是增加复杂功能
-- 保留当前产品温暖、活泼的整体语气
-- 优先做渐进式改进，避免大范围重写
+当前代码中的页面和能力如下：
+
+- 首页：展示 4 个入口卡片，分别是分级听力、看图识词、日常短句、绘本动画
+- 家长设置：独立页面，通过首页右上角齿轮进入
+- 分级听力：按难度播放短句，支持逐词高亮和上下句切换
+- 跟读练习：页面已实现，支持录音和回放，但当前首页没有直接入口
+- 看图识词：支持“点击识词”和“配对游戏”两种模式
+- 日常短句：支持推荐 5 句、分类切换、逐词高亮和手动刷新推荐
+- 绘本动画：展示 15 条视频资源，当前通过 B 站 `iframe` 和外链播放
+
+不要假设需求文档里的所有历史设想都已经落地，改动前请以代码现状为准。
+
+## 核心实现事实
+
+- 首页当前只展示 4 张模块卡片，不包含“跟读练习”入口
+- `src/App.tsx` 负责：
+  - 页面切换
+  - 奖励 toast
+  - 星星/徽章累计
+  - 推荐短句计算与刷新
+  - 各模块浏览位置的持久化
+- 听力和短句内容共用同一批场景句子来源，均从 `rawPhraseScenes` 派生
+- 跟读页复用听力句子数据，而不是单独维护一套口语内容
+- 单词、短句当前主展示素材是 emoji，不是 `public/images` 下的图片资源
+- 视频页当前不是本地 MP4 播放，而是 B 站封面列表 + `iframe` 播放器 + 外链兜底
+- 代码中存在 `/api/tts` 调用，用于句子播放的稳定 TTS；失败时会回退到浏览器 `speechSynthesis`
+
+## 重要目录
+
+- `src/App.tsx`：应用总入口，维护全局页面状态、奖励逻辑和进度写回
+- `src/pages/*`：各业务页面
+- `src/components/*`：通用展示组件和壳组件
+- `src/data/content.ts`：模块卡片、单词、短句、视频等静态内容
+- `src/config/storage.ts`：本地存储 key、默认设置、默认进度和进度归一化
+- `src/hooks/usePersistentState.ts`：本地持久化 Hook
+- `src/lib/audio.ts`：音频播放、TTS、单词发音兜底逻辑
+- `src/lib/recommendations.ts`：短句推荐逻辑
+- `src/styles/index.css`：全局样式、主题变量和动画
+- `public/images/*`：封面和图片资源；目前并非全部已接入页面
+
+## 当前数据模型
+
+`SettingsState`
+
+- `listeningDifficulty`
+- `speakingDifficulty`
+- `phraseDifficulty`
+- `selectedWordCategory`
+- `accent`
+- `maxVideoMinutes`
+
+`LearningProgressState`
+
+- `listenedIds`
+- `spokenIds`
+- `solvedWordIds`
+- `completedPhraseIds`
+- `rewards.stars`
+- `rewards.badges`
+- `recommendedPhraseIds`
+- `moduleState.listeningCurrentId`
+- `moduleState.speakingCurrentId`
+- `moduleState.phrases`
+- `moduleState.words`
+
+注意：
+
+- `phraseRotationSeed` 已存在于类型和默认值中，但当前推荐逻辑并未真正使用它驱动页面行为
+- 修改进度结构前，要同步检查 `defaultProgress`、`normalizeProgress`、`types.ts` 和 `App.tsx`
 
 ## 协作约定
 
-- 在修改架构或共享行为前，先阅读相关上下文文件
-- 优先进行小而聚焦的改动，并与现有代码风格保持一致
-- 除非用户明确要求，否则不要引入新的 UI 组件库
-- 复用当前的 Tailwind 工具类风格和已有组件模式
-- 除非任务明确要求重写文案，否则保持现有中文语气不变
+- 优先做小而聚焦的改动，避免无关重构
+- 修改共享状态前，先阅读 `src/App.tsx`、`src/config/storage.ts`、`src/types.ts`
+- 修改学习内容前，先阅读 `src/data/content.ts`，不要在多个地方重复维护静态数据
+- 除非用户明确要求，否则不要引入新的 UI 组件库、状态库或路由库
+- 继续沿用当前 Tailwind 工具类写法和圆角卡片视觉语言
+- 编辑中文文案时，保持温和、鼓励式、适合儿童场景
+
+## UI 与交互指南
+
+- 交互优先面向触屏，保证按钮大、反馈直接、路径短
+- 保持温暖、轻松、低压力的产品气质，避免考试化和惩罚式表达
+- 优先复用已有组件模式，例如：
+  - `AppShell`
+  - `ModuleCard`
+  - `RewardToast`
+  - `ProgressStars`
+  - `SettingSelect`
+  - `WordChips`
+- 新样式优先写在组件局部的 Tailwind class 中；只有出现明显复用时再扩展全局样式
+
+## 已知产品边界
+
+- 跟读页虽然已实现，但当前没有首页入口，也没有从短句页跳转进入
+- 视频页依赖外部 B 站资源，和“纯本地视频播放”设想不一致
+- `public/images/words`、`public/images/phrases` 等资源目前大多仍是内容储备，未正式替换页面中的 emoji 展示
+- 项目当前没有自动化测试，默认以 `npm run build` 作为基础验证
+
+## 改动边界
+
+- 不要擅自把本地状态路由改成正式路由系统
+- 不要随意更改 `localStorage` key
+- 不要在没有迁移方案的情况下重构持久化数据结构
+- 不要把静态内容拆散到多个零散文件，除非用户明确要求做内容系统改造
+- 不要默认把“隐藏中的跟读页”重新接回首页；这属于产品流转调整，需结合用户意图处理
 
 ## 常用命令
 
 - 安装依赖：`npm install`
-- 启动开发服务器：`npm run dev`
-- 构建生产包：`npm run build`
-- 预览生产构建：`npm run preview`
+- 启动开发：`npm run dev`
+- 生产构建：`npm run build`
+- 本地预览：`npm run preview`
 
-## 重要目录结构
+## 验证要求
 
-- `src/App.tsx`：应用级状态、本地页面切换、共享奖励与进度流程
-- `src/pages/*`：功能页面，例如首页、单词、听力、口语、短语、视频、设置等
-- `src/components/*`：可复用的 UI 组件
-- `src/data/content.ts`：静态学习内容
-- `src/config/storage.ts`：默认设置、进度默认值、本地存储 key
-- `src/hooks/usePersistentState.ts`：本地持久化状态 Hook
-- `src/lib/*`：辅助逻辑，例如推荐逻辑和音频工具
-- `src/styles/index.css`：全局样式和基础主题
+- 只要有实质性代码改动，优先执行 `npm run build`
+- 如果改动涉及：
+  - `src/App.tsx`
+  - `src/config/storage.ts`
+  - `src/types.ts`
+  - `src/data/content.ts`
+  需要额外留意页面切换、持久化兼容和内容生成是否仍然正常
+- 如果无法完成验证，要明确说明未验证部分和风险点
 
-## UI 指南
+## 文档同步原则
 
-- 在设计新界面前，先遵循项目现有的视觉语言
-- 保持交互适合触屏操作，并优先考虑移动端体验
-- 优先使用更大的点击区域、简单布局和清晰的视觉反馈
-- 奖励和进度反馈应保持积极正向，避免惩罚式或过于复杂的体验
-- 大部分样式优先使用 Tailwind 工具类，只有在确实需要共享规则时再扩展全局 CSS
-
-## 状态与数据约定
-
-- 全局导航和共享状态目前统一放在 `src/App.tsx`
-- 持久化状态应继续使用 `usePersistentState`，并复用 `src/config/storage.ts` 中定义的 key
-- 如果新增与进度相关的行为，应更新现有进度模型，而不是引入平行的存储方案
-- 静态课程或内容的新增通常应放在 `src/data/content.ts`
-
-## 改动边界
-
-- 除非用户明确提出，否则不要把当前本地状态路由方式替换成正式路由器
-- 对于简单的 UI 或状态问题，不要引入重量级依赖
-- 如果任务只影响单一功能，避免对所有页面做大范围重构
-- 如果没有迁移方案，不要随意修改存储 key 或持久化数据结构
-
-## 质量检查
-
-- 在进行有意义的代码改动后，尽量执行 `npm run build`
-- 如果任务修改了持久化状态结构或共享应用流程，要确认受影响页面仍能一起正常编译
-- 如果无法执行检查，需要明确说明哪些行为尚未验证
-
-## 代理备注
-
-- 当前项目可能还没有专门的测试套件；至少应以构建成功作为基本验证标准
-- 除非文件本身已经使用非 ASCII 内容，否则代码中优先使用 ASCII
-- 注释保持简洁，只在确实能减少理解成本时添加
-- 编辑 UI 文案时，保持符合儿童场景、鼓励式的表达方式
+- 更新需求文档、README 或其他说明时，优先描述“当前代码已实现的状态”
+- 如果要保留未来规划，请单独标记为“待迭代”或“规划项”，不要与现状混写

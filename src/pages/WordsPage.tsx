@@ -12,6 +12,8 @@ interface WordsPageProps {
   initialCursor: number;
   onViewChange: (mode: WordGameMode, cursor: number) => void;
   onSolve: (id: string) => void;
+  pocketWordIds: string[];
+  onTogglePocketWord: (id: string) => void;
 }
 
 function getSafeCursor(length: number, cursor: number) {
@@ -40,6 +42,8 @@ export function WordsPage({
   initialCursor,
   onViewChange,
   onSolve,
+  pocketWordIds,
+  onTogglePocketWord,
 }: WordsPageProps) {
   const [mode, setMode] = useState<WordGameMode>(initialMode);
   const [cursor, setCursor] = useState(initialCursor);
@@ -49,6 +53,7 @@ export function WordsPage({
   const [matchTargetId, setMatchTargetId] = useState<string | null>(null);
   const [solvedCount, setSolvedCount] = useState(0);
   const [categoryPickerOpen, setCategoryPickerOpen] = useState(false);
+  const isTargetInPocket = target ? pocketWordIds.includes(target.id) : false;
 
   const filteredWords = useMemo(() => {
     if (settings.selectedWordCategory === "all") {
@@ -203,6 +208,22 @@ export function WordsPage({
           </button>
         </h2>
         <p className="mt-3 text-sm text-ink/70">{feedback}</p>
+        <div className="mt-4 flex justify-center">
+          <button
+            type="button"
+            onClick={() => {
+              if (target) {
+                onTogglePocketWord(target.id);
+              }
+            }}
+            className={`min-h-[48px] rounded-full px-5 text-sm font-semibold shadow-bubble transition active:scale-95 ${
+              isTargetInPocket ? "bg-peach text-ink" : "bg-white/90 text-ink/80"
+            }`}
+            disabled={!target}
+          >
+            {isTargetInPocket ? "已放进魔法口袋" : "这题有点难，放进魔法口袋"}
+          </button>
+        </div>
 
         {mode === "pick" ? (
           <div className="mt-6 grid gap-3 sm:grid-cols-3">

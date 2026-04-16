@@ -21,7 +21,7 @@ export function HomePage({ onNavigate, stars, badges }: HomePageProps) {
             听一听、说一说、玩一玩。
           </h2>
           <p className="mt-3 max-w-xl text-sm leading-6 text-ink/70 sm:text-base">
-            首版包含 4 个学习模块，所有内容都支持后续替换。右上角的小齿轮是给家长看的设置页，孩子平时直接点大卡片就能开始学习。
+            现在有 5 个学习模块啦。遇到暂时不会的单词和短句，可以先放进魔法口袋，之后再回来轻松复习。
           </p>
         </div>
         <div className="flex items-end justify-start lg:justify-end">

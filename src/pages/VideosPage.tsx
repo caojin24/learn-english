@@ -1,10 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { SettingsState, VideoItem } from "../types";
 
-function isImageSource(value: string): boolean {
-  return value.startsWith("/") || value.startsWith("http");
-}
-
 interface VideosPageProps {
   videos: VideoItem[];
   settings: SettingsState;
@@ -52,18 +48,9 @@ export function VideosPage({ videos, settings, onReward }: VideosPageProps) {
             }}
             className="rounded-[30px] bg-white/80 p-5 text-left shadow-bubble transition active:scale-[0.98]"
           >
-            {isImageSource(video.cover) ? (
-              <img
-                src={video.cover}
-                alt={video.title}
-                className="aspect-[16/10] w-full rounded-[24px] object-cover shadow-bubble"
-                onError={(event) => {
-                  event.currentTarget.src = "/images/home/videos-icon.jpg";
-                }}
-              />
-            ) : (
-              <div className="text-6xl">{video.cover}</div>
-            )}
+            <div className="flex aspect-[16/10] items-center justify-center rounded-[24px] bg-cream text-7xl shadow-bubble">
+              {video.cover}
+            </div>
             <h2 className="mt-4 font-display text-2xl font-bold">{video.title}</h2>
             <p className="mt-1 text-sm font-semibold text-ink/60">{video.titleZh}</p>
             <p className="mt-2 text-sm text-ink/70">{video.summary}</p>
