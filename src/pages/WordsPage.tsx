@@ -53,6 +53,7 @@ export function WordsPage({
   const [matchTargetId, setMatchTargetId] = useState<string | null>(null);
   const [solvedCount, setSolvedCount] = useState(0);
   const [categoryPickerOpen, setCategoryPickerOpen] = useState(false);
+  const [playingWordId, setPlayingWordId] = useState<string | null>(null);
   const isTargetInPocket = target ? pocketWordIds.includes(target.id) : false;
 
   const filteredWords = useMemo(() => {
@@ -82,13 +83,19 @@ export function WordsPage({
   }, [cursor, mode, onViewChange]);
 
   async function playWord(word: WordItem) {
-    await playAudioWithFallback(
-      [
-        settings.accent === "british" ? word.audio.british : word.audio.american,
-        word.audio.local,
-      ],
-      () => speakText(word.text, settings.accent, { rate: 0.75 }),
-    );
+    setPlayingWordId(word.id);
+
+    try {
+      await playAudioWithFallback(
+        [
+          settings.accent === "british" ? word.audio.british : word.audio.american,
+          word.audio.local,
+        ],
+        () => speakText(word.text, settings.accent, { rate: 0.75 }),
+      );
+    } finally {
+      setPlayingWordId((current) => (current === word.id ? null : current));
+    }
   }
 
   async function handlePick(word: WordItem) {
@@ -190,7 +197,7 @@ export function WordsPage({
       ) : null}
 
       <section className="rounded-[32px] bg-white/80 p-6 text-center shadow-bubble">
-        <div className="text-7xl">{target?.image ?? "🧸"}</div>
+        <div className={`text-7xl ${playingWordId === target?.id ? "animate-playbackPop" : ""}`}>{target?.image ?? "🧸"}</div>
         <h2 className="mt-3 flex items-center justify-center gap-3 font-display text-3xl font-bold sm:text-4xl">
           <span>{mode === "pick" ? "找到正确单词" : "把单词和图片配在一起"}</span>
           <button
@@ -200,11 +207,13 @@ export function WordsPage({
                 void playWord(target);
               }
             }}
-            className="flex h-12 w-12 items-center justify-center rounded-full bg-white/90 text-2xl shadow-bubble transition active:scale-95 disabled:opacity-50"
+            className={`flex h-12 w-12 items-center justify-center rounded-full bg-white/90 text-2xl shadow-bubble transition active:scale-95 disabled:opacity-50 ${
+              playingWordId === target?.id ? "animate-playbackPulse ring-4 ring-skysoft/60" : ""
+            }`}
             aria-label="播放发音"
             disabled={!target}
           >
-            🔊
+            {playingWordId === target?.id ? "🔉" : "🔊"}
           </button>
         </h2>
         <p className="mt-3 text-sm text-ink/70">{feedback}</p>
@@ -228,29 +237,39 @@ export function WordsPage({
         {mode === "pick" ? (
           <div className="mt-6 grid gap-3 sm:grid-cols-3">
             {group.map((word) => (
-              <button
+              <div
                 key={word.id}
-                type="button"
-                onClick={() => handlePick(word)}
-                className="min-h-[92px] rounded-[24px] bg-cream px-4 py-3 text-2xl font-bold shadow-bubble transition active:scale-95"
+                className={`rounded-[24px] bg-cream p-3 shadow-bubble transition ${
+                  playingWordId === word.id ? "animate-playbackPulse ring-4 ring-skysoft/50" : ""
+                }`}
               >
-                {word.text}
-              </button>
+                <button
+                  type="button"
+                  onClick={() => handlePick(word)}
+                  className="min-h-[92px] w-full rounded-[20px] px-4 py-3 text-2xl font-bold transition active:scale-95"
+                >
+                  {word.text}
+                </button>
+              </div>
             ))}
           </div>
         ) : (
           <div className="mt-6 grid gap-3 sm:grid-cols-3">
             {group.map((word) => (
-              <button
+              <div
                 key={word.id}
-                type="button"
-                onClick={() => handleMatch(word)}
-                className={`min-h-[92px] rounded-[24px] px-4 py-3 text-2xl font-bold shadow-bubble transition active:scale-95 ${
+                className={`rounded-[24px] p-3 shadow-bubble transition ${
                   matchTargetId === word.id ? "bg-butter" : "bg-mint"
-                }`}
+                } ${playingWordId === word.id ? "animate-playbackPulse ring-4 ring-skysoft/50" : ""}`}
               >
-                {word.text}
-              </button>
+                <button
+                  type="button"
+                  onClick={() => handleMatch(word)}
+                  className="min-h-[92px] w-full rounded-[20px] px-4 py-3 text-2xl font-bold transition active:scale-95"
+                >
+                  {word.text}
+                </button>
+              </div>
             ))}
           </div>
         )}

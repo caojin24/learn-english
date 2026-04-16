@@ -31,3 +31,39 @@ input,
 select {
   font: inherit;
 }
+
+@keyframes playbackPulse {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 10px 24px rgba(108, 187, 255, 0.18);
+  }
+
+  50% {
+    transform: scale(1.06);
+    box-shadow: 0 14px 30px rgba(108, 187, 255, 0.32);
+  }
+}
+
+@keyframes playbackPop {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+
+  35% {
+    transform: translateY(-6px) scale(1.08);
+  }
+
+  70% {
+    transform: translateY(0) scale(0.98);
+  }
+}
+
+.animate-playbackPulse {
+  animation: playbackPulse 0.9s ease-in-out infinite;
+}
+
+.animate-playbackPop {
+  animation: playbackPop 0.9s ease-in-out infinite;
+}

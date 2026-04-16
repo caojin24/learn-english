@@ -34,6 +34,7 @@ export function PhrasesPage({
   const [currentId, setCurrentId] = useState<string | null>(initialCurrentId);
   const [activeWordIndex, setActiveWordIndex] = useState<number | null>(null);
   const [playbackError, setPlaybackError] = useState<string | null>(null);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   const difficultyItems = useMemo(
     () => phrases.filter((item) => item.difficulty === settings.phraseDifficulty),
@@ -74,11 +75,12 @@ export function PhrasesPage({
   }, [currentItem?.id, onPositionChange, safeCategory]);
 
   async function handlePlay() {
-    if (!currentItem) {
+    if (!currentItem || isPlaying) {
       return;
     }
 
     const words = currentItem.text.split(" ");
+    setIsPlaying(true);
 
     try {
       setPlaybackError(null);
@@ -96,11 +98,16 @@ export function PhrasesPage({
       }
       onPhraseComplete(currentItem.id);
       onReward("短句练习完成啦！", { stars: 1 });
+      if (visibleItems.length > 1) {
+        const nextItem = visibleItems[(resolvedIndex + 1) % visibleItems.length];
+        setCurrentId(nextItem?.id ?? null);
+      }
     } catch (error) {
       console.warn("[Phrases] playback failed", error);
       setPlaybackError("这句暂时没有播出来，请检查网络后再试一次。");
     } finally {
       setActiveWordIndex(null);
+      setIsPlaying(false);
     }
   }
 
@@ -125,7 +132,7 @@ export function PhrasesPage({
       </section>
 
       <section className="rounded-[32px] bg-white/80 p-6 text-center shadow-bubble">
-        <div className="text-7xl">{currentItem?.image ?? "💬"}</div>
+        <div className={`text-7xl ${isPlaying ? "animate-playbackPop" : ""}`}>{currentItem?.image ?? "💬"}</div>
         <p className="mt-3 text-sm font-semibold text-ink/60">{safeCategory === "推荐" ? "今天推荐 5 句，学完可提前换新" : currentItem?.category}</p>
         <h2 className="mt-4 font-display text-4xl font-bold sm:text-5xl">{currentItem?.text ?? "还没有短句"}</h2>
         {currentItem?.meaningZh ? <p className="mt-3 text-lg font-semibold text-ink/70">{currentItem.meaningZh}</p> : null}
@@ -135,9 +142,12 @@ export function PhrasesPage({
           <button
             type="button"
             onClick={handlePlay}
-            className="min-h-[52px] rounded-full bg-skysoft px-6 font-semibold shadow-bubble transition active:scale-95"
+            className={`min-h-[52px] rounded-full bg-skysoft px-6 font-semibold shadow-bubble transition active:scale-95 disabled:opacity-60 ${
+              isPlaying ? "animate-playbackPulse ring-4 ring-skysoft/60" : ""
+            }`}
+            disabled={!currentItem || isPlaying}
           >
-            ▶ 播放短句
+            {isPlaying ? "♫ 播放中..." : "▶ 播放短句"}
           </button>
           <button
             type="button"

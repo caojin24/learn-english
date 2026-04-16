@@ -22,6 +22,7 @@ export function ListeningPage({
 }: ListeningPageProps) {
   const [currentId, setCurrentId] = useState<string | null>(initialCurrentId);
   const [activeWordIndex, setActiveWordIndex] = useState<number | null>(null);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   const filteredItems = useMemo(
     () => items.filter((item) => item.difficulty === settings.listeningDifficulty),
@@ -47,11 +48,12 @@ export function ListeningPage({
   }, [currentItem?.id, onPositionChange]);
 
   async function handlePlay() {
-    if (!currentItem) {
+    if (!currentItem || isPlaying) {
       return;
     }
 
     const words = currentItem.text.split(" ");
+    setIsPlaying(true);
 
     try {
       try {
@@ -70,6 +72,7 @@ export function ListeningPage({
       console.warn("[Listening] playback failed", error);
       setActiveWordIndex(null);
     } finally {
+      setIsPlaying(false);
       setActiveWordIndex(null);
       onListenComplete(currentItem.id);
       if ((resolvedIndex + 1) % 5 === 0) {
@@ -85,7 +88,7 @@ export function ListeningPage({
   return (
     <div className="space-y-5">
       <section className="rounded-[32px] bg-white/80 p-6 text-center shadow-bubble">
-        <div className="text-7xl animate-bounceSoft">{currentItem.image}</div>
+        <div className={`text-7xl ${isPlaying ? "animate-playbackPop" : "animate-bounceSoft"}`}>{currentItem.image}</div>
         <p className="mt-4 text-sm font-semibold text-ink/60">{currentItem.hint}</p>
         <h2 className="mt-4 font-display text-4xl font-bold sm:text-5xl">{currentItem.text}</h2>
         {currentItem.meaningZh ? (
@@ -97,9 +100,12 @@ export function ListeningPage({
         <button
           type="button"
           onClick={handlePlay}
-          className="mt-6 inline-flex min-h-[64px] min-w-[160px] items-center justify-center rounded-full bg-skysoft px-6 text-xl font-bold shadow-bubble transition active:scale-95"
+          className={`mt-6 inline-flex min-h-[64px] min-w-[160px] items-center justify-center rounded-full bg-skysoft px-6 text-xl font-bold shadow-bubble transition active:scale-95 disabled:opacity-60 ${
+            isPlaying ? "animate-playbackPulse ring-4 ring-skysoft/60" : ""
+          }`}
+          disabled={isPlaying}
         >
-          ▶ 播放发音
+          {isPlaying ? "♫ 播放中..." : "▶ 播放发音"}
         </button>
       </section>
 

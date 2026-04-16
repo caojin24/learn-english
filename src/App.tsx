@@ -206,17 +206,7 @@ export default function App() {
     [setProgress],
   );
 
-  const rightSlot =
-    route === "home" ? (
-      <button
-        type="button"
-        onClick={() => setRoute("settings")}
-        className="flex h-12 w-12 items-center justify-center rounded-full bg-white/85 text-2xl shadow-bubble transition active:scale-95"
-        aria-label="打开设置"
-      >
-        ⚙️
-      </button>
-    ) : null;
+  const rightSlot = null;
 
   return (
     <>
@@ -226,9 +216,15 @@ export default function App() {
         subtitle={pageMeta[route].subtitle}
         onBack={route === "home" ? undefined : () => setRoute("home")}
         rightSlot={rightSlot}
+        hideHeaderText={route === "home"}
       >
         {route === "home" ? (
-          <HomePage onNavigate={setRoute} stars={safeProgress.rewards.stars} badges={safeProgress.rewards.badges} />
+          <HomePage
+            onNavigate={setRoute}
+            onOpenSettings={() => setRoute("settings")}
+            stars={safeProgress.rewards.stars}
+            badges={safeProgress.rewards.badges}
+          />
         ) : null}
 
         {route === "settings" ? <SettingsPage settings={settings} onChange={setSettings} /> : null}
