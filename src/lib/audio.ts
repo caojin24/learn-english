@@ -3,6 +3,59 @@ import { Accent } from "../types";
 const TTS_API_URL = "/api/tts";
 const DEFAULT_VOICE = "en-US-AvaNeural";
 
+let activeAudio: HTMLAudioElement | null = null;
+let activeAudioUrl: string | null = null;
+let activeTtsRequestController: AbortController | null = null;
+
+function createPlaybackAbortError() {
+  return new DOMException("Playback aborted", "AbortError");
+}
+
+function clearActiveAudio() {
+  if (!activeAudio) {
+    return;
+  }
+
+  activeAudio.onended = null;
+  activeAudio.onpause = null;
+  activeAudio.onerror = null;
+  activeAudio.pause();
+  activeAudio.removeAttribute("src");
+  activeAudio.load();
+  activeAudio = null;
+}
+
+function revokeActiveAudioUrl() {
+  if (!activeAudioUrl) {
+    return;
+  }
+
+  URL.revokeObjectURL(activeAudioUrl);
+  activeAudioUrl = null;
+}
+
+function clearActiveTtsRequestController() {
+  activeTtsRequestController = null;
+}
+
+export function stopPlayback() {
+  if (activeTtsRequestController) {
+    activeTtsRequestController.abort();
+    clearActiveTtsRequestController();
+  }
+
+  if (typeof window !== "undefined" && "speechSynthesis" in window) {
+    window.speechSynthesis.cancel();
+  }
+
+  clearActiveAudio();
+  revokeActiveAudioUrl();
+}
+
+export function isPlaybackAbortError(error: unknown) {
+  return error instanceof DOMException && error.name === "AbortError";
+}
+
 export async function playAudioWithFallback(
   sources: Array<string | undefined>,
   fallback?: () => Promise<void>,
@@ -27,43 +80,57 @@ export async function playAudioWithFallback(
 
 function playSingleAudio(source: string): Promise<void> {
   return new Promise((resolve, reject) => {
+    stopPlayback();
     const audio = new Audio(source);
+    activeAudio = audio;
     audio.preload = "auto";
-    audio.onended = () => resolve();
+    audio.onended = () => {
+      clearActiveAudio();
+      resolve();
+    };
+    audio.onpause = () => {
+      clearActiveAudio();
+      reject(createPlaybackAbortError());
+    };
     audio.onerror = () => reject(new Error(`Audio failed: ${source}`));
 
     audio
       .play()
-      .then(() => {
-        audio.onpause = () => resolve();
-      })
       .catch(reject);
   });
 }
 
 export async function speakEdge(text: string): Promise<void> {
+  stopPlayback();
   const url = new URL(TTS_API_URL, window.location.origin);
   url.searchParams.set("text", text);
   url.searchParams.set("voice", DEFAULT_VOICE);
-
-  const response = await fetch(url.toString());
-  if (!response.ok) {
-    throw new Error(`TTS API error: ${response.status}`);
-  }
-
-  const blob = await response.blob();
-  const audioUrl = URL.createObjectURL(blob);
-
   try {
+    const controller = new AbortController();
+    activeTtsRequestController = controller;
+    const response = await fetch(url.toString(), { signal: controller.signal });
+    if (!response.ok) {
+      throw new Error(`TTS API error: ${response.status}`);
+    }
+
+    const blob = await response.blob();
+    const audioUrl = URL.createObjectURL(blob);
+    clearActiveTtsRequestController();
+    activeAudioUrl = audioUrl;
+
     await new Promise<void>((resolve, reject) => {
       const audio = new Audio(audioUrl);
+      activeAudio = audio;
       audio.volume = 1;
       audio.onended = () => resolve();
+      audio.onpause = () => reject(createPlaybackAbortError());
       audio.onerror = () => reject(new Error("TTS audio playback failed"));
       audio.play().catch(reject);
     });
   } finally {
-    URL.revokeObjectURL(audioUrl);
+    clearActiveTtsRequestController();
+    clearActiveAudio();
+    revokeActiveAudioUrl();
   }
 }
 
@@ -82,6 +149,7 @@ export function speakText(
   }
 
   return new Promise((resolve, reject) => {
+    stopPlayback();
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.rate = options?.rate ?? 0.85;
     utterance.pitch = options?.pitch ?? 1.1;
@@ -98,7 +166,14 @@ export function speakText(
     };
 
     utterance.onend = () => resolve();
-    utterance.onerror = () => reject(new Error("Speech synthesis failed"));
+    utterance.onerror = (event) => {
+      if (event.error === "canceled" || event.error === "interrupted") {
+        reject(createPlaybackAbortError());
+        return;
+      }
+
+      reject(new Error("Speech synthesis failed"));
+    };
 
     const voice = selectVoice(accent);
     if (voice) {
@@ -106,7 +181,6 @@ export function speakText(
       utterance.lang = voice.lang;
     }
 
-    window.speechSynthesis.cancel();
     window.speechSynthesis.speak(utterance);
   });
 }

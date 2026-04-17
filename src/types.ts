@@ -1,4 +1,4 @@
-export type Difficulty = "starter" | "basic";
+export type Difficulty = "basic";
 export type Accent = "american" | "british";
 export type WordGameMode = "pick" | "match";
 export type WordCategory =
@@ -34,7 +34,10 @@ export interface RewardState {
 }
 
 export interface ModuleProgressState {
-  listeningCurrentId: string | null;
+  listening: {
+    category: string;
+    currentId: string | null;
+  };
   speakingCurrentId: string | null;
   phrases: {
     category: string;
@@ -66,6 +69,7 @@ export interface ListeningItem {
   id: string;
   text: string;
   meaningZh?: string;
+  category: string;
   hint: string;
   image: string;
   difficulty: Difficulty;

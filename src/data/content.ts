@@ -40,9 +40,10 @@ const rawPhraseScenes: RawPhraseScene[] = [
     category: "自我表达",
     image: "🙂",
     sentences: [
-      { sentence: "My name is...", meaningZh: "我叫……", keyword: "kid introducing name cartoon" },
-      { sentence: "I'm ... years old.", meaningZh: "我……岁。", keyword: "number age cartoon" },
-      { sentence: "I'm a boy/girl.", meaningZh: "我是男孩/女孩。", keyword: "happy child cartoon" },
+      { sentence: "My name is YUMENG.", meaningZh: "我叫雨萌。", keyword: "kid introducing name cartoon" },
+      { sentence: "I'm six years old.", meaningZh: "我六岁了。", keyword: "number age cartoon" },
+      { sentence: "I'm a girl.", meaningZh: "我是女孩。", keyword: "happy child cartoon" },
+      { sentence: "I'm a boy.", meaningZh: "我是男孩。", keyword: "happy child cartoon" },
       { sentence: "I'm happy.", meaningZh: "我很开心。", keyword: "smiling happy face cartoon" },
       { sentence: "I'm sad.", meaningZh: "我很难过。", keyword: "sad face cartoon" },
       { sentence: "I'm hungry.", meaningZh: "我饿了。", keyword: "hungry stomach cartoon" },
@@ -173,14 +174,8 @@ function slugifyPhraseText(text: string): string {
     .slice(0, 40);
 }
 
-function getPhraseDifficulty(text: string): "starter" | "basic" {
-  const wordCount = text
-    .replace(/[^a-zA-Z0-9'\s]/g, " ")
-    .trim()
-    .split(/\s+/)
-    .filter(Boolean).length;
-
-  return wordCount <= 3 ? "starter" : "basic";
+function getPhraseDifficulty(_text?: string): "basic" {
+  return "basic";
 }
 
 function getPhraseEmoji(scene: string, sentence: string, fallback: string): string {
@@ -683,6 +678,7 @@ export const listeningItems: ListeningItem[] = rawPhraseScenes.flatMap((group, g
     id: `listen-${group.scene}-${index + 1}-${slugifyPhraseText(item.sentence)}`,
     text: item.sentence,
     meaningZh: item.meaningZh,
+    category: group.category,
     hint: `${group.category} · 第 ${index + 1} 句`,
     image: getPhraseEmoji(group.scene, item.sentence, group.image),
     difficulty: getPhraseDifficulty(item.sentence),

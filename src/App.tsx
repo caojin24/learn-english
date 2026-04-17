@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { AppShell } from "./components/AppShell";
 import { RewardToast } from "./components/RewardToast";
-import { defaultProgress, defaultSettings, normalizeProgress, storageKeys } from "./config/storage";
+import { defaultProgress, defaultSettings, normalizeProgress, normalizeSettings, storageKeys } from "./config/storage";
 import { listeningItems, phraseItems, videoItems, wordItems } from "./data/content";
 import { usePersistentState } from "./hooks/usePersistentState";
 import { pickRecommendedPhraseIds } from "./lib/recommendations";
@@ -35,17 +35,22 @@ export default function App() {
   const [settings, setSettings] = usePersistentState(storageKeys.settings, defaultSettings);
   const [progress, setProgress] = usePersistentState<LearningProgressState>(storageKeys.progress, defaultProgress);
   const [toast, setToast] = useState<string | null>(null);
+  const safeSettings = useMemo(() => normalizeSettings(settings), [settings]);
   const safeProgress = useMemo(() => normalizeProgress(progress), [progress]);
 
   const recommendedPhraseIds = useMemo(() => {
     const result = pickRecommendedPhraseIds(
-      phraseItems.filter((item) => item.difficulty === settings.phraseDifficulty),
+      phraseItems.filter((item) => item.difficulty === safeSettings.phraseDifficulty),
       safeProgress.completedPhraseIds,
       safeProgress.recommendedPhraseIds,
     );
 
     return result.ids;
-  }, [safeProgress.completedPhraseIds, safeProgress.recommendedPhraseIds, settings.phraseDifficulty]);
+  }, [safeProgress.completedPhraseIds, safeProgress.recommendedPhraseIds, safeSettings.phraseDifficulty]);
+
+  useEffect(() => {
+    setSettings((current) => normalizeSettings(current));
+  }, [setSettings]);
 
   useEffect(() => {
     setProgress((current) => normalizeProgress(current));
@@ -76,7 +81,7 @@ export default function App() {
   }
 
   function refreshRecommendations() {
-    const pool = phraseItems.filter((item) => item.difficulty === settings.phraseDifficulty);
+    const pool = phraseItems.filter((item) => item.difficulty === safeSettings.phraseDifficulty);
     const nextIds = pool
       .filter((item) => !safeProgress.completedPhraseIds.includes(item.id))
       .slice()
@@ -92,10 +97,10 @@ export default function App() {
   }
 
   const handleListeningPositionChange = useCallback(
-    (id: string | null) => {
+    (category: string, id: string | null) => {
       setProgress((current) => {
         const next = normalizeProgress(current);
-        if (next.moduleState.listeningCurrentId === id) {
+        if (next.moduleState.listening.category === category && next.moduleState.listening.currentId === id) {
           return current;
         }
 
@@ -103,7 +108,10 @@ export default function App() {
           ...next,
           moduleState: {
             ...next.moduleState,
-            listeningCurrentId: id,
+            listening: {
+              category,
+              currentId: id,
+            },
           },
         };
       });
@@ -227,15 +235,17 @@ export default function App() {
           />
         ) : null}
 
-        {route === "settings" ? <SettingsPage settings={settings} onChange={setSettings} /> : null}
+        {route === "settings" ? <SettingsPage settings={safeSettings} onChange={setSettings} /> : null}
 
         {route === "listening" ? (
           <ListeningPage
             items={listeningItems}
-            settings={settings}
+            settings={safeSettings}
             onReward={showReward}
-            initialCurrentId={safeProgress.moduleState.listeningCurrentId}
+            initialCategory={safeProgress.moduleState.listening.category}
+            initialCurrentId={safeProgress.moduleState.listening.currentId}
             onPositionChange={handleListeningPositionChange}
+            listenedIds={safeProgress.listenedIds}
             onListenComplete={(id) =>
               setProgress((current) => {
                 const next = normalizeProgress(current);
@@ -251,7 +261,7 @@ export default function App() {
         {route === "speaking" ? (
           <SpeakingPage
             items={listeningItems}
-            settings={settings}
+            settings={safeSettings}
             onReward={showReward}
             initialCurrentId={safeProgress.moduleState.speakingCurrentId}
             onPositionChange={handleSpeakingPositionChange}
@@ -270,12 +280,12 @@ export default function App() {
         {route === "words" ? (
           <WordsPage
             words={wordItems}
-            settings={settings}
+            settings={safeSettings}
             onChangeSettings={setSettings}
             onReward={showReward}
             initialMode={safeProgress.moduleState.words.mode}
-            initialCursor={safeProgress.moduleState.words.cursorByCategory[settings.selectedWordCategory] ?? 0}
-            onViewChange={(mode, cursor) => handleWordsViewChange(mode, settings.selectedWordCategory, cursor)}
+            initialCursor={safeProgress.moduleState.words.cursorByCategory[safeSettings.selectedWordCategory] ?? 0}
+            onViewChange={(mode, cursor) => handleWordsViewChange(mode, safeSettings.selectedWordCategory, cursor)}
             onSolve={(id) =>
               setProgress((current) => {
                 const next = normalizeProgress(current);
@@ -303,7 +313,7 @@ export default function App() {
         {route === "phrases" ? (
           <PhrasesPage
             phrases={phraseItems}
-            settings={settings}
+            settings={safeSettings}
             recommendedIds={safeProgress.recommendedPhraseIds}
             onReward={showReward}
             initialCategory={safeProgress.moduleState.phrases.category}
@@ -340,7 +350,7 @@ export default function App() {
           <PocketPage
             words={wordItems}
             phrases={phraseItems}
-            settings={settings}
+            settings={safeSettings}
             pocketWordIds={safeProgress.pocketWordIds}
             pocketPhraseIds={safeProgress.pocketPhraseIds}
             initialTab={safeProgress.moduleState.pocket.tab}
@@ -366,7 +376,7 @@ export default function App() {
           />
         ) : null}
 
-        {route === "videos" ? <VideosPage videos={videoItems} settings={settings} onReward={showReward} /> : null}
+        {route === "videos" ? <VideosPage videos={videoItems} settings={safeSettings} onReward={showReward} /> : null}
       </AppShell>
     </>
   );

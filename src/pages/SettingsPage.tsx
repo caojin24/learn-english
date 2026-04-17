@@ -10,32 +10,23 @@ interface SettingsPageProps {
 export function SettingsPage({ settings, onChange }: SettingsPageProps) {
   return (
     <div className="grid gap-4 sm:grid-cols-2">
-      <SettingSelect
-        label="分级听力难度"
-        value={settings.listeningDifficulty}
-        onChange={(value) => onChange({ ...settings, listeningDifficulty: value as SettingsState["listeningDifficulty"] })}
-      >
-        <option value="starter">入门</option>
-        <option value="basic">基础</option>
-      </SettingSelect>
+      <div className="rounded-[28px] bg-white/80 p-5 shadow-bubble">
+        <p className="text-sm font-semibold text-ink/60">分级听力难度</p>
+        <p className="mt-2 text-xl font-bold text-ink">基础</p>
+        <p className="mt-2 text-sm leading-6 text-ink/70">已合并入门和基础，当前统一使用完整句库练习。</p>
+      </div>
 
-      <SettingSelect
-        label="跟读练习难度"
-        value={settings.speakingDifficulty}
-        onChange={(value) => onChange({ ...settings, speakingDifficulty: value as SettingsState["speakingDifficulty"] })}
-      >
-        <option value="starter">入门</option>
-        <option value="basic">基础</option>
-      </SettingSelect>
+      <div className="rounded-[28px] bg-white/80 p-5 shadow-bubble">
+        <p className="text-sm font-semibold text-ink/60">跟读练习难度</p>
+        <p className="mt-2 text-xl font-bold text-ink">基础</p>
+        <p className="mt-2 text-sm leading-6 text-ink/70">跟读页也跟随统一难度，直接使用完整句库。</p>
+      </div>
 
-      <SettingSelect
-        label="日常短句难度"
-        value={settings.phraseDifficulty}
-        onChange={(value) => onChange({ ...settings, phraseDifficulty: value as SettingsState["phraseDifficulty"] })}
-      >
-        <option value="starter">入门</option>
-        <option value="basic">基础</option>
-      </SettingSelect>
+      <div className="rounded-[28px] bg-white/80 p-5 shadow-bubble">
+        <p className="text-sm font-semibold text-ink/60">日常短句难度</p>
+        <p className="mt-2 text-xl font-bold text-ink">基础</p>
+        <p className="mt-2 text-sm leading-6 text-ink/70">推荐和分类短句都会从 88 句完整内容中生成。</p>
+      </div>
 
       <SettingSelect
         label="看图识词分类"

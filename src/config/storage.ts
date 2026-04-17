@@ -6,13 +6,23 @@ export const storageKeys = {
 };
 
 export const defaultSettings: SettingsState = {
-  listeningDifficulty: "starter",
-  speakingDifficulty: "starter",
-  phraseDifficulty: "starter",
+  listeningDifficulty: "basic",
+  speakingDifficulty: "basic",
+  phraseDifficulty: "basic",
   selectedWordCategory: "all",
   accent: "american",
   maxVideoMinutes: 10,
 };
+
+export function normalizeSettings(settings: SettingsState): SettingsState {
+  return {
+    ...defaultSettings,
+    ...settings,
+    listeningDifficulty: "basic",
+    speakingDifficulty: "basic",
+    phraseDifficulty: "basic",
+  };
+}
 
 export const defaultProgress: LearningProgressState = {
   listenedIds: [],
@@ -28,7 +38,10 @@ export const defaultProgress: LearningProgressState = {
   phraseRotationSeed: "",
   recommendedPhraseIds: [],
   moduleState: {
-    listeningCurrentId: null,
+    listening: {
+      category: "全部",
+      currentId: null,
+    },
     speakingCurrentId: null,
     phrases: {
       category: "推荐",
@@ -55,6 +68,14 @@ export function normalizeProgress(progress: LearningProgressState): LearningProg
     moduleState: {
       ...defaultProgress.moduleState,
       ...progress.moduleState,
+      listening: {
+        ...defaultProgress.moduleState.listening,
+        ...progress.moduleState?.listening,
+        currentId:
+          progress.moduleState?.listening?.currentId ??
+          (progress.moduleState as { listeningCurrentId?: string | null } | undefined)?.listeningCurrentId ??
+          defaultProgress.moduleState.listening.currentId,
+      },
       phrases: {
         ...defaultProgress.moduleState.phrases,
         ...progress.moduleState?.phrases,

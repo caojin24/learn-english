@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { WordChips } from "../components/WordChips";
 import { PhraseItem, SettingsState } from "../types";
-import { speakEdge, speakText } from "../lib/audio";
+import { isPlaybackAbortError, speakEdge, speakText, stopPlayback } from "../lib/audio";
 
 interface PhrasesPageProps {
   phrases: PhraseItem[];
@@ -74,12 +74,23 @@ export function PhrasesPage({
     onPositionChange(safeCategory, currentItem?.id ?? null);
   }, [currentItem?.id, onPositionChange, safeCategory]);
 
+  useEffect(() => () => stopPlayback(), []);
+
+  function switchPhrase(nextId: string | null) {
+    stopPlayback();
+    setIsPlaying(false);
+    setActiveWordIndex(null);
+    setPlaybackError(null);
+    setCurrentId(nextId);
+  }
+
   async function handlePlay() {
     if (!currentItem || isPlaying) {
       return;
     }
 
     const words = currentItem.text.split(" ");
+    let wasAborted = false;
     setIsPlaying(true);
 
     try {
@@ -88,6 +99,9 @@ export function PhrasesPage({
         console.log("[Phrases] Using stable TTS API", currentItem.text);
         await speakEdge(currentItem.text);
       } catch (error) {
+        if (isPlaybackAbortError(error)) {
+          throw error;
+        }
         console.warn("[Phrases] Stable TTS API failed, fallback to speechSynthesis", error);
         await speakText(currentItem.text, settings.accent, {
           rate: 0.85,
@@ -96,15 +110,20 @@ export function PhrasesPage({
           onBoundary: (wordIndex) => setActiveWordIndex(Math.min(wordIndex, words.length - 1)),
         });
       }
-      onPhraseComplete(currentItem.id);
-      onReward("短句练习完成啦！", { stars: 1 });
-      if (visibleItems.length > 1) {
-        const nextItem = visibleItems[(resolvedIndex + 1) % visibleItems.length];
-        setCurrentId(nextItem?.id ?? null);
+      if (!wasAborted) {
+        onPhraseComplete(currentItem.id);
+        onReward("短句练习完成啦！", { stars: 1 });
+        if (visibleItems.length > 1) {
+          const nextItem = visibleItems[(resolvedIndex + 1) % visibleItems.length];
+          setCurrentId(nextItem?.id ?? null);
+        }
       }
     } catch (error) {
-      console.warn("[Phrases] playback failed", error);
-      setPlaybackError("这句暂时没有播出来，请检查网络后再试一次。");
+      wasAborted = isPlaybackAbortError(error);
+      if (!wasAborted) {
+        console.warn("[Phrases] playback failed", error);
+        setPlaybackError("这句暂时没有播出来，请检查网络后再试一次。");
+      }
     } finally {
       setActiveWordIndex(null);
       setIsPlaying(false);
@@ -119,6 +138,10 @@ export function PhrasesPage({
             key={item}
             type="button"
             onClick={() => {
+              stopPlayback();
+              setIsPlaying(false);
+              setActiveWordIndex(null);
+              setPlaybackError(null);
               setCategory(item);
               setCurrentId(null);
             }}
@@ -176,14 +199,14 @@ export function PhrasesPage({
       <section className="flex gap-4">
         <button
           type="button"
-          onClick={() => setCurrentId(visibleItems[(resolvedIndex === 0 ? visibleItems.length : resolvedIndex) - 1]?.id ?? null)}
+          onClick={() => switchPhrase(visibleItems[(resolvedIndex === 0 ? visibleItems.length : resolvedIndex) - 1]?.id ?? null)}
           className="min-h-[52px] flex-1 rounded-full bg-white/80 font-semibold shadow-bubble transition active:scale-95"
         >
           ← 上一句
         </button>
         <button
           type="button"
-          onClick={() => setCurrentId(visibleItems[(resolvedIndex + 1) % visibleItems.length]?.id ?? null)}
+          onClick={() => switchPhrase(visibleItems[(resolvedIndex + 1) % visibleItems.length]?.id ?? null)}
           className="min-h-[52px] flex-1 rounded-full bg-white/80 font-semibold shadow-bubble transition active:scale-95"
         >
           下一句 →
