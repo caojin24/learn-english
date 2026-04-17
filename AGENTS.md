@@ -42,7 +42,7 @@
 - 跟读页复用听力句子数据，而不是单独维护一套口语内容
 - 单词、短句和视频封面当前主展示素材都是 emoji，不再依赖本地图片目录
 - 视频页当前不是本地 MP4 播放，而是 B 站封面列表 + `iframe` 播放器 + 外链兜底
-- 代码中存在 `/api/tts` 调用，用于句子播放的稳定 TTS；失败时会回退到浏览器 `speechSynthesis`
+- 当前 `/api/tts` 已由 Vercel Python Function 实现，底层直接调用 `edge-tts`；失败时会回退到浏览器 `speechSynthesis`
 - 听力和短句切换上一句、下一句或分类时，会停止当前语音播放；如果 `/api/tts` 请求未完成，也会取消
 - 分级听力在具体分类的最后一句点击“下一句”时，会直接进入下一个分类，并提前展示提示
 - 分级听力的“下一句”会按固定节奏插入复习：每正常前进 4 句后，插入 1 句当前范围内已听过的内容
@@ -58,6 +58,8 @@
 - `src/lib/audio.ts`：音频播放、TTS、单词发音兜底逻辑
 - `src/lib/recommendations.ts`：短句推荐逻辑
 - `src/styles/index.css`：全局样式、主题变量和动画
+- `api/tts.py`：Vercel Python TTS 接口，直接调用 `edge-tts`
+- `requirements.txt`：Vercel Python 依赖
 
 ## 当前数据模型
 
@@ -122,6 +124,7 @@
 - 视频页依赖外部 B 站资源，和“纯本地视频播放”设想不一致
 - 当前仓库已去掉图片资源目录，展示层统一走 emoji 和文字
 - 家长设置页中的听力、跟读、短句难度当前为固定展示，不再提供“入门 / 基础”切换
+- 当前线上句子 TTS 不再依赖自建 Python 常驻服务，而是托管在 Vercel Function 中
 - 项目当前没有自动化测试，默认以 `npm run build` 作为基础验证
 
 ## 改动边界

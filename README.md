@@ -8,6 +8,7 @@
 - 采用单页本地状态切换，不使用 `react-router`
 - 界面文案以简体中文为主，交互风格偏温暖、鼓励式
 - 设置和学习进度会自动保存在浏览器本地
+- 线上句子 TTS 由 Vercel Python Function 直接运行 `edge-tts`
 - 当前主流程以“单词/短句 + emoji”驱动，仓库中的图片资源大多尚未接入核心学习页
 
 ## 当前功能
@@ -100,7 +101,7 @@
 ### 音频能力
 
 - 单词发音：优先有道词典语音地址，失败时回退浏览器 TTS
-- 句子播放：优先 `/api/tts`，失败时回退浏览器 TTS
+- 句子播放：优先 `/api/tts`，当前由 Vercel Python Function 直接调用 `edge-tts` 生成音频，失败时回退浏览器 TTS
 - 听力和短句切句时会中断当前播放，并取消进行中的 TTS 请求
 - 跟读录音：浏览器 `MediaRecorder`
 
@@ -120,12 +121,10 @@ src/
   pages/                      页面组件
   styles/index.css            全局样式
 
-public/images/
-  home/                       首页图标与装饰图
-  videos/                     视频封面
-  words/                      单词图片资源（当前未接入主流程）
-  phrases/                    短句图片资源（当前未接入主流程）
-  listening/                  听力图片资源（当前未全面接入）
+api/
+  tts.py                      Vercel Python TTS 接口（edge-tts）
+
+requirements.txt              Vercel Python 依赖
 ```
 
 ## 本地开发
@@ -165,4 +164,5 @@ npm run preview
 
 - 当前项目没有测试套件，默认以 `npm run build` 作为基础可用性检查
 - 视频资源目前依赖外部 B 站页面与播放器
+- 线上 `/api/tts` 当前不再依赖自建转发服务，而是由 Vercel 直接运行 Python `edge-tts`
 - 浏览器如果禁用麦克风或 TTS，部分功能会退化或不可用
