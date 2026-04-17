@@ -83,20 +83,44 @@ function playSingleAudio(source: string): Promise<void> {
     stopPlayback();
     const audio = new Audio(source);
     activeAudio = audio;
+    let settled = false;
+
+    function finish(handler: () => void) {
+      if (settled) {
+        return;
+      }
+
+      settled = true;
+      handler();
+    }
+
     audio.preload = "auto";
     audio.onended = () => {
-      clearActiveAudio();
-      resolve();
+      finish(() => {
+        clearActiveAudio();
+        resolve();
+      });
     };
     audio.onpause = () => {
-      clearActiveAudio();
-      reject(createPlaybackAbortError());
+      finish(() => {
+        clearActiveAudio();
+        reject(createPlaybackAbortError());
+      });
     };
-    audio.onerror = () => reject(new Error(`Audio failed: ${source}`));
+    audio.onerror = () =>
+      finish(() => {
+        clearActiveAudio();
+        reject(new Error(`Audio failed: ${source}`));
+      });
 
     audio
       .play()
-      .catch(reject);
+      .catch((error) =>
+        finish(() => {
+          clearActiveAudio();
+          reject(error);
+        }),
+      );
   });
 }
 
@@ -121,11 +145,22 @@ export async function speakEdge(text: string): Promise<void> {
     await new Promise<void>((resolve, reject) => {
       const audio = new Audio(audioUrl);
       activeAudio = audio;
+      let settled = false;
+
+      function finish(handler: () => void) {
+        if (settled) {
+          return;
+        }
+
+        settled = true;
+        handler();
+      }
+
       audio.volume = 1;
-      audio.onended = () => resolve();
-      audio.onpause = () => reject(createPlaybackAbortError());
-      audio.onerror = () => reject(new Error("TTS audio playback failed"));
-      audio.play().catch(reject);
+      audio.onended = () => finish(resolve);
+      audio.onpause = () => finish(() => reject(createPlaybackAbortError()));
+      audio.onerror = () => finish(() => reject(new Error("TTS audio playback failed")));
+      audio.play().catch((error) => finish(() => reject(error)));
     });
   } finally {
     clearActiveTtsRequestController();
