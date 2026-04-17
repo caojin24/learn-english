@@ -3,8 +3,10 @@ import { AppShell } from "./components/AppShell";
 import { RewardToast } from "./components/RewardToast";
 import { defaultProgress, defaultSettings, normalizeProgress, normalizeSettings, storageKeys } from "./config/storage";
 import { listeningItems, phraseItems, videoItems, wordItems } from "./data/content";
+import { gameWordItems } from "./data/gameWords";
 import { usePersistentState } from "./hooks/usePersistentState";
 import { pickRecommendedPhraseIds } from "./lib/recommendations";
+import { GamesPage } from "./pages/GamesPage";
 import { HomePage } from "./pages/HomePage";
 import { ListeningPage } from "./pages/ListeningPage";
 import { PhrasesPage } from "./pages/PhrasesPage";
@@ -20,6 +22,7 @@ const pageMeta: Record<RouteKey, { title: string; subtitle: string }> = {
   settings: { title: "家长设置", subtitle: "轻量调节，不打扰孩子学习。" },
   listening: { title: "分级听力", subtitle: "慢速清晰播放，支持反复听。" },
   speaking: { title: "跟读练习", subtitle: "录音回放 + 鼓励反馈，不评分。" },
+  games: { title: "游戏模块", subtitle: "中英配对消消乐，轻松玩一局。" },
   words: { title: "看图识词", subtitle: "点击识词和配对游戏都能玩。" },
   phrases: { title: "日常短句", subtitle: "每天 5 句，学完就能换新。" },
   pocket: { title: "魔法口袋", subtitle: "把暂时不会的内容留在这里，随时回来复习。" },
@@ -276,6 +279,8 @@ export default function App() {
             }
           />
         ) : null}
+
+        {route === "games" ? <GamesPage words={gameWordItems} /> : null}
 
         {route === "words" ? (
           <WordsPage

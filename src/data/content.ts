@@ -915,4 +915,5 @@ export const moduleCards = [
   { key: "phrases", title: "日常短句", subtitle: "每天五句轻松学", icon: "💬", color: "bg-butter" },
   { key: "pocket", title: "魔法口袋", subtitle: "不会的先放这里", icon: "🪄", color: "bg-peach" },
   { key: "videos", title: "绘本动画", subtitle: "看动画磨耳朵", icon: "🎬", color: "bg-cream" },
+  { key: "games", title: "游戏模块", subtitle: "中英配对消消乐", icon: "🎮", color: "bg-peach" },
 ] as const;

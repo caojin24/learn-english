@@ -32,7 +32,17 @@
 - 支持录音回放
 - 不做打分，只提供鼓励式反馈
 
-### 3. 看图识词
+### 3. 游戏模块
+
+- 首页提供独立入口，当前为“中英配对消消乐”
+- 词库直接来自 [`src/data/word.json`](/Users/caojin/项目/tool/learn-english/src/data/word.json)
+- 在保留原始 `meaning` 的前提下，为每个词条新增了 `gameMeaningZh`
+- 每局默认抽取 6 组英文和中文卡片，配对成功后两张卡一起消失
+- 同一局会避免抽到重复英文和重复中文短释义，减少无解题
+- 匹配成功时会显示成功提示，并播放一个有道单词发音地址
+- 当前不接入星星/徽章奖励，也不接入魔法口袋
+
+### 4. 看图识词
 
 - 包含“点击识词”和“配对游戏”两种模式
 - 支持按分类筛选：全部、动物、水果、颜色、数字、日常用品、动作
@@ -40,7 +50,7 @@
 - 每完成 3 个单词奖励 1 颗星星，每累计 15 个有徽章奖励
 - 当前页面展示的是 emoji，不是本地图片资源
 
-### 4. 日常短句
+### 5. 日常短句
 
 - 当前统一使用 `基础` 难度，直接覆盖 88 句完整句库
 - 提供“推荐”入口和分类切换
@@ -49,14 +59,14 @@
 - 切换上一句、下一句或分类时，会主动停止上一次播放，并取消进行中的 TTS 请求
 - 当前不能从短句页直接跳转到跟读页
 
-### 5. 绘本动画
+### 6. 绘本动画
 
 - 提供绘本动画列表和封面
 - 当前使用 B 站链接与站内 `iframe` 播放
 - 支持家长设置单次观看时长上限：5 / 10 / 15 分钟
 - 超过时长后会提示休息
 
-### 6. 家长设置
+### 7. 家长设置
 
 - 分级听力难度固定为：基础
 - 跟读练习难度固定为：基础
@@ -69,17 +79,19 @@
 
 ### 页面组织
 
-项目没有引入路由库，而是在 [`src/App.tsx`](/Users/caojin/项目/tool/learn-english/src/App.tsx) 中通过本地状态控制页面切换。首页、设置页、听力页、跟读页、识词页、短句页、视频页都由同一个应用状态统一调度。
+项目没有引入路由库，而是在 [`src/App.tsx`](/Users/caojin/项目/tool/learn-english/src/App.tsx) 中通过本地状态控制页面切换。首页、设置页、听力页、跟读页、游戏页、识词页、短句页、视频页都由同一个应用状态统一调度。
 
 ### 数据来源
 
 主要静态内容定义在 [`src/data/content.ts`](/Users/caojin/项目/tool/learn-english/src/data/content.ts)：
 
 - `listeningItems`：听力与跟读内容
+- `moduleCards`：首页模块卡片
 - `phraseItems`：短句练习内容
 - `wordItems`：识词内容
 - `videoItems`：绘本动画列表
-- `moduleCards`：首页模块卡片
+
+游戏模块词库适配定义在 [`src/data/gameWords.ts`](/Users/caojin/项目/tool/learn-english/src/data/gameWords.ts)，底层来源是 [`src/data/word.json`](/Users/caojin/项目/tool/learn-english/src/data/word.json)。
 
 当前 `wordItems` 和 `phraseItems` 的 `image` 字段由代码生成 emoji，因此虽然 `public/images` 下已经有不少图片资源，但目前并未作为主展示资源接入识词/短句页面。
 
@@ -101,6 +113,7 @@
 ### 音频能力
 
 - 单词发音：优先有道词典语音地址，失败时回退浏览器 TTS
+- 游戏配对成功发音：当前只请求并播放一个有道单词发音地址
 - 句子播放：优先 `/api/tts`，当前由 Vercel Python Function 直接调用 `edge-tts` 生成音频，失败时回退浏览器 TTS
 - 听力和短句切句时会中断当前播放，并取消进行中的 TTS 请求
 - 跟读录音：浏览器 `MediaRecorder`
@@ -113,6 +126,8 @@ src/
   main.tsx                    挂载入口
   types.ts                    类型定义
   data/content.ts             静态内容
+  data/gameWords.ts           游戏词库适配
+  data/word.json              游戏模块原始词库与短释义
   config/storage.ts           默认设置与存储 key
   hooks/usePersistentState.ts 本地持久化 Hook
   lib/audio.ts                语音与音频工具

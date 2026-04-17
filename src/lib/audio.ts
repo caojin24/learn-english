@@ -102,8 +102,17 @@ function playSingleAudio(source: string): Promise<void> {
       });
     };
     audio.onpause = () => {
+      const duration = Number.isFinite(audio.duration) ? audio.duration : 0;
+      const remaining = duration > 0 ? duration - audio.currentTime : Infinity;
+      const endedNaturally = audio.ended || (duration > 0 && remaining <= 0.08);
+
       finish(() => {
         clearActiveAudio();
+        if (endedNaturally) {
+          resolve();
+          return;
+        }
+
         reject(createPlaybackAbortError());
       });
     };

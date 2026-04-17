@@ -14,6 +14,7 @@ export type RouteKey =
   | "settings"
   | "listening"
   | "speaking"
+  | "games"
   | "words"
   | "phrases"
   | "videos"
@@ -86,6 +87,24 @@ export interface WordItem {
     american?: string;
     british?: string;
     local?: string;
+  };
+}
+
+export interface WordJsonItem {
+  word: string;
+  phonetic: string;
+  meaning: string;
+  sentence: string;
+  gameMeaningZh: string;
+}
+
+export interface GameWordItem {
+  id: string;
+  word: string;
+  meaningZh: string;
+  audio: {
+    american: string;
+    british: string;
   };
 }
 

@@ -80,10 +80,11 @@ export function HomePage({ onNavigate, onOpenSettings, stars, badges }: HomePage
               听一听、说一说、玩一玩。
             </h2>
             <p className="mt-3 max-w-xl text-sm leading-6 text-ink/70 sm:text-base">
-              现在有 5 个学习模块啦。遇到暂时不会的单词和短句，可以先放进魔法口袋，之后再回来轻松复习。
+              现在有 {moduleCards.length} 个学习模块啦。遇到暂时不会的单词和短句，可以先放进魔法口袋，之后再回来轻松复习。
             </p>
             <div className="mt-4 flex flex-wrap gap-2">
               <div className="rounded-full bg-white/90 px-4 py-2 text-sm font-semibold text-ink/75 shadow-bubble">听力小耳朵</div>
+              <div className="rounded-full bg-white/90 px-4 py-2 text-sm font-semibold text-ink/75 shadow-bubble">消消乐游戏站</div>
               <div className="rounded-full bg-white/90 px-4 py-2 text-sm font-semibold text-ink/75 shadow-bubble">识词小游戏</div>
               <div className="rounded-full bg-white/90 px-4 py-2 text-sm font-semibold text-ink/75 shadow-bubble">口袋复习站</div>
             </div>

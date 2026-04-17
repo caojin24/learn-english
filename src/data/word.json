@@ -3,3618 +3,4221 @@
     "word": "a",
     "phonetic": "/ə; eɪ/",
     "meaning": "art. 一（个、件……）",
-    "sentence": "This is a pen."
+    "sentence": "This is a pen.",
+    "gameMeaningZh": "一"
   },
   {
     "word": "ability",
     "phonetic": "/əˈbɪləti/",
     "meaning": "n. 能力；才能",
-    "sentence": "She has great ability."
+    "sentence": "She has great ability.",
+    "gameMeaningZh": "能力"
   },
   {
     "word": "able",
     "phonetic": "/ˈeɪbl/",
     "meaning": "adj. 能够；有能力的",
-    "sentence": "I am able to swim."
+    "sentence": "I am able to swim.",
+    "gameMeaningZh": "能"
   },
   {
     "word": "about",
     "phonetic": "/əˈbaʊt/",
     "meaning": "prep. 关于；在……各处",
-    "sentence": "Tell me about yourself."
+    "sentence": "Tell me about yourself.",
+    "gameMeaningZh": "关于"
   },
   {
     "word": "above",
     "phonetic": "/əˈbʌv/",
     "meaning": "prep. 在……上面",
-    "sentence": "The bird is above the tree."
+    "sentence": "The bird is above the tree.",
+    "gameMeaningZh": "在……上面"
   },
   {
     "word": "across",
     "phonetic": "/əˈkrɒs/",
     "meaning": "prep. 横过；穿过",
-    "sentence": "Walk across the street."
+    "sentence": "Walk across the street.",
+    "gameMeaningZh": "横过"
   },
   {
     "word": "action",
     "phonetic": "/ˈækʃn/",
     "meaning": "n. 行动",
-    "sentence": "His action is right."
+    "sentence": "His action is right.",
+    "gameMeaningZh": "行动"
   },
   {
     "word": "active",
     "phonetic": "/ˈæktɪv/",
     "meaning": "adj. 积极的；活跃的",
-    "sentence": "He is an active boy."
+    "sentence": "He is an active boy.",
+    "gameMeaningZh": "积极的"
   },
   {
     "word": "activity",
     "phonetic": "/ækˈtɪvəti/",
     "meaning": "n. 活动",
-    "sentence": "We have many activities."
+    "sentence": "We have many activities.",
+    "gameMeaningZh": "活动"
   },
   {
     "word": "add",
     "phonetic": "/æd/",
     "meaning": "v. 添加；增加",
-    "sentence": "Add some water."
+    "sentence": "Add some water.",
+    "gameMeaningZh": "添加"
   },
   {
     "word": "address",
     "phonetic": "/əˈdres/",
     "meaning": "n. 地址",
-    "sentence": "What's your address?"
+    "sentence": "What's your address?",
+    "gameMeaningZh": "地址"
   },
   {
     "word": "adult",
     "phonetic": "/ˈædʌlt/",
     "meaning": "n. 成年人",
-    "sentence": "He is an adult."
+    "sentence": "He is an adult.",
+    "gameMeaningZh": "成年人"
   },
   {
     "word": "advice",
     "phonetic": "/ədˈvaɪs/",
     "meaning": "n. 忠告；劝告",
-    "sentence": "I need your advice."
+    "sentence": "I need your advice.",
+    "gameMeaningZh": "忠告"
   },
   {
     "word": "afford",
     "phonetic": "/əˈfɔːd/",
     "meaning": "v. 负担得起；买得起",
-    "sentence": "I can't afford it."
+    "sentence": "I can't afford it.",
+    "gameMeaningZh": "负担得起"
   },
   {
     "word": "afraid",
     "phonetic": "/əˈfreɪd/",
     "meaning": "adj. 害怕的",
-    "sentence": "I'm afraid of dogs."
+    "sentence": "I'm afraid of dogs.",
+    "gameMeaningZh": "害怕的"
   },
   {
     "word": "after",
     "phonetic": "/ˈɑːftə/",
     "meaning": "prep. 在……之后",
-    "sentence": "I play after school."
+    "sentence": "I play after school.",
+    "gameMeaningZh": "在……之后"
   },
   {
     "word": "afternoon",
     "phonetic": "/ˌɑːftəˈnuːn/",
     "meaning": "n. 下午",
-    "sentence": "Good afternoon."
+    "sentence": "Good afternoon.",
+    "gameMeaningZh": "下午"
   },
   {
     "word": "again",
     "phonetic": "/əˈɡen/",
     "meaning": "adv. 再一次；又",
-    "sentence": "Say it again."
+    "sentence": "Say it again.",
+    "gameMeaningZh": "再一次"
   },
   {
     "word": "against",
     "phonetic": "/əˈɡenst/",
     "meaning": "prep. 反对；对着",
-    "sentence": "He is against the plan."
+    "sentence": "He is against the plan.",
+    "gameMeaningZh": "反对"
   },
   {
     "word": "age",
     "phonetic": "/eɪdʒ/",
     "meaning": "n. 年龄；时代",
-    "sentence": "What's your age?"
+    "sentence": "What's your age?",
+    "gameMeaningZh": "年龄"
   },
   {
     "word": "ago",
     "phonetic": "/əˈɡəʊ/",
     "meaning": "adv. 以前",
-    "sentence": "I came here two years ago."
+    "sentence": "I came here two years ago.",
+    "gameMeaningZh": "以前"
   },
   {
     "word": "agree",
     "phonetic": "/əˈɡriː/",
     "meaning": "v. 同意；赞成",
-    "sentence": "I agree with you."
+    "sentence": "I agree with you.",
+    "gameMeaningZh": "同意"
   },
   {
     "word": "air",
     "phonetic": "/eə/",
     "meaning": "n. 空气；大气",
-    "sentence": "Fresh air is good."
+    "sentence": "Fresh air is good.",
+    "gameMeaningZh": "空气"
   },
   {
     "word": "airplane",
     "phonetic": "/ˈeəpleɪn/",
     "meaning": "n. 飞机",
-    "sentence": "I go by airplane."
+    "sentence": "I go by airplane.",
+    "gameMeaningZh": "飞机"
   },
   {
     "word": "airport",
     "phonetic": "/ˈeəpɔːt/",
     "meaning": "n. 机场",
-    "sentence": "I meet her at airport."
+    "sentence": "I meet her at airport.",
+    "gameMeaningZh": "机场"
   },
   {
     "word": "alive",
     "phonetic": "/əˈlaɪv/",
     "meaning": "adj. 活着的",
-    "sentence": "The fish is alive."
+    "sentence": "The fish is alive.",
+    "gameMeaningZh": "活着的"
   },
   {
     "word": "all",
     "phonetic": "/ɔːl/",
     "meaning": "adj. 所有的",
-    "sentence": "All students are here."
+    "sentence": "All students are here.",
+    "gameMeaningZh": "所有的"
   },
   {
     "word": "allow",
     "phonetic": "/əˈlaʊ/",
     "meaning": "v. 允许；准许",
-    "sentence": "They allow me to go."
+    "sentence": "They allow me to go.",
+    "gameMeaningZh": "允许"
   },
   {
     "word": "almost",
     "phonetic": "/ˈɔːlməʊst/",
     "meaning": "adv. 几乎；差不多",
-    "sentence": "I almost forgot."
+    "sentence": "I almost forgot.",
+    "gameMeaningZh": "几乎"
   },
   {
     "word": "alone",
     "phonetic": "/əˈləʊn/",
     "meaning": "adj. 独自的",
-    "sentence": "I am alone at home."
+    "sentence": "I am alone at home.",
+    "gameMeaningZh": "独自的"
   },
   {
     "word": "along",
     "phonetic": "/əˈlɒŋ/",
     "meaning": "prep. 沿着",
-    "sentence": "Walk along the river."
+    "sentence": "Walk along the river.",
+    "gameMeaningZh": "沿着"
   },
   {
     "word": "aloud",
     "phonetic": "/əˈlaʊd/",
     "meaning": "adv. 大声地",
-    "sentence": "Read the word aloud."
+    "sentence": "Read the word aloud.",
+    "gameMeaningZh": "大声地"
   },
   {
     "word": "already",
     "phonetic": "/ɔːlˈredi/",
     "meaning": "adv. 已经",
-    "sentence": "I have already finished."
+    "sentence": "I have already finished.",
+    "gameMeaningZh": "已经"
   },
   {
     "word": "also",
     "phonetic": "/ˈɔːlsəʊ/",
     "meaning": "adv. 也",
-    "sentence": "I also like English."
+    "sentence": "I also like English.",
+    "gameMeaningZh": "也"
   },
   {
     "word": "although",
     "phonetic": "/ɔːlˈðəʊ/",
     "meaning": "conj. 虽然；尽管",
-    "sentence": "Although tired, I work on."
+    "sentence": "Although tired, I work on.",
+    "gameMeaningZh": "虽然"
   },
   {
     "word": "always",
     "phonetic": "/ˈɔːlweɪz/",
     "meaning": "adv. 总是；一直",
-    "sentence": "He always gets up early."
+    "sentence": "He always gets up early.",
+    "gameMeaningZh": "总是"
   },
   {
     "word": "am",
     "phonetic": "/æm/",
     "meaning": "v. 是",
-    "sentence": "I am a student."
+    "sentence": "I am a student.",
+    "gameMeaningZh": "是"
   },
   {
     "word": "amazing",
     "phonetic": "/əˈmeɪzɪŋ/",
     "meaning": "adj. 令人惊异的",
-    "sentence": "It's amazing."
+    "sentence": "It's amazing.",
+    "gameMeaningZh": "惊人的"
   },
   {
     "word": "America",
     "phonetic": "/əˈmerɪkə/",
     "meaning": "n. 美国；美洲",
-    "sentence": "He lives in America."
+    "sentence": "He lives in America.",
+    "gameMeaningZh": "美国"
   },
   {
     "word": "American",
     "phonetic": "/əˈmerɪkən/",
     "meaning": "adj. 美国的",
-    "sentence": "She is American."
+    "sentence": "She is American.",
+    "gameMeaningZh": "美国的"
   },
   {
     "word": "among",
     "phonetic": "/əˈmʌŋ/",
     "meaning": "prep. 在……中间",
-    "sentence": "He sits among friends."
+    "sentence": "He sits among friends.",
+    "gameMeaningZh": "在……中间"
   },
   {
     "word": "and",
     "phonetic": "/ænd/",
     "meaning": "conj. 和；又",
-    "sentence": "You and me are friends."
+    "sentence": "You and me are friends.",
+    "gameMeaningZh": "和"
   },
   {
     "word": "angry",
     "phonetic": "/ˈæŋɡri/",
     "meaning": "adj. 生气的",
-    "sentence": "He is angry with me."
+    "sentence": "He is angry with me.",
+    "gameMeaningZh": "生气的"
   },
   {
     "word": "animal",
     "phonetic": "/ˈænɪml/",
     "meaning": "n. 动物",
-    "sentence": "I love small animals."
+    "sentence": "I love small animals.",
+    "gameMeaningZh": "动物"
   },
   {
     "word": "another",
     "phonetic": "/əˈnʌðə/",
     "meaning": "adj. 另一的",
-    "sentence": "Give me another one."
+    "sentence": "Give me another one.",
+    "gameMeaningZh": "另一个"
   },
   {
     "word": "answer",
     "phonetic": "/ˈɑːnsə/",
     "meaning": "v. 回答",
-    "sentence": "Please answer the question."
+    "sentence": "Please answer the question.",
+    "gameMeaningZh": "回答"
   },
   {
     "word": "any",
     "phonetic": "/ˈeni/",
     "meaning": "adj. 任何的",
-    "sentence": "Do you have any books?"
+    "sentence": "Do you have any books?",
+    "gameMeaningZh": "任何"
   },
   {
     "word": "anybody",
     "phonetic": "/ˈenibɒdi/",
     "meaning": "pron. 任何人",
-    "sentence": "Anybody can do it."
+    "sentence": "Anybody can do it.",
+    "gameMeaningZh": "任何人"
   },
   {
     "word": "anyone",
     "phonetic": "/ˈeniwʌn/",
     "meaning": "pron. 任何人",
-    "sentence": "Is anyone here?"
+    "sentence": "Is anyone here?",
+    "gameMeaningZh": "任何一个人"
   },
   {
     "word": "anything",
     "phonetic": "/ˈeniθɪŋ/",
     "meaning": "pron. 任何事",
-    "sentence": "I can't see anything."
+    "sentence": "I can't see anything.",
+    "gameMeaningZh": "任何事"
   },
   {
     "word": "anyway",
     "phonetic": "/ˈeniweɪ/",
     "meaning": "adv. 无论如何",
-    "sentence": "Anyway, I will try."
+    "sentence": "Anyway, I will try.",
+    "gameMeaningZh": "无论如何"
   },
   {
     "word": "anywhere",
     "phonetic": "/ˈeniweə/",
     "meaning": "adv. 任何地方",
-    "sentence": "You can go anywhere."
+    "sentence": "You can go anywhere.",
+    "gameMeaningZh": "任何地方"
   },
   {
     "word": "appear",
     "phonetic": "/əˈpɪə/",
     "meaning": "v. 出现",
-    "sentence": "He appears suddenly."
+    "sentence": "He appears suddenly.",
+    "gameMeaningZh": "出现"
   },
   {
     "word": "apple",
     "phonetic": "/ˈæpl/",
     "meaning": "n. 苹果",
-    "sentence": "I have an apple."
+    "sentence": "I have an apple.",
+    "gameMeaningZh": "苹果"
   },
   {
     "word": "April",
     "phonetic": "/ˈeɪprəl/",
     "meaning": "n. 四月",
-    "sentence": "My birthday is in April."
+    "sentence": "My birthday is in April.",
+    "gameMeaningZh": "四月"
   },
   {
     "word": "area",
     "phonetic": "/ˈeəriə/",
     "meaning": "n. 面积；区域",
-    "sentence": "This is a quiet area."
+    "sentence": "This is a quiet area.",
+    "gameMeaningZh": "面积"
   },
   {
     "word": "arm",
     "phonetic": "/ɑːm/",
     "meaning": "n. 手臂",
-    "sentence": "This is my arm."
+    "sentence": "This is my arm.",
+    "gameMeaningZh": "手臂"
   },
   {
     "word": "army",
     "phonetic": "/ˈɑːmi/",
     "meaning": "n. 军队",
-    "sentence": "He joins the army."
+    "sentence": "He joins the army.",
+    "gameMeaningZh": "军队"
   },
   {
     "word": "around",
     "phonetic": "/əˈraʊnd/",
     "meaning": "prep. 在……周围",
-    "sentence": "Look around."
+    "sentence": "Look around.",
+    "gameMeaningZh": "在……周围"
   },
   {
     "word": "arrive",
     "phonetic": "/əˈraɪv/",
     "meaning": "v. 到达",
-    "sentence": "I arrive at school."
+    "sentence": "I arrive at school.",
+    "gameMeaningZh": "到达"
   },
   {
     "word": "art",
     "phonetic": "/ɑːt/",
     "meaning": "n. 艺术；美术",
-    "sentence": "I like art class."
+    "sentence": "I like art class.",
+    "gameMeaningZh": "艺术"
   },
   {
     "word": "article",
     "phonetic": "/ˈɑːtɪkl/",
     "meaning": "n. 文章",
-    "sentence": "I read an article."
+    "sentence": "I read an article.",
+    "gameMeaningZh": "文章"
   },
   {
     "word": "as",
     "phonetic": "/æz/",
     "meaning": "conj. 像……一样",
-    "sentence": "Work as a teacher."
+    "sentence": "Work as a teacher.",
+    "gameMeaningZh": "像……一样"
   },
   {
     "word": "Asia",
     "phonetic": "/ˈeɪʒə/",
     "meaning": "n. 亚洲",
-    "sentence": "China is in Asia."
+    "sentence": "China is in Asia.",
+    "gameMeaningZh": "亚洲"
   },
   {
     "word": "ask",
     "phonetic": "/ɑːsk/",
     "meaning": "v. 问；请求",
-    "sentence": "May I ask a question?"
+    "sentence": "May I ask a question?",
+    "gameMeaningZh": "问"
   },
   {
     "word": "asleep",
     "phonetic": "/əˈsliːp/",
     "meaning": "adj. 睡着的",
-    "sentence": "He is asleep."
+    "sentence": "He is asleep.",
+    "gameMeaningZh": "睡着的"
   },
   {
     "word": "at",
     "phonetic": "/æt/",
     "meaning": "prep. 在（某处）",
-    "sentence": "I am at home."
+    "sentence": "I am at home.",
+    "gameMeaningZh": "在某处"
   },
   {
     "word": "attack",
     "phonetic": "/əˈtæk/",
     "meaning": "v. 攻击",
-    "sentence": "The dog attacks him."
+    "sentence": "The dog attacks him.",
+    "gameMeaningZh": "攻击"
   },
   {
     "word": "attempt",
     "phonetic": "/əˈtempt/",
     "meaning": "v. 试图；尝试",
-    "sentence": "I attempt to do it."
+    "sentence": "I attempt to do it.",
+    "gameMeaningZh": "试图"
   },
   {
     "word": "August",
     "phonetic": "/ˈɔːɡəst/",
     "meaning": "n. 八月",
-    "sentence": "It's hot in August."
+    "sentence": "It's hot in August.",
+    "gameMeaningZh": "八月"
   },
   {
     "word": "aunt",
     "phonetic": "/ɑːnt/",
     "meaning": "n. 伯母；姑；姨",
-    "sentence": "This is my aunt."
+    "sentence": "This is my aunt.",
+    "gameMeaningZh": "伯母"
   },
   {
     "word": "autumn",
     "phonetic": "/ˈɔːtəm/",
     "meaning": "n. 秋天",
-    "sentence": "Autumn is cool."
+    "sentence": "Autumn is cool.",
+    "gameMeaningZh": "秋天"
   },
   {
     "word": "available",
     "phonetic": "/əˈveɪləbl/",
     "meaning": "adj. 可获得的",
-    "sentence": "It is available now."
+    "sentence": "It is available now.",
+    "gameMeaningZh": "可获得的"
   },
   {
     "word": "avoid",
     "phonetic": "/əˈvɔɪd/",
     "meaning": "v. 避免；避开",
-    "sentence": "I avoid mistakes."
+    "sentence": "I avoid mistakes.",
+    "gameMeaningZh": "避免"
   },
   {
     "word": "awake",
     "phonetic": "/əˈweɪk/",
     "meaning": "adj. 醒着的",
-    "sentence": "I am awake."
+    "sentence": "I am awake.",
+    "gameMeaningZh": "醒着的"
   },
   {
     "word": "away",
     "phonetic": "/əˈweɪ/",
     "meaning": "adv. 离开",
-    "sentence": "Go away."
+    "sentence": "Go away.",
+    "gameMeaningZh": "离开"
   },
   {
     "word": "baby",
     "phonetic": "/ˈbeɪbi/",
     "meaning": "n. 婴儿",
-    "sentence": "She is a cute baby."
+    "sentence": "She is a cute baby.",
+    "gameMeaningZh": "婴儿"
   },
   {
     "word": "back",
     "phonetic": "/bæk/",
     "meaning": "adv. 向后；回原处",
-    "sentence": "Come back soon."
+    "sentence": "Come back soon.",
+    "gameMeaningZh": "后面"
   },
   {
     "word": "bad",
     "phonetic": "/bæd/",
     "meaning": "adj. 坏的；严重的",
-    "sentence": "It is a bad idea."
+    "sentence": "It is a bad idea.",
+    "gameMeaningZh": "坏的"
   },
   {
     "word": "bag",
     "phonetic": "/bæɡ/",
     "meaning": "n. 书包；袋子",
-    "sentence": "This is my bag."
+    "sentence": "This is my bag.",
+    "gameMeaningZh": "书包"
   },
   {
     "word": "ball",
     "phonetic": "/bɔːl/",
     "meaning": "n. 球",
-    "sentence": "I play with a ball."
+    "sentence": "I play with a ball.",
+    "gameMeaningZh": "球"
   },
   {
     "word": "balloon",
     "phonetic": "/bəˈluːn/",
     "meaning": "n. 气球",
-    "sentence": "I have a red balloon."
+    "sentence": "I have a red balloon.",
+    "gameMeaningZh": "气球"
   },
   {
     "word": "banana",
     "phonetic": "/bəˈnɑːnə/",
     "meaning": "n. 香蕉",
-    "sentence": "I like bananas."
+    "sentence": "I like bananas.",
+    "gameMeaningZh": "香蕉"
   },
   {
     "word": "bank",
     "phonetic": "/bæŋk/",
     "meaning": "n. 银行",
-    "sentence": "I go to the bank."
+    "sentence": "I go to the bank.",
+    "gameMeaningZh": "银行"
   },
   {
     "word": "baseball",
     "phonetic": "/ˈbeɪsbɔːl/",
     "meaning": "n. 棒球",
-    "sentence": "I play baseball."
+    "sentence": "I play baseball.",
+    "gameMeaningZh": "棒球"
   },
   {
     "word": "basketball",
     "phonetic": "/ˈbɑːskɪtbɔːl/",
     "meaning": "n. 篮球",
-    "sentence": "He plays basketball."
+    "sentence": "He plays basketball.",
+    "gameMeaningZh": "篮球"
   },
   {
     "word": "bathroom",
     "phonetic": "/ˈbɑːθruːm/",
     "meaning": "n. 浴室",
-    "sentence": "This is a bathroom."
+    "sentence": "This is a bathroom.",
+    "gameMeaningZh": "浴室"
   },
   {
     "word": "be",
     "phonetic": "/biː/",
     "meaning": "v. 是；成为",
-    "sentence": "I want to be a teacher."
+    "sentence": "I want to be a teacher.",
+    "gameMeaningZh": "成为"
   },
   {
     "word": "beach",
     "phonetic": "/biːtʃ/",
     "meaning": "n. 海滩",
-    "sentence": "We go to the beach."
+    "sentence": "We go to the beach.",
+    "gameMeaningZh": "海滩"
   },
   {
     "word": "bear",
     "phonetic": "/beə/",
     "meaning": "n. 熊",
-    "sentence": "It is a big bear."
+    "sentence": "It is a big bear.",
+    "gameMeaningZh": "熊"
   },
   {
     "word": "beautiful",
     "phonetic": "/ˈbjuːtɪfl/",
     "meaning": "adj. 美丽的",
-    "sentence": "She is beautiful."
+    "sentence": "She is beautiful.",
+    "gameMeaningZh": "美丽的"
   },
   {
     "word": "because",
     "phonetic": "/bɪˈkɒz/",
     "meaning": "conj. 因为",
-    "sentence": "I like it because it's fun."
+    "sentence": "I like it because it's fun.",
+    "gameMeaningZh": "因为"
   },
   {
     "word": "become",
     "phonetic": "/bɪˈkʌm/",
     "meaning": "v. 成为；变得",
-    "sentence": "He becomes strong."
+    "sentence": "He becomes strong.",
+    "gameMeaningZh": "成为"
   },
   {
     "word": "bed",
     "phonetic": "/bed/",
     "meaning": "n. 床",
-    "sentence": "I go to bed early."
+    "sentence": "I go to bed early.",
+    "gameMeaningZh": "床"
   },
   {
     "word": "bedroom",
     "phonetic": "/ˈbedruːm/",
     "meaning": "n. 卧室",
-    "sentence": "This is my bedroom."
+    "sentence": "This is my bedroom.",
+    "gameMeaningZh": "卧室"
   },
   {
     "word": "beef",
     "phonetic": "/biːf/",
     "meaning": "n. 牛肉",
-    "sentence": "I eat beef for lunch."
+    "sentence": "I eat beef for lunch.",
+    "gameMeaningZh": "牛肉"
   },
   {
     "word": "before",
     "phonetic": "/bɪˈfɔː/",
     "meaning": "prep. 在……之前",
-    "sentence": "Wash hands before eating."
+    "sentence": "Wash hands before eating.",
+    "gameMeaningZh": "在……之前"
   },
   {
     "word": "begin",
     "phonetic": "/bɪˈɡɪn/",
     "meaning": "v. 开始",
-    "sentence": "Class begins."
+    "sentence": "Class begins.",
+    "gameMeaningZh": "开始"
   },
   {
     "word": "behind",
     "phonetic": "/bɪˈhaɪnd/",
     "meaning": "prep. 在……后面",
-    "sentence": "He sits behind me."
+    "sentence": "He sits behind me.",
+    "gameMeaningZh": "在……后面"
   },
   {
     "word": "believe",
     "phonetic": "/bɪˈliːv/",
     "meaning": "v. 相信",
-    "sentence": "I believe you."
+    "sentence": "I believe you.",
+    "gameMeaningZh": "相信"
   },
   {
     "word": "bell",
     "phonetic": "/bel/",
     "meaning": "n. 铃；钟",
-    "sentence": "The bell rings."
+    "sentence": "The bell rings.",
+    "gameMeaningZh": "铃"
   },
   {
     "word": "below",
     "phonetic": "/bɪˈləʊ/",
     "meaning": "prep. 在……下面",
-    "sentence": "It is below the desk."
+    "sentence": "It is below the desk.",
+    "gameMeaningZh": "在……下面"
   },
   {
     "word": "beside",
     "phonetic": "/bɪˈsaɪd/",
     "meaning": "prep. 在……旁边",
-    "sentence": "Sit beside me."
+    "sentence": "Sit beside me.",
+    "gameMeaningZh": "在……旁边"
   },
   {
     "word": "best",
     "phonetic": "/best/",
     "meaning": "adj. 最好的",
-    "sentence": "This is my best friend."
+    "sentence": "This is my best friend.",
+    "gameMeaningZh": "最好的"
   },
   {
     "word": "better",
     "phonetic": "/ˈbetə/",
     "meaning": "adj. 更好的",
-    "sentence": "I feel better now."
+    "sentence": "I feel better now.",
+    "gameMeaningZh": "更好的"
   },
   {
     "word": "between",
     "phonetic": "/bɪˈtwiːn/",
     "meaning": "prep. 在……之间",
-    "sentence": "It is between us."
+    "sentence": "It is between us.",
+    "gameMeaningZh": "在……之间"
   },
   {
     "word": "big",
     "phonetic": "/bɪɡ/",
     "meaning": "adj. 大的",
-    "sentence": "It is a big dog."
+    "sentence": "It is a big dog.",
+    "gameMeaningZh": "大的"
   },
   {
     "word": "bike",
     "phonetic": "/baɪk/",
     "meaning": "n. 自行车",
-    "sentence": "I ride a bike."
+    "sentence": "I ride a bike.",
+    "gameMeaningZh": "自行车"
   },
   {
     "word": "bill",
     "phonetic": "/bɪl/",
     "meaning": "n. 账单",
-    "sentence": "Pay the bill."
+    "sentence": "Pay the bill.",
+    "gameMeaningZh": "账单"
   },
   {
     "word": "bird",
     "phonetic": "/bɜːd/",
     "meaning": "n. 鸟",
-    "sentence": "The bird can fly."
+    "sentence": "The bird can fly.",
+    "gameMeaningZh": "鸟"
   },
   {
     "word": "birth",
     "phonetic": "/bɜːθ/",
     "meaning": "n. 出生",
-    "sentence": "Date of birth."
+    "sentence": "Date of birth.",
+    "gameMeaningZh": "出生"
   },
   {
     "word": "birthday",
     "phonetic": "/ˈbɜːθdeɪ/",
     "meaning": "n. 生日",
-    "sentence": "Happy birthday!"
+    "sentence": "Happy birthday!",
+    "gameMeaningZh": "生日"
   },
   {
     "word": "bit",
     "phonetic": "/bɪt/",
     "meaning": "n. 一点",
-    "sentence": "Wait a bit."
+    "sentence": "Wait a bit.",
+    "gameMeaningZh": "一点"
   },
   {
     "word": "black",
     "phonetic": "/blæk/",
     "meaning": "adj. 黑色的",
-    "sentence": "The cat is black."
+    "sentence": "The cat is black.",
+    "gameMeaningZh": "黑色的"
   },
   {
     "word": "blackboard",
     "phonetic": "/ˈblækbɔːd/",
     "meaning": "n. 黑板",
-    "sentence": "Look at the blackboard."
+    "sentence": "Look at the blackboard.",
+    "gameMeaningZh": "黑板"
   },
   {
     "word": "blind",
     "phonetic": "/blaɪnd/",
     "meaning": "adj. 盲的",
-    "sentence": "He is a blind man."
+    "sentence": "He is a blind man.",
+    "gameMeaningZh": "盲的"
   },
   {
     "word": "blue",
     "phonetic": "/bluː/",
     "meaning": "adj. 蓝色的",
-    "sentence": "The sky is blue."
+    "sentence": "The sky is blue.",
+    "gameMeaningZh": "蓝色的"
   },
   {
     "word": "boat",
     "phonetic": "/bəʊt/",
     "meaning": "n. 小船",
-    "sentence": "We go by boat."
+    "sentence": "We go by boat.",
+    "gameMeaningZh": "小船"
   },
   {
     "word": "body",
     "phonetic": "/ˈbɒdi/",
     "meaning": "n. 身体",
-    "sentence": "Exercise your body."
+    "sentence": "Exercise your body.",
+    "gameMeaningZh": "身体"
   },
   {
     "word": "book",
     "phonetic": "/bʊk/",
     "meaning": "n. 书",
-    "sentence": "This is an English book."
+    "sentence": "This is an English book.",
+    "gameMeaningZh": "书"
   },
   {
     "word": "bookshelf",
     "phonetic": "/ˈbʊkʃelf/",
     "meaning": "n. 书架",
-    "sentence": "Books are on the shelf."
+    "sentence": "Books are on the shelf.",
+    "gameMeaningZh": "书架"
   },
   {
     "word": "both",
     "phonetic": "/bəʊθ/",
     "meaning": "pron. 两者都",
-    "sentence": "Both of us are students."
+    "sentence": "Both of us are students.",
+    "gameMeaningZh": "两者都"
   },
   {
     "word": "bottle",
     "phonetic": "/ˈbɒtl/",
     "meaning": "n. 瓶子",
-    "sentence": "This is a water bottle."
+    "sentence": "This is a water bottle.",
+    "gameMeaningZh": "瓶子"
   },
   {
     "word": "bottom",
     "phonetic": "/ˈbɒtəm/",
     "meaning": "n. 底部",
-    "sentence": "At the bottom of the cup."
+    "sentence": "At the bottom of the cup.",
+    "gameMeaningZh": "底部"
   },
   {
     "word": "bowl",
     "phonetic": "/bəʊl/",
     "meaning": "n. 碗",
-    "sentence": "I eat rice in a bowl."
+    "sentence": "I eat rice in a bowl.",
+    "gameMeaningZh": "碗"
   },
   {
     "word": "box",
     "phonetic": "/bɒks/",
     "meaning": "n. 盒子",
-    "sentence": "It is in the box."
+    "sentence": "It is in the box.",
+    "gameMeaningZh": "盒子"
   },
   {
     "word": "boy",
     "phonetic": "/bɔɪ/",
     "meaning": "n. 男孩",
-    "sentence": "He is a good boy."
+    "sentence": "He is a good boy.",
+    "gameMeaningZh": "男孩"
   },
   {
     "word": "brain",
     "phonetic": "/breɪn/",
     "meaning": "n. 大脑",
-    "sentence": "Use your brain."
+    "sentence": "Use your brain.",
+    "gameMeaningZh": "大脑"
   },
   {
     "word": "bread",
     "phonetic": "/bred/",
     "meaning": "n. 面包",
-    "sentence": "I like bread."
+    "sentence": "I like bread.",
+    "gameMeaningZh": "面包"
   },
   {
     "word": "break",
     "phonetic": "/breɪk/",
     "meaning": "v. 打破；弄坏",
-    "sentence": "Don't break the glass."
+    "sentence": "Don't break the glass.",
+    "gameMeaningZh": "打破"
   },
   {
     "word": "breakfast",
     "phonetic": "/ˈbrekfəst/",
     "meaning": "n. 早餐",
-    "sentence": "I eat breakfast at 7."
+    "sentence": "I eat breakfast at 7.",
+    "gameMeaningZh": "早餐"
   },
   {
     "word": "bridge",
     "phonetic": "/brɪdʒ/",
     "meaning": "n. 桥",
-    "sentence": "This is a bridge."
+    "sentence": "This is a bridge.",
+    "gameMeaningZh": "桥"
   },
   {
     "word": "bright",
     "phonetic": "/braɪt/",
     "meaning": "adj. 明亮的",
-    "sentence": "The room is bright."
+    "sentence": "The room is bright.",
+    "gameMeaningZh": "明亮的"
   },
   {
     "word": "bring",
     "phonetic": "/brɪŋ/",
     "meaning": "v. 带来；拿来",
-    "sentence": "Bring me a book."
+    "sentence": "Bring me a book.",
+    "gameMeaningZh": "带来"
   },
   {
     "word": "brother",
     "phonetic": "/ˈbrʌðə/",
     "meaning": "n. 兄弟",
-    "sentence": "He is my brother."
+    "sentence": "He is my brother.",
+    "gameMeaningZh": "兄弟"
   },
   {
     "word": "brown",
     "phonetic": "/braʊn/",
     "meaning": "adj. 棕色的",
-    "sentence": "My bag is brown."
+    "sentence": "My bag is brown.",
+    "gameMeaningZh": "棕色的"
   },
   {
     "word": "brush",
     "phonetic": "/brʌʃ/",
     "meaning": "v. 刷",
-    "sentence": "Brush your teeth."
+    "sentence": "Brush your teeth.",
+    "gameMeaningZh": "刷"
   },
   {
     "word": "build",
     "phonetic": "/bɪld/",
     "meaning": "v. 建造",
-    "sentence": "They build a house."
+    "sentence": "They build a house.",
+    "gameMeaningZh": "建造"
   },
   {
     "word": "building",
     "phonetic": "/ˈbɪldɪŋ/",
     "meaning": "n. 建筑物",
-    "sentence": "It is a tall building."
+    "sentence": "It is a tall building.",
+    "gameMeaningZh": "建筑物"
   },
   {
     "word": "burn",
     "phonetic": "/bɜːn/",
     "meaning": "v. 燃烧",
-    "sentence": "Fire burns wood."
+    "sentence": "Fire burns wood.",
+    "gameMeaningZh": "燃烧"
   },
   {
     "word": "bus",
     "phonetic": "/bʌs/",
     "meaning": "n. 公共汽车",
-    "sentence": "I go to school by bus."
+    "sentence": "I go to school by bus.",
+    "gameMeaningZh": "公共汽车"
   },
   {
     "word": "business",
     "phonetic": "/ˈbɪznəs/",
     "meaning": "n. 生意；商业",
-    "sentence": "He has a small business."
+    "sentence": "He has a small business.",
+    "gameMeaningZh": "生意"
   },
   {
     "word": "busy",
     "phonetic": "/ˈbɪzi/",
     "meaning": "adj. 忙的",
-    "sentence": "I am busy today."
+    "sentence": "I am busy today.",
+    "gameMeaningZh": "忙的"
   },
   {
     "word": "but",
     "phonetic": "/bʌt/",
     "meaning": "conj. 但是",
-    "sentence": "I like it but it's expensive."
+    "sentence": "I like it but it's expensive.",
+    "gameMeaningZh": "但是"
   },
   {
     "word": "butter",
     "phonetic": "/ˈbʌtə/",
     "meaning": "n. 黄油",
-    "sentence": "I put butter on bread."
+    "sentence": "I put butter on bread.",
+    "gameMeaningZh": "黄油"
   },
   {
     "word": "buy",
     "phonetic": "/baɪ/",
     "meaning": "v. 买",
-    "sentence": "I buy a new pen."
+    "sentence": "I buy a new pen.",
+    "gameMeaningZh": "买"
   },
   {
     "word": "by",
     "phonetic": "/baɪ/",
     "meaning": "prep. 靠近；在……旁边",
-    "sentence": "I go by bus."
+    "sentence": "I go by bus.",
+    "gameMeaningZh": "靠近"
   },
   {
     "word": "cake",
     "phonetic": "/keɪk/",
     "meaning": "n. 蛋糕",
-    "sentence": "I eat a cake."
+    "sentence": "I eat a cake.",
+    "gameMeaningZh": "蛋糕"
   },
   {
     "word": "call",
     "phonetic": "/kɔːl/",
     "meaning": "v. 打电话；称呼",
-    "sentence": "Call me later."
+    "sentence": "Call me later.",
+    "gameMeaningZh": "打电话"
   },
   {
     "word": "camel",
     "phonetic": "/ˈkæml/",
     "meaning": "n. 骆驼",
-    "sentence": "A camel lives in desert."
+    "sentence": "A camel lives in desert.",
+    "gameMeaningZh": "骆驼"
   },
   {
     "word": "camera",
     "phonetic": "/ˈkæmərə/",
     "meaning": "n. 照相机",
-    "sentence": "I take photos with camera."
+    "sentence": "I take photos with camera.",
+    "gameMeaningZh": "照相机"
   },
   {
     "word": "camp",
     "phonetic": "/kæmp/",
     "meaning": "n. 野营",
-    "sentence": "We go camping."
+    "sentence": "We go camping.",
+    "gameMeaningZh": "野营"
   },
   {
     "word": "can",
     "phonetic": "/kæn/",
     "meaning": "modal v. 能；会",
-    "sentence": "I can swim."
+    "sentence": "I can swim.",
+    "gameMeaningZh": "v. 能"
   },
   {
     "word": "Canada",
     "phonetic": "/ˈkænədə/",
     "meaning": "n. 加拿大",
-    "sentence": "He lives in Canada."
+    "sentence": "He lives in Canada.",
+    "gameMeaningZh": "加拿大"
   },
   {
     "word": "Canadian",
     "phonetic": "/kəˈneɪdiən/",
     "meaning": "adj. 加拿大的",
-    "sentence": "She is Canadian."
+    "sentence": "She is Canadian.",
+    "gameMeaningZh": "加拿大的"
   },
   {
     "word": "candle",
     "phonetic": "/ˈkændl/",
     "meaning": "n. 蜡烛",
-    "sentence": "Light a candle."
+    "sentence": "Light a candle.",
+    "gameMeaningZh": "蜡烛"
   },
   {
     "word": "cap",
     "phonetic": "/kæp/",
     "meaning": "n. 帽子",
-    "sentence": "I wear a cap."
+    "sentence": "I wear a cap.",
+    "gameMeaningZh": "帽子"
   },
   {
     "word": "capital",
     "phonetic": "/ˈkæpɪtl/",
     "meaning": "n. 首都",
-    "sentence": "Beijing is capital of China."
+    "sentence": "Beijing is capital of China.",
+    "gameMeaningZh": "首都"
   },
   {
     "word": "captain",
     "phonetic": "/ˈkæptɪn/",
     "meaning": "n. 队长；船长",
-    "sentence": "He is team captain."
+    "sentence": "He is team captain.",
+    "gameMeaningZh": "队长"
   },
   {
     "word": "car",
     "phonetic": "/kɑː/",
     "meaning": "n. 小汽车",
-    "sentence": "I go by car."
+    "sentence": "I go by car.",
+    "gameMeaningZh": "小汽车"
   },
   {
     "word": "card",
     "phonetic": "/kɑːd/",
     "meaning": "n. 卡片",
-    "sentence": "This is a ID card."
+    "sentence": "This is a ID card.",
+    "gameMeaningZh": "卡片"
   },
   {
     "word": "care",
     "phonetic": "/keə/",
     "meaning": "v. 关心；在乎",
-    "sentence": "I care about you."
+    "sentence": "I care about you.",
+    "gameMeaningZh": "关心"
   },
   {
     "word": "careful",
     "phonetic": "/ˈkeəfl/",
     "meaning": "adj. 小心的",
-    "sentence": "Be careful!"
+    "sentence": "Be careful!",
+    "gameMeaningZh": "小心的"
   },
   {
     "word": "careless",
     "phonetic": "/ˈkeələs/",
     "meaning": "adj. 粗心的",
-    "sentence": "He is a careless boy."
+    "sentence": "He is a careless boy.",
+    "gameMeaningZh": "粗心的"
   },
   {
     "word": "carry",
     "phonetic": "/ˈkæri/",
     "meaning": "v. 拿；搬",
-    "sentence": "Carry this box."
+    "sentence": "Carry this box.",
+    "gameMeaningZh": "拿"
   },
   {
     "word": "cat",
     "phonetic": "/kæt/",
     "meaning": "n. 猫",
-    "sentence": "I have a cat."
+    "sentence": "I have a cat.",
+    "gameMeaningZh": "猫"
   },
   {
     "word": "catch",
     "phonetic": "/kætʃ/",
     "meaning": "v. 抓住；赶上",
-    "sentence": "Catch the ball."
+    "sentence": "Catch the ball.",
+    "gameMeaningZh": "抓住"
   },
   {
     "word": "cause",
     "phonetic": "/kɔːz/",
     "meaning": "v. 引起",
-    "sentence": "It causes trouble."
+    "sentence": "It causes trouble.",
+    "gameMeaningZh": "引起"
   },
   {
     "word": "cave",
     "phonetic": "/keɪv/",
     "meaning": "n. 山洞",
-    "sentence": "We see a cave."
+    "sentence": "We see a cave.",
+    "gameMeaningZh": "山洞"
   },
   {
     "word": "center",
     "phonetic": "/ˈsentə/",
     "meaning": "n. 中心",
-    "sentence": "In the center of city."
+    "sentence": "In the center of city.",
+    "gameMeaningZh": "中心"
   },
   {
     "word": "century",
     "phonetic": "/ˈsentʃəri/",
     "meaning": "n. 世纪",
-    "sentence": "21st century."
+    "sentence": "21st century.",
+    "gameMeaningZh": "世纪"
   },
   {
     "word": "certain",
     "phonetic": "/ˈsɜːtn/",
     "meaning": "adj. 确实的",
-    "sentence": "I am certain."
+    "sentence": "I am certain.",
+    "gameMeaningZh": "确实的"
   },
   {
     "word": "certainly",
     "phonetic": "/ˈsɜːtnli/",
     "meaning": "adv. 当然",
-    "sentence": "Certainly!"
+    "sentence": "Certainly!",
+    "gameMeaningZh": "当然"
   },
   {
     "word": "chair",
     "phonetic": "/tʃeə/",
     "meaning": "n. 椅子",
-    "sentence": "Sit on the chair."
+    "sentence": "Sit on the chair.",
+    "gameMeaningZh": "椅子"
   },
   {
     "word": "chalk",
     "phonetic": "/tʃɔːk/",
     "meaning": "n. 粉笔",
-    "sentence": "Write with chalk."
+    "sentence": "Write with chalk.",
+    "gameMeaningZh": "粉笔"
   },
   {
     "word": "chance",
     "phonetic": "/tʃɑːns/",
     "meaning": "n. 机会",
-    "sentence": "It is a good chance."
+    "sentence": "It is a good chance.",
+    "gameMeaningZh": "机会"
   },
   {
     "word": "change",
     "phonetic": "/tʃeɪndʒ/",
     "meaning": "v. 改变",
-    "sentence": "I want to change."
+    "sentence": "I want to change.",
+    "gameMeaningZh": "改变"
   },
   {
     "word": "chart",
     "phonetic": "/tʃɑːt/",
     "meaning": "n. 图表",
-    "sentence": "Look at the chart."
+    "sentence": "Look at the chart.",
+    "gameMeaningZh": "图表"
   },
   {
     "word": "chat",
     "phonetic": "/tʃæt/",
     "meaning": "v. 聊天",
-    "sentence": "We chat online."
+    "sentence": "We chat online.",
+    "gameMeaningZh": "聊天"
   },
   {
     "word": "cheap",
     "phonetic": "/tʃiːp/",
     "meaning": "adj. 便宜的",
-    "sentence": "It is very cheap."
+    "sentence": "It is very cheap.",
+    "gameMeaningZh": "便宜的"
   },
   {
     "word": "check",
     "phonetic": "/tʃek/",
     "meaning": "v. 检查",
-    "sentence": "Check your homework."
+    "sentence": "Check your homework.",
+    "gameMeaningZh": "检查"
   },
   {
     "word": "cheer",
     "phonetic": "/tʃɪə/",
     "meaning": "v. 欢呼；加油",
-    "sentence": "Cheer up!"
+    "sentence": "Cheer up!",
+    "gameMeaningZh": "欢呼"
   },
   {
     "word": "cheese",
     "phonetic": "/tʃiːz/",
     "meaning": "n. 奶酪",
-    "sentence": "I like cheese."
+    "sentence": "I like cheese.",
+    "gameMeaningZh": "奶酪"
   },
   {
     "word": "chemistry",
     "phonetic": "/ˈkemɪstri/",
     "meaning": "n. 化学",
-    "sentence": "I learn chemistry."
+    "sentence": "I learn chemistry.",
+    "gameMeaningZh": "化学"
   },
   {
     "word": "chicken",
     "phonetic": "/ˈtʃɪkɪn/",
     "meaning": "n. 鸡肉；小鸡",
-    "sentence": "I eat chicken."
+    "sentence": "I eat chicken.",
+    "gameMeaningZh": "鸡肉"
   },
   {
     "word": "child",
     "phonetic": "/tʃaɪld/",
     "meaning": "n. 孩子",
-    "sentence": "He is a child."
+    "sentence": "He is a child.",
+    "gameMeaningZh": "孩子"
   },
   {
     "word": "children",
     "phonetic": "/ˈtʃɪldrən/",
     "meaning": "n. 孩子们",
-    "sentence": "The children play."
+    "sentence": "The children play.",
+    "gameMeaningZh": "孩子们"
   },
   {
     "word": "China",
     "phonetic": "/ˈtʃaɪnə/",
     "meaning": "n. 中国",
-    "sentence": "I live in China."
+    "sentence": "I live in China.",
+    "gameMeaningZh": "中国"
   },
   {
     "word": "Chinese",
     "phonetic": "/ˌtʃaɪˈniːz/",
     "meaning": "adj. 中国的",
-    "sentence": "I am Chinese."
+    "sentence": "I am Chinese.",
+    "gameMeaningZh": "中国的"
   },
   {
     "word": "chocolate",
     "phonetic": "/ˈtʃɒklət/",
     "meaning": "n. 巧克力",
-    "sentence": "I like chocolate."
+    "sentence": "I like chocolate.",
+    "gameMeaningZh": "巧克力"
   },
   {
     "word": "choice",
     "phonetic": "/tʃɔɪs/",
     "meaning": "n. 选择",
-    "sentence": "It is my choice."
+    "sentence": "It is my choice.",
+    "gameMeaningZh": "选择"
   },
   {
     "word": "choose",
     "phonetic": "/tʃuːz/",
     "meaning": "v. 选择",
-    "sentence": "Choose a book."
+    "sentence": "Choose a book.",
+    "gameMeaningZh": "挑选"
   },
   {
     "word": "church",
     "phonetic": "/tʃɜːtʃ/",
     "meaning": "n. 教堂",
-    "sentence": "We go to church."
+    "sentence": "We go to church.",
+    "gameMeaningZh": "教堂"
   },
   {
     "word": "cinema",
     "phonetic": "/ˈsɪnəmə/",
     "meaning": "n. 电影院",
-    "sentence": "We watch movie in cinema."
+    "sentence": "We watch movie in cinema.",
+    "gameMeaningZh": "电影院"
   },
   {
     "word": "city",
     "phonetic": "/ˈsɪti/",
     "meaning": "n. 城市",
-    "sentence": "This is a big city."
+    "sentence": "This is a big city.",
+    "gameMeaningZh": "城市"
   },
   {
     "word": "class",
     "phonetic": "/klɑːs/",
     "meaning": "n. 班级；课",
-    "sentence": "Class begins."
+    "sentence": "Class begins.",
+    "gameMeaningZh": "班级"
   },
   {
     "word": "classmate",
     "phonetic": "/ˈklɑːsmeɪt/",
     "meaning": "n. 同班同学",
-    "sentence": "He is my classmate."
+    "sentence": "He is my classmate.",
+    "gameMeaningZh": "同班同学"
   },
   {
     "word": "classroom",
     "phonetic": "/ˈklɑːsruːm/",
     "meaning": "n. 教室",
-    "sentence": "This is our classroom."
+    "sentence": "This is our classroom.",
+    "gameMeaningZh": "教室"
   },
   {
     "word": "clean",
     "phonetic": "/kliːn/",
     "meaning": "v. 打扫；弄干净",
-    "sentence": "Clean the room."
+    "sentence": "Clean the room.",
+    "gameMeaningZh": "打扫"
   },
   {
     "word": "clear",
     "phonetic": "/klɪə/",
     "meaning": "adj. 清晰的",
-    "sentence": "It is clear now."
+    "sentence": "It is clear now.",
+    "gameMeaningZh": "清晰的"
   },
   {
     "word": "clever",
     "phonetic": "/ˈklevə/",
     "meaning": "adj. 聪明的",
-    "sentence": "He is a clever boy."
+    "sentence": "He is a clever boy.",
+    "gameMeaningZh": "聪明的"
   },
   {
     "word": "climb",
     "phonetic": "/klaɪm/",
     "meaning": "v. 爬",
-    "sentence": "Climb the tree."
+    "sentence": "Climb the tree.",
+    "gameMeaningZh": "爬"
   },
   {
     "word": "clock",
     "phonetic": "/klɒk/",
     "meaning": "n. 时钟",
-    "sentence": "Look at the clock."
+    "sentence": "Look at the clock.",
+    "gameMeaningZh": "时钟"
   },
   {
     "word": "close",
     "phonetic": "/kləʊz/",
     "meaning": "v. 关",
-    "sentence": "Close the door."
+    "sentence": "Close the door.",
+    "gameMeaningZh": "关"
   },
   {
     "word": "clothes",
     "phonetic": "/kləʊðz/",
     "meaning": "n. 衣服",
-    "sentence": "Wash your clothes."
+    "sentence": "Wash your clothes.",
+    "gameMeaningZh": "衣服"
   },
   {
     "word": "cloud",
     "phonetic": "/klaʊd/",
     "meaning": "n. 云",
-    "sentence": "White clouds in sky."
+    "sentence": "White clouds in sky.",
+    "gameMeaningZh": "云"
   },
   {
     "word": "cloudy",
     "phonetic": "/ˈklaʊdi/",
     "meaning": "adj. 多云的",
-    "sentence": "It is cloudy today."
+    "sentence": "It is cloudy today.",
+    "gameMeaningZh": "多云的"
   },
   {
     "word": "club",
     "phonetic": "/klʌb/",
     "meaning": "n. 俱乐部",
-    "sentence": "I join a club."
+    "sentence": "I join a club.",
+    "gameMeaningZh": "俱乐部"
   },
   {
     "word": "coach",
     "phonetic": "/kəʊtʃ/",
     "meaning": "n. 教练",
-    "sentence": "He is our coach."
+    "sentence": "He is our coach.",
+    "gameMeaningZh": "教练"
   },
   {
     "word": "coal",
     "phonetic": "/kəʊl/",
     "meaning": "n. 煤",
-    "sentence": "We use coal for fire."
+    "sentence": "We use coal for fire.",
+    "gameMeaningZh": "煤"
   },
   {
     "word": "coast",
     "phonetic": "/kəʊst/",
     "meaning": "n. 海岸",
-    "sentence": "We live on the coast."
+    "sentence": "We live on the coast.",
+    "gameMeaningZh": "海岸"
   },
   {
     "word": "coffee",
     "phonetic": "/ˈkɒfi/",
     "meaning": "n. 咖啡",
-    "sentence": "I drink coffee."
+    "sentence": "I drink coffee.",
+    "gameMeaningZh": "咖啡"
   },
   {
     "word": "coin",
     "phonetic": "/kɔɪn/",
     "meaning": "n. 硬币",
-    "sentence": "I have a coin."
+    "sentence": "I have a coin.",
+    "gameMeaningZh": "硬币"
   },
   {
     "word": "cold",
     "phonetic": "/kəʊld/",
     "meaning": "adj. 冷的",
-    "sentence": "It is cold today."
+    "sentence": "It is cold today.",
+    "gameMeaningZh": "冷的"
   },
   {
     "word": "collect",
     "phonetic": "/kəˈlekt/",
     "meaning": "v. 收集",
-    "sentence": "I collect stamps."
+    "sentence": "I collect stamps.",
+    "gameMeaningZh": "收集"
   },
   {
     "word": "college",
     "phonetic": "/ˈkɒlɪdʒ/",
     "meaning": "n. 大学；学院",
-    "sentence": "I go to college."
+    "sentence": "I go to college.",
+    "gameMeaningZh": "大学"
   },
   {
     "word": "colour",
     "phonetic": "/ˈkʌlə/",
     "meaning": "n. 颜色",
-    "sentence": "What color is it?"
+    "sentence": "What color is it?",
+    "gameMeaningZh": "颜色"
   },
   {
     "word": "come",
     "phonetic": "/kʌm/",
     "meaning": "v. 来",
-    "sentence": "Come here,please."
+    "sentence": "Come here,please.",
+    "gameMeaningZh": "来"
   },
   {
     "word": "comfortable",
     "phonetic": "/ˈkʌmftəbl/",
     "meaning": "adj. 舒适的",
-    "sentence": "The chair is comfortable."
+    "sentence": "The chair is comfortable.",
+    "gameMeaningZh": "舒适的"
   },
   {
     "word": "common",
     "phonetic": "/ˈkɒmən/",
     "meaning": "adj. 普通的",
-    "sentence": "It is common."
+    "sentence": "It is common.",
+    "gameMeaningZh": "普通的"
   },
   {
     "word": "communicate",
     "phonetic": "/kəˈmjuːnɪkeɪt/",
     "meaning": "v. 交流",
-    "sentence": "We communicate well."
+    "sentence": "We communicate well.",
+    "gameMeaningZh": "交流"
   },
   {
     "word": "community",
     "phonetic": "/kəˈmjuːnəti/",
     "meaning": "n. 社区",
-    "sentence": "This is our community."
+    "sentence": "This is our community.",
+    "gameMeaningZh": "社区"
   },
   {
     "word": "company",
     "phonetic": "/ˈkʌmpəni/",
     "meaning": "n. 公司",
-    "sentence": "He works in a company."
+    "sentence": "He works in a company.",
+    "gameMeaningZh": "公司"
   },
   {
     "word": "compare",
     "phonetic": "/kəmˈpeə/",
     "meaning": "v. 比较",
-    "sentence": "Compare the two."
+    "sentence": "Compare the two.",
+    "gameMeaningZh": "比较"
   },
   {
     "word": "competition",
     "phonetic": "/ˌkɒmpəˈtɪʃn/",
     "meaning": "n. 比赛；竞争",
-    "sentence": "We join a competition."
+    "sentence": "We join a competition.",
+    "gameMeaningZh": "比赛"
   },
   {
     "word": "complete",
     "phonetic": "/kəmˈpliːt/",
     "meaning": "v. 完成",
-    "sentence": "Complete your work."
+    "sentence": "Complete your work.",
+    "gameMeaningZh": "完成"
   },
   {
     "word": "computer",
     "phonetic": "/kəmˈpjuːtə/",
     "meaning": "n. 电脑",
-    "sentence": "I use a computer."
+    "sentence": "I use a computer.",
+    "gameMeaningZh": "电脑"
   },
   {
     "word": "concert",
     "phonetic": "/ˈkɒnsət/",
     "meaning": "n. 音乐会",
-    "sentence": "We go to a concert."
+    "sentence": "We go to a concert.",
+    "gameMeaningZh": "音乐会"
   },
   {
     "word": "condition",
     "phonetic": "/kənˈdɪʃn/",
     "meaning": "n. 条件；状况",
-    "sentence": "In good condition."
+    "sentence": "In good condition.",
+    "gameMeaningZh": "条件"
   },
   {
     "word": "connect",
     "phonetic": "/kəˈnekt/",
     "meaning": "v. 连接",
-    "sentence": "Connect the wire."
+    "sentence": "Connect the wire.",
+    "gameMeaningZh": "连接"
   },
   {
     "word": "consider",
     "phonetic": "/kənˈsɪdə/",
     "meaning": "v. 考虑",
-    "sentence": "I consider the plan."
+    "sentence": "I consider the plan.",
+    "gameMeaningZh": "考虑"
   },
   {
     "word": "continue",
     "phonetic": "/kənˈtɪnjuː/",
     "meaning": "v. 继续",
-    "sentence": "Continue working."
+    "sentence": "Continue working.",
+    "gameMeaningZh": "继续"
   },
   {
     "word": "control",
     "phonetic": "/kənˈtrəʊl/",
     "meaning": "v. 控制",
-    "sentence": "Control your temper."
+    "sentence": "Control your temper.",
+    "gameMeaningZh": "控制"
   },
   {
     "word": "conversation",
     "phonetic": "/ˌkɒnvəˈseɪʃn/",
     "meaning": "n. 谈话",
-    "sentence": "We have a conversation."
+    "sentence": "We have a conversation.",
+    "gameMeaningZh": "谈话"
   },
   {
     "word": "cook",
     "phonetic": "/kʊk/",
     "meaning": "v. 烹调；煮",
-    "sentence": "I cook dinner."
+    "sentence": "I cook dinner.",
+    "gameMeaningZh": "烹调"
   },
   {
     "word": "cookie",
     "phonetic": "/ˈkʊki/",
     "meaning": "n. 小甜饼",
-    "sentence": "I eat a cookie."
+    "sentence": "I eat a cookie.",
+    "gameMeaningZh": "小甜饼"
   },
   {
     "word": "cool",
     "phonetic": "/kuːl/",
     "meaning": "adj. 凉爽的",
-    "sentence": "It is cool in autumn."
+    "sentence": "It is cool in autumn.",
+    "gameMeaningZh": "凉爽的"
   },
   {
     "word": "copy",
     "phonetic": "/ˈkɒpi/",
     "meaning": "v. 复制；抄写",
-    "sentence": "Copy the word."
+    "sentence": "Copy the word.",
+    "gameMeaningZh": "复制"
   },
   {
     "word": "corner",
     "phonetic": "/ˈkɔːnə/",
     "meaning": "n. 角落",
-    "sentence": "In the corner of room."
+    "sentence": "In the corner of room.",
+    "gameMeaningZh": "角落"
   },
   {
     "word": "correct",
     "phonetic": "/kəˈrekt/",
     "meaning": "adj. 正确的",
-    "sentence": "Your answer is correct."
+    "sentence": "Your answer is correct.",
+    "gameMeaningZh": "正确的"
   },
   {
     "word": "cost",
     "phonetic": "/kɒst/",
     "meaning": "v. 花费",
-    "sentence": "It costs 10 yuan."
+    "sentence": "It costs 10 yuan.",
+    "gameMeaningZh": "花费"
   },
   {
     "word": "cotton",
     "phonetic": "/ˈkɒtn/",
     "meaning": "n. 棉花",
-    "sentence": "This shirt is cotton."
+    "sentence": "This shirt is cotton.",
+    "gameMeaningZh": "棉花"
   },
   {
     "word": "cough",
     "phonetic": "/kɒf/",
     "meaning": "v. 咳嗽",
-    "sentence": "I have a cough."
+    "sentence": "I have a cough.",
+    "gameMeaningZh": "咳嗽"
   },
   {
     "word": "could",
     "phonetic": "/kʊd/",
     "meaning": "modal v. 能；可以",
-    "sentence": "Could you help me?"
+    "sentence": "Could you help me?",
+    "gameMeaningZh": "可以"
   },
   {
     "word": "count",
     "phonetic": "/kaʊnt/",
     "meaning": "v. 数",
-    "sentence": "Count from 1 to 10."
+    "sentence": "Count from 1 to 10.",
+    "gameMeaningZh": "数"
   },
   {
     "word": "country",
     "phonetic": "/ˈkʌntri/",
     "meaning": "n. 国家；农村",
-    "sentence": "China is my country."
+    "sentence": "China is my country.",
+    "gameMeaningZh": "国家"
   },
   {
     "word": "couple",
     "phonetic": "/ˈkʌpl/",
     "meaning": "n. 夫妇；一对",
-    "sentence": "They are a couple."
+    "sentence": "They are a couple.",
+    "gameMeaningZh": "夫妇"
   },
   {
     "word": "courage",
     "phonetic": "/ˈkʌrɪdʒ/",
     "meaning": "n. 勇气",
-    "sentence": "He has courage."
+    "sentence": "He has courage.",
+    "gameMeaningZh": "勇气"
   },
   {
     "word": "course",
     "phonetic": "/kɔːs/",
     "meaning": "n. 课程；过程",
-    "sentence": "I take this course."
+    "sentence": "I take this course.",
+    "gameMeaningZh": "课程"
   },
   {
     "word": "cousin",
     "phonetic": "/ˈkʌzn/",
     "meaning": "n. 堂（表）兄弟/姐妹",
-    "sentence": "He is my cousin."
+    "sentence": "He is my cousin.",
+    "gameMeaningZh": "堂（表）兄弟/姐妹"
   },
   {
     "word": "cover",
     "phonetic": "/ˈkʌvə/",
     "meaning": "v. 覆盖",
-    "sentence": "Cover the book."
+    "sentence": "Cover the book.",
+    "gameMeaningZh": "覆盖"
   },
   {
     "word": "crazy",
     "phonetic": "/ˈkreɪzi/",
     "meaning": "adj. 疯狂的",
-    "sentence": "It is a crazy idea."
+    "sentence": "It is a crazy idea.",
+    "gameMeaningZh": "疯狂的"
   },
   {
     "word": "create",
     "phonetic": "/kriˈeɪt/",
     "meaning": "v. 创造",
-    "sentence": "Create a new world."
+    "sentence": "Create a new world.",
+    "gameMeaningZh": "创造"
   },
   {
     "word": "cross",
     "phonetic": "/krɒs/",
     "meaning": "v. 穿过",
-    "sentence": "Cross the street."
+    "sentence": "Cross the street.",
+    "gameMeaningZh": "穿过"
   },
   {
     "word": "cry",
     "phonetic": "/kraɪ/",
     "meaning": "v. 哭；喊",
-    "sentence": "Don't cry."
+    "sentence": "Don't cry.",
+    "gameMeaningZh": "哭"
   },
   {
     "word": "culture",
     "phonetic": "/ˈkʌltʃə/",
     "meaning": "n. 文化",
-    "sentence": "We learn different culture."
+    "sentence": "We learn different culture.",
+    "gameMeaningZh": "文化"
   },
   {
     "word": "cup",
     "phonetic": "/kʌp/",
     "meaning": "n. 杯子",
-    "sentence": "This is a cup."
+    "sentence": "This is a cup.",
+    "gameMeaningZh": "杯子"
   },
   {
     "word": "curious",
     "phonetic": "/ˈkjʊəriəs/",
     "meaning": "adj. 好奇的",
-    "sentence": "He is curious."
+    "sentence": "He is curious.",
+    "gameMeaningZh": "好奇的"
   },
   {
     "word": "current",
     "phonetic": "/ˈkʌrənt/",
     "meaning": "adj. 当前的",
-    "sentence": "Current situation."
+    "sentence": "Current situation.",
+    "gameMeaningZh": "当前的"
   },
   {
     "word": "custom",
     "phonetic": "/ˈkʌstəm/",
     "meaning": "n. 习俗；习惯",
-    "sentence": "It is our custom."
+    "sentence": "It is our custom.",
+    "gameMeaningZh": "习俗"
   },
   {
     "word": "customer",
     "phonetic": "/ˈkʌstəmə/",
     "meaning": "n. 顾客",
-    "sentence": "She is a customer."
+    "sentence": "She is a customer.",
+    "gameMeaningZh": "顾客"
   },
   {
     "word": "cut",
     "phonetic": "/kʌt/",
     "meaning": "v. 切；割",
-    "sentence": "Cut the apple."
+    "sentence": "Cut the apple.",
+    "gameMeaningZh": "切"
   },
   {
     "word": "daily",
     "phonetic": "/ˈdeɪli/",
     "meaning": "adj. 每日的；日常的",
-    "sentence": "This is my daily work."
+    "sentence": "This is my daily work.",
+    "gameMeaningZh": "日常的"
   },
   {
     "word": "dance",
     "phonetic": "/dɑːns/",
     "meaning": "v. 跳舞",
-    "sentence": "I can dance well."
+    "sentence": "I can dance well.",
+    "gameMeaningZh": "跳舞"
   },
   {
     "word": "dangerous",
     "phonetic": "/ˈdeɪndʒərəs/",
     "meaning": "adj. 危险的",
-    "sentence": "It's dangerous to swim here."
+    "sentence": "It's dangerous to swim here.",
+    "gameMeaningZh": "危险的"
   },
   {
     "word": "dark",
     "phonetic": "/dɑːk/",
     "meaning": "adj. 黑暗的；深色的",
-    "sentence": "It's dark at night."
+    "sentence": "It's dark at night.",
+    "gameMeaningZh": "黑暗的"
   },
   {
     "word": "date",
     "phonetic": "/deɪt/",
     "meaning": "n. 日期；约会",
-    "sentence": "What's the date today?"
+    "sentence": "What's the date today?",
+    "gameMeaningZh": "日期"
   },
   {
     "word": "daughter",
     "phonetic": "/ˈdɔːtə(r)/",
     "meaning": "n. 女儿",
-    "sentence": "She is my little daughter."
+    "sentence": "She is my little daughter.",
+    "gameMeaningZh": "女儿"
   },
   {
     "word": "day",
     "phonetic": "/deɪ/",
     "meaning": "n. 天；白天",
-    "sentence": "I have a happy day."
+    "sentence": "I have a happy day.",
+    "gameMeaningZh": "天"
   },
   {
     "word": "dead",
     "phonetic": "/ded/",
     "meaning": "adj. 死的；无生命的",
-    "sentence": "The tree is dead."
+    "sentence": "The tree is dead.",
+    "gameMeaningZh": "死的"
   },
   {
     "word": "decide",
     "phonetic": "/dɪˈsaɪd/",
     "meaning": "v. 决定",
-    "sentence": "I decide to study hard."
+    "sentence": "I decide to study hard.",
+    "gameMeaningZh": "决定"
   },
   {
     "word": "decision",
     "phonetic": "/dɪˈsɪʒn/",
     "meaning": "n. 决定",
-    "sentence": "It's a big decision."
+    "sentence": "It's a big decision.",
+    "gameMeaningZh": "决定结果"
   },
   {
     "word": "deep",
     "phonetic": "/diːp/",
     "meaning": "adj. 深的",
-    "sentence": "The river is very deep."
+    "sentence": "The river is very deep.",
+    "gameMeaningZh": "深的"
   },
   {
     "word": "degree",
     "phonetic": "/dɪˈɡriː/",
     "meaning": "n. 度数；程度",
-    "sentence": "It's 30 degrees today."
+    "sentence": "It's 30 degrees today.",
+    "gameMeaningZh": "度数"
   },
   {
     "word": "delicious",
     "phonetic": "/dɪˈlɪʃəs/",
     "meaning": "adj. 美味的",
-    "sentence": "The cake is delicious."
+    "sentence": "The cake is delicious.",
+    "gameMeaningZh": "美味的"
   },
   {
     "word": "depend",
     "phonetic": "/dɪˈpend/",
     "meaning": "v. 依靠；取决于",
-    "sentence": "You can depend on me."
+    "sentence": "You can depend on me.",
+    "gameMeaningZh": "依靠"
   },
   {
     "word": "describe",
     "phonetic": "/dɪˈskraɪb/",
     "meaning": "v. 描述",
-    "sentence": "Please describe your room."
+    "sentence": "Please describe your room.",
+    "gameMeaningZh": "描述"
   },
   {
     "word": "desk",
     "phonetic": "/desk/",
     "meaning": "n. 书桌",
-    "sentence": "My bag is on the desk."
+    "sentence": "My bag is on the desk.",
+    "gameMeaningZh": "书桌"
   },
   {
     "word": "develop",
     "phonetic": "/dɪˈveləp/",
     "meaning": "v. 发展；培养",
-    "sentence": "We should develop good habits."
+    "sentence": "We should develop good habits.",
+    "gameMeaningZh": "发展"
   },
   {
     "word": "development",
     "phonetic": "/dɪˈveləpmənt/",
     "meaning": "n. 发展",
-    "sentence": "The city is fast in development."
+    "sentence": "The city is fast in development.",
+    "gameMeaningZh": "发展过程"
   },
   {
     "word": "diary",
     "phonetic": "/ˈdaɪəri/",
     "meaning": "n. 日记",
-    "sentence": "I keep a diary every day."
+    "sentence": "I keep a diary every day.",
+    "gameMeaningZh": "日记"
   },
   {
     "word": "dictionary",
     "phonetic": "/ˈdɪkʃənri/",
     "meaning": "n. 词典",
-    "sentence": "Look up the word in a dictionary."
+    "sentence": "Look up the word in a dictionary.",
+    "gameMeaningZh": "词典"
   },
   {
     "word": "die",
     "phonetic": "/daɪ/",
     "meaning": "v. 死；枯萎",
-    "sentence": "Flowers die without water."
+    "sentence": "Flowers die without water.",
+    "gameMeaningZh": "死"
   },
   {
     "word": "difference",
     "phonetic": "/ˈdɪfrəns/",
     "meaning": "n. 不同；差异",
-    "sentence": "There is a difference between them."
+    "sentence": "There is a difference between them.",
+    "gameMeaningZh": "不同"
   },
   {
     "word": "different",
     "phonetic": "/ˈdɪfrənt/",
     "meaning": "adj. 不同的",
-    "sentence": "We are in different classes."
+    "sentence": "We are in different classes.",
+    "gameMeaningZh": "不同的"
   },
   {
     "word": "difficult",
     "phonetic": "/ˈdɪfɪkəlt/",
     "meaning": "adj. 困难的",
-    "sentence": "Math is difficult for me."
+    "sentence": "Math is difficult for me.",
+    "gameMeaningZh": "困难的"
   },
   {
     "word": "difficulty",
     "phonetic": "/ˈdɪfɪkəlti/",
     "meaning": "n. 困难",
-    "sentence": "I have some difficulty in English."
+    "sentence": "I have some difficulty in English.",
+    "gameMeaningZh": "困难"
   },
   {
     "word": "dig",
     "phonetic": "/dɪɡ/",
     "meaning": "v. 挖；掘",
-    "sentence": "He wants to dig a hole."
+    "sentence": "He wants to dig a hole.",
+    "gameMeaningZh": "挖"
   },
   {
     "word": "dinner",
     "phonetic": "/ˈdɪnə(r)/",
     "meaning": "n. 晚餐；正餐",
-    "sentence": "We have dinner at 6 o'clock."
+    "sentence": "We have dinner at 6 o'clock.",
+    "gameMeaningZh": "晚餐"
   },
   {
     "word": "direct",
     "phonetic": "/dəˈrekt/",
     "meaning": "adj. 直接的",
-    "sentence": "Please give a direct answer."
+    "sentence": "Please give a direct answer.",
+    "gameMeaningZh": "直接的"
   },
   {
     "word": "direction",
     "phonetic": "/dəˈrekʃn/",
     "meaning": "n. 方向",
-    "sentence": "Which direction is the hospital?"
+    "sentence": "Which direction is the hospital?",
+    "gameMeaningZh": "方向"
   },
   {
     "word": "director",
     "phonetic": "/dəˈrektə(r)/",
     "meaning": "n. 主任；导演",
-    "sentence": "He is a famous director."
+    "sentence": "He is a famous director.",
+    "gameMeaningZh": "主任"
   },
   {
     "word": "dirty",
     "phonetic": "/ˈdɜːti/",
     "meaning": "adj. 脏的",
-    "sentence": "Your hands are dirty."
+    "sentence": "Your hands are dirty.",
+    "gameMeaningZh": "脏的"
   },
   {
     "word": "disappear",
     "phonetic": "/ˌdɪsəˈpɪə(r)/",
     "meaning": "v. 消失",
-    "sentence": "The car disappeared quickly."
+    "sentence": "The car disappeared quickly.",
+    "gameMeaningZh": "消失"
   },
   {
     "word": "discover",
     "phonetic": "/dɪˈskʌvə(r)/",
     "meaning": "v. 发现",
-    "sentence": "We discover a new secret."
+    "sentence": "We discover a new secret.",
+    "gameMeaningZh": "发现"
   },
   {
     "word": "discovery",
     "phonetic": "/dɪˈskʌvəri/",
     "meaning": "n. 发现",
-    "sentence": "It is a great discovery."
+    "sentence": "It is a great discovery.",
+    "gameMeaningZh": "新发现"
   },
   {
     "word": "discuss",
     "phonetic": "/dɪˈskʌs/",
     "meaning": "v. 讨论",
-    "sentence": "Let's discuss the plan."
+    "sentence": "Let's discuss the plan.",
+    "gameMeaningZh": "讨论"
   },
   {
     "word": "discussion",
     "phonetic": "/dɪˈskʌʃn/",
     "meaning": "n. 讨论",
-    "sentence": "We have a heated discussion."
+    "sentence": "We have a heated discussion.",
+    "gameMeaningZh": "讨论内容"
   },
   {
     "word": "disease",
     "phonetic": "/dɪˈziːz/",
     "meaning": "n. 疾病",
-    "sentence": "Smoking causes disease."
+    "sentence": "Smoking causes disease.",
+    "gameMeaningZh": "疾病"
   },
   {
     "word": "dish",
     "phonetic": "/dɪʃ/",
     "meaning": "n. 盘；菜肴",
-    "sentence": "Wash the dishes after dinner."
+    "sentence": "Wash the dishes after dinner.",
+    "gameMeaningZh": "盘"
   },
   {
     "word": "distance",
     "phonetic": "/ˈdɪstəns/",
     "meaning": "n. 距离",
-    "sentence": "It's a long distance from here."
+    "sentence": "It's a long distance from here.",
+    "gameMeaningZh": "距离"
   },
   {
     "word": "divide",
     "phonetic": "/dɪˈvaɪd/",
     "meaning": "v. 分；划分",
-    "sentence": "Divide the cake into four parts."
+    "sentence": "Divide the cake into four parts.",
+    "gameMeaningZh": "分"
   },
   {
     "word": "do",
     "phonetic": "/duː/",
     "meaning": "v. 做；干",
-    "sentence": "I do my homework every day."
+    "sentence": "I do my homework every day.",
+    "gameMeaningZh": "做"
   },
   {
     "word": "doctor",
     "phonetic": "/ˈdɒktə(r)/",
     "meaning": "n. 医生",
-    "sentence": "I want to be a doctor."
+    "sentence": "I want to be a doctor.",
+    "gameMeaningZh": "医生"
   },
   {
     "word": "dog",
     "phonetic": "/dɒɡ/",
     "meaning": "n. 狗",
-    "sentence": "The dog is my best friend."
+    "sentence": "The dog is my best friend.",
+    "gameMeaningZh": "狗"
   },
   {
     "word": "dollar",
     "phonetic": "/ˈdɒlə(r)/",
     "meaning": "n. 美元",
-    "sentence": "This toy is ten dollars."
+    "sentence": "This toy is ten dollars.",
+    "gameMeaningZh": "美元"
   },
   {
     "word": "door",
     "phonetic": "/dɔː(r)/",
     "meaning": "n. 门",
-    "sentence": "Close the door please."
+    "sentence": "Close the door please.",
+    "gameMeaningZh": "门"
   },
   {
     "word": "double",
     "phonetic": "/ˈdʌbl/",
     "meaning": "adj. 双倍的",
-    "sentence": "I want a double room."
+    "sentence": "I want a double room.",
+    "gameMeaningZh": "双倍的"
   },
   {
     "word": "doubt",
     "phonetic": "/daʊt/",
     "meaning": "v. 怀疑",
-    "sentence": "I don't doubt your words."
+    "sentence": "I don't doubt your words.",
+    "gameMeaningZh": "怀疑"
   },
   {
     "word": "down",
     "phonetic": "/daʊn/",
     "meaning": "adv. 向下",
-    "sentence": "Sit down, please."
+    "sentence": "Sit down, please.",
+    "gameMeaningZh": "向下"
   },
   {
     "word": "draw",
     "phonetic": "/drɔː/",
     "meaning": "v. 画；拉",
-    "sentence": "She likes to draw pictures."
+    "sentence": "She likes to draw pictures.",
+    "gameMeaningZh": "画"
   },
   {
     "word": "dream",
     "phonetic": "/driːm/",
     "meaning": "n. 梦想",
-    "sentence": "My dream is to be a singer."
+    "sentence": "My dream is to be a singer.",
+    "gameMeaningZh": "梦想"
   },
   {
     "word": "dress",
     "phonetic": "/dres/",
     "meaning": "n. 连衣裙",
-    "sentence": "She wears a beautiful dress."
+    "sentence": "She wears a beautiful dress.",
+    "gameMeaningZh": "连衣裙"
   },
   {
     "word": "drink",
     "phonetic": "/drɪŋk/",
     "meaning": "v. 喝；饮",
-    "sentence": "Drink more water every day."
+    "sentence": "Drink more water every day.",
+    "gameMeaningZh": "喝"
   },
   {
     "word": "drive",
     "phonetic": "/draɪv/",
     "meaning": "v. 驾驶",
-    "sentence": "My father can drive a car."
+    "sentence": "My father can drive a car.",
+    "gameMeaningZh": "驾驶"
   },
   {
     "word": "driver",
     "phonetic": "/ˈdraɪvə(r)/",
     "meaning": "n. 司机",
-    "sentence": "He is a bus driver."
+    "sentence": "He is a bus driver.",
+    "gameMeaningZh": "司机"
   },
   {
     "word": "drop",
     "phonetic": "/drɒp/",
     "meaning": "v. 落下；掉下",
-    "sentence": "Don't drop the cup."
+    "sentence": "Don't drop the cup.",
+    "gameMeaningZh": "落下"
   },
   {
     "word": "dry",
     "phonetic": "/draɪ/",
     "meaning": "adj. 干的",
-    "sentence": "The clothes are dry now."
+    "sentence": "The clothes are dry now.",
+    "gameMeaningZh": "干的"
   },
   {
     "word": "duck",
     "phonetic": "/dʌk/",
     "meaning": "n. 鸭子",
-    "sentence": "The duck is swimming."
+    "sentence": "The duck is swimming.",
+    "gameMeaningZh": "鸭子"
   },
   {
     "word": "duty",
     "phonetic": "/ˈdjuːti/",
     "meaning": "n. 责任；义务",
-    "sentence": "It's my duty to help you."
+    "sentence": "It's my duty to help you.",
+    "gameMeaningZh": "责任"
   },
   {
     "word": "each",
     "phonetic": "/iːtʃ/",
     "meaning": "pron. 每个",
-    "sentence": "Each student has a new book."
+    "sentence": "Each student has a new book.",
+    "gameMeaningZh": "每个"
   },
   {
     "word": "ear",
     "phonetic": "/ɪə(r)/",
     "meaning": "n. 耳朵",
-    "sentence": "A rabbit has long ears."
+    "sentence": "A rabbit has long ears.",
+    "gameMeaningZh": "耳朵"
   },
   {
     "word": "early",
     "phonetic": "/ˈɜːli/",
     "meaning": "adv. 早",
-    "sentence": "I get up early every morning."
+    "sentence": "I get up early every morning.",
+    "gameMeaningZh": "早"
   },
   {
     "word": "earth",
     "phonetic": "/ɜːθ/",
     "meaning": "n. 地球；大地",
-    "sentence": "We live on the earth."
+    "sentence": "We live on the earth.",
+    "gameMeaningZh": "地球"
   },
   {
     "word": "east",
     "phonetic": "/iːst/",
     "meaning": "n. 东方",
-    "sentence": "The sun rises in the east."
+    "sentence": "The sun rises in the east.",
+    "gameMeaningZh": "东方"
   },
   {
     "word": "easy",
     "phonetic": "/ˈiːzi/",
     "meaning": "adj. 容易的",
-    "sentence": "English is easy for me."
+    "sentence": "English is easy for me.",
+    "gameMeaningZh": "容易的"
   },
   {
     "word": "eat",
     "phonetic": "/iːt/",
     "meaning": "v. 吃",
-    "sentence": "I eat an apple every day."
+    "sentence": "I eat an apple every day.",
+    "gameMeaningZh": "吃"
   },
   {
     "word": "education",
     "phonetic": "/ˌedʒuˈkeɪʃn/",
     "meaning": "n. 教育",
-    "sentence": "Education is very important."
+    "sentence": "Education is very important.",
+    "gameMeaningZh": "教育"
   },
   {
     "word": "effect",
     "phonetic": "/ɪˈfekt/",
     "meaning": "n. 效果；作用",
-    "sentence": "The medicine has a good effect."
+    "sentence": "The medicine has a good effect.",
+    "gameMeaningZh": "效果"
   },
   {
     "word": "effort",
     "phonetic": "/ˈefət/",
     "meaning": "n. 努力",
-    "sentence": "He made a great effort."
+    "sentence": "He made a great effort.",
+    "gameMeaningZh": "努力"
   },
   {
     "word": "egg",
     "phonetic": "/eɡ/",
     "meaning": "n. 蛋；鸡蛋",
-    "sentence": "I have an egg for breakfast."
+    "sentence": "I have an egg for breakfast.",
+    "gameMeaningZh": "蛋"
   },
   {
     "word": "eight",
     "phonetic": "/eɪt/",
     "meaning": "num. 八",
-    "sentence": "I am eight years old."
+    "sentence": "I am eight years old.",
+    "gameMeaningZh": "八"
   },
   {
     "word": "either",
     "phonetic": "/ˈaɪðə(r)/",
     "meaning": "adv. 或者；也",
-    "sentence": "You can either stay or go."
+    "sentence": "You can either stay or go.",
+    "gameMeaningZh": "或者"
   },
   {
     "word": "electric",
     "phonetic": "/ɪˈlektrɪk/",
     "meaning": "adj. 电的",
-    "sentence": "This is an electric fan."
+    "sentence": "This is an electric fan.",
+    "gameMeaningZh": "电的"
   },
   {
     "word": "elephant",
     "phonetic": "/ˈelɪfənt/",
     "meaning": "n. 大象",
-    "sentence": "An elephant has a long nose."
+    "sentence": "An elephant has a long nose.",
+    "gameMeaningZh": "大象"
   },
   {
     "word": "eleven",
     "phonetic": "/ɪˈlevn/",
     "meaning": "num. 十一",
-    "sentence": "My brother is eleven."
+    "sentence": "My brother is eleven.",
+    "gameMeaningZh": "十一"
   },
   {
     "word": "else",
     "phonetic": "/els/",
     "meaning": "adj. 别的；其他的",
-    "sentence": "Do you want anything else?"
+    "sentence": "Do you want anything else?",
+    "gameMeaningZh": "别的"
   },
   {
     "word": "empty",
     "phonetic": "/ˈempti/",
     "meaning": "adj. 空的",
-    "sentence": "The box is empty."
+    "sentence": "The box is empty.",
+    "gameMeaningZh": "空的"
   },
   {
     "word": "encourage",
     "phonetic": "/ɪnˈkʌrɪdʒ/",
     "meaning": "v. 鼓励",
-    "sentence": "My parents encourage me."
+    "sentence": "My parents encourage me.",
+    "gameMeaningZh": "鼓励"
   },
   {
     "word": "end",
     "phonetic": "/end/",
     "meaning": "n. 末尾；结束",
-    "sentence": "At the end of the road."
+    "sentence": "At the end of the road.",
+    "gameMeaningZh": "末尾"
   },
   {
     "word": "enemy",
     "phonetic": "/ˈenəmi/",
     "meaning": "n. 敌人",
-    "sentence": "We should not be enemies."
+    "sentence": "We should not be enemies.",
+    "gameMeaningZh": "敌人"
   },
   {
     "word": "energy",
     "phonetic": "/ˈenədʒi/",
     "meaning": "n. 能量；精力",
-    "sentence": "I am full of energy."
+    "sentence": "I am full of energy.",
+    "gameMeaningZh": "能量"
   },
   {
     "word": "engineer",
     "phonetic": "/ˌendʒɪˈnɪə(r)/",
     "meaning": "n. 工程师",
-    "sentence": "He is an engineer."
+    "sentence": "He is an engineer.",
+    "gameMeaningZh": "工程师"
   },
   {
     "word": "England",
     "phonetic": "/ˈɪŋɡlənd/",
     "meaning": "n. 英格兰",
-    "sentence": "He comes from England."
+    "sentence": "He comes from England.",
+    "gameMeaningZh": "英格兰"
   },
   {
     "word": "English",
     "phonetic": "/ˈɪŋɡlɪʃ/",
     "meaning": "n. 英语",
-    "sentence": "I study English hard."
+    "sentence": "I study English hard.",
+    "gameMeaningZh": "英语"
   },
   {
     "word": "enjoy",
     "phonetic": "/ɪnˈdʒɔɪ/",
     "meaning": "v. 享受；喜欢",
-    "sentence": "I enjoy listening to music."
+    "sentence": "I enjoy listening to music.",
+    "gameMeaningZh": "享受"
   },
   {
     "word": "enough",
     "phonetic": "/ɪˈnʌf/",
     "meaning": "adj. 足够的",
-    "sentence": "We have enough time."
+    "sentence": "We have enough time.",
+    "gameMeaningZh": "足够的"
   },
   {
     "word": "enter",
     "phonetic": "/ˈentə(r)/",
     "meaning": "v. 进入",
-    "sentence": "Please enter the room."
+    "sentence": "Please enter the room.",
+    "gameMeaningZh": "进入"
   },
   {
     "word": "environment",
     "phonetic": "/ɪnˈvaɪrənmənt/",
     "meaning": "n. 环境",
-    "sentence": "We should protect the environment."
+    "sentence": "We should protect the environment.",
+    "gameMeaningZh": "环境"
   },
   {
     "word": "eraser",
     "phonetic": "/ɪˈreɪzə(r)/",
     "meaning": "n. 橡皮",
-    "sentence": "I need an eraser."
+    "sentence": "I need an eraser.",
+    "gameMeaningZh": "橡皮"
   },
   {
     "word": "especially",
     "phonetic": "/ɪˈspeʃəli/",
     "meaning": "adv. 尤其；特别",
-    "sentence": "I like fruit, especially apples."
+    "sentence": "I like fruit, especially apples.",
+    "gameMeaningZh": "尤其"
   },
   {
     "word": "Europe",
     "phonetic": "/ˈjʊərəp/",
     "meaning": "n. 欧洲",
-    "sentence": "France is in Europe."
+    "sentence": "France is in Europe.",
+    "gameMeaningZh": "欧洲"
   },
   {
     "word": "even",
     "phonetic": "/ˈiːvn/",
     "meaning": "adv. 甚至；即使",
-    "sentence": "Even a child can do it."
+    "sentence": "Even a child can do it.",
+    "gameMeaningZh": "甚至"
   },
   {
     "word": "evening",
     "phonetic": "/ˈiːvnɪŋ/",
     "meaning": "n. 晚上",
-    "sentence": "Good evening!"
+    "sentence": "Good evening!",
+    "gameMeaningZh": "晚上"
   },
   {
     "word": "ever",
     "phonetic": "/ˈevə(r)/",
     "meaning": "adv. 曾经；在任何时候",
-    "sentence": "Have you ever been to Beijing?"
+    "sentence": "Have you ever been to Beijing?",
+    "gameMeaningZh": "曾经"
   },
   {
     "word": "every",
     "phonetic": "/ˈevri/",
     "meaning": "adj. 每一；每个",
-    "sentence": "I go to school every day."
+    "sentence": "I go to school every day.",
+    "gameMeaningZh": "每一"
   },
   {
     "word": "everybody",
     "phonetic": "/ˈevribɒdi/",
     "meaning": "pron. 每个人",
-    "sentence": "Everybody is here."
+    "sentence": "Everybody is here.",
+    "gameMeaningZh": "每个人"
   },
   {
     "word": "everyone",
     "phonetic": "/ˈevriwʌn/",
     "meaning": "pron. 每个人",
-    "sentence": "Everyone likes her."
+    "sentence": "Everyone likes her.",
+    "gameMeaningZh": "所有人"
   },
   {
     "word": "everything",
     "phonetic": "/ˈevriθɪŋ/",
     "meaning": "pron. 一切",
-    "sentence": "Everything is ready."
+    "sentence": "Everything is ready.",
+    "gameMeaningZh": "一切"
   },
   {
     "word": "everywhere",
     "phonetic": "/ˈevriweə(r)/",
     "meaning": "adv. 到处",
-    "sentence": "I look for it everywhere."
+    "sentence": "I look for it everywhere.",
+    "gameMeaningZh": "到处"
   },
   {
     "word": "example",
     "phonetic": "/ɪɡˈzɑːmpl/",
     "meaning": "n. 例子；榜样",
-    "sentence": "For example, this is a dog."
+    "sentence": "For example, this is a dog.",
+    "gameMeaningZh": "例子"
   },
   {
     "word": "excellent",
     "phonetic": "/ˈeksələnt/",
     "meaning": "adj. 极好的",
-    "sentence": "Your idea is excellent."
+    "sentence": "Your idea is excellent.",
+    "gameMeaningZh": "极好的"
   },
   {
     "word": "except",
     "phonetic": "/ɪkˈsept/",
     "meaning": "prep. 除……之外",
-    "sentence": "Everyone is here except Tom."
+    "sentence": "Everyone is here except Tom.",
+    "gameMeaningZh": "除……之外"
   },
   {
     "word": "excited",
     "phonetic": "/ɪkˈsaɪtɪd/",
     "meaning": "adj. 兴奋的",
-    "sentence": "I am excited about the trip."
+    "sentence": "I am excited about the trip.",
+    "gameMeaningZh": "兴奋的"
   },
   {
     "word": "exciting",
     "phonetic": "/ɪkˈsaɪtɪŋ/",
     "meaning": "adj. 令人兴奋的",
-    "sentence": "The game is exciting."
+    "sentence": "The game is exciting.",
+    "gameMeaningZh": "令人兴奋的"
   },
   {
     "word": "excuse",
     "phonetic": "/ɪkˈskjuːz/",
     "meaning": "n. 借口",
-    "sentence": "Don't make an excuse."
+    "sentence": "Don't make an excuse.",
+    "gameMeaningZh": "借口"
   },
   {
     "word": "exercise",
     "phonetic": "/ˈeksəsaɪz/",
     "meaning": "n. 练习；锻炼",
-    "sentence": "We do exercise every morning."
+    "sentence": "We do exercise every morning.",
+    "gameMeaningZh": "练习"
   },
   {
     "word": "expensive",
     "phonetic": "/ɪkˈspensɪv/",
     "meaning": "adj. 昂贵的",
-    "sentence": "The watch is expensive."
+    "sentence": "The watch is expensive.",
+    "gameMeaningZh": "昂贵的"
   },
   {
     "word": "explain",
     "phonetic": "/ɪkˈspleɪn/",
     "meaning": "v. 解释",
-    "sentence": "Please explain the word."
+    "sentence": "Please explain the word.",
+    "gameMeaningZh": "解释"
   },
   {
     "word": "eye",
     "phonetic": "/aɪ/",
     "meaning": "n. 眼睛",
-    "sentence": "She has big eyes."
+    "sentence": "She has big eyes.",
+    "gameMeaningZh": "眼睛"
   },
   {
     "word": "face",
     "phonetic": "/feɪs/",
     "meaning": "n. 脸；面孔",
-    "sentence": "She has a round face."
+    "sentence": "She has a round face.",
+    "gameMeaningZh": "脸"
   },
   {
     "word": "fact",
     "phonetic": "/fækt/",
     "meaning": "n. 事实；真相",
-    "sentence": "In fact, he is right."
+    "sentence": "In fact, he is right.",
+    "gameMeaningZh": "事实"
   },
   {
     "word": "factory",
     "phonetic": "/ˈfæktri/",
     "meaning": "n. 工厂",
-    "sentence": "My father works in a factory."
+    "sentence": "My father works in a factory.",
+    "gameMeaningZh": "工厂"
   },
   {
     "word": "fail",
     "phonetic": "/feɪl/",
     "meaning": "v. 失败；不及格",
-    "sentence": "Don't fail the exam."
+    "sentence": "Don't fail the exam.",
+    "gameMeaningZh": "失败"
   },
   {
     "word": "fair",
     "phonetic": "/feə(r)/",
     "meaning": "adj. 公平的",
-    "sentence": "It's not fair."
+    "sentence": "It's not fair.",
+    "gameMeaningZh": "公平的"
   },
   {
     "word": "fall",
     "phonetic": "/fɔːl/",
     "meaning": "v. 落下；跌倒",
-    "sentence": "Leaves fall in autumn."
+    "sentence": "Leaves fall in autumn.",
+    "gameMeaningZh": "跌倒"
   },
   {
     "word": "family",
     "phonetic": "/ˈfæməli/",
     "meaning": "n. 家庭",
-    "sentence": "I love my family."
+    "sentence": "I love my family.",
+    "gameMeaningZh": "家庭"
   },
   {
     "word": "famous",
     "phonetic": "/ˈfeɪməs/",
     "meaning": "adj. 著名的",
-    "sentence": "This is a famous park."
+    "sentence": "This is a famous park.",
+    "gameMeaningZh": "著名的"
   },
   {
     "word": "fan",
     "phonetic": "/fæn/",
     "meaning": "n. 风扇；迷",
-    "sentence": "I am a football fan."
+    "sentence": "I am a football fan.",
+    "gameMeaningZh": "风扇"
   },
   {
     "word": "far",
     "phonetic": "/fɑː(r)/",
     "meaning": "adj. 远的",
-    "sentence": "My home is far from school."
+    "sentence": "My home is far from school.",
+    "gameMeaningZh": "远的"
   },
   {
     "word": "farm",
     "phonetic": "/fɑːm/",
     "meaning": "n. 农场",
-    "sentence": "We work on a farm."
+    "sentence": "We work on a farm.",
+    "gameMeaningZh": "农场"
   },
   {
     "word": "farmer",
     "phonetic": "/ˈfɑːmə(r)/",
     "meaning": "n. 农民",
-    "sentence": "My grandpa is a farmer."
+    "sentence": "My grandpa is a farmer.",
+    "gameMeaningZh": "农民"
   },
   {
     "word": "fast",
     "phonetic": "/fɑːst/",
     "meaning": "adj. 快的",
-    "sentence": "He runs very fast."
+    "sentence": "He runs very fast.",
+    "gameMeaningZh": "快的"
   },
   {
     "word": "fat",
     "phonetic": "/fæt/",
     "meaning": "adj. 胖的",
-    "sentence": "The pig is fat."
+    "sentence": "The pig is fat.",
+    "gameMeaningZh": "胖的"
   },
   {
     "word": "father",
     "phonetic": "/ˈfɑːðə(r)/",
     "meaning": "n. 父亲",
-    "sentence": "This is my father."
+    "sentence": "This is my father.",
+    "gameMeaningZh": "父亲"
   },
   {
     "word": "fear",
     "phonetic": "/fɪə(r)/",
     "meaning": "v. 害怕；畏惧",
-    "sentence": "Don't fear the dark."
+    "sentence": "Don't fear the dark.",
+    "gameMeaningZh": "害怕"
   },
   {
     "word": "February",
     "phonetic": "/ˈfebruəri/",
     "meaning": "n. 二月",
-    "sentence": "My birthday is in February."
+    "sentence": "My birthday is in February.",
+    "gameMeaningZh": "二月"
   },
   {
     "word": "feed",
     "phonetic": "/fiːd/",
     "meaning": "v. 喂养",
-    "sentence": "I feed the cat every day."
+    "sentence": "I feed the cat every day.",
+    "gameMeaningZh": "喂养"
   },
   {
     "word": "feel",
     "phonetic": "/fiːl/",
     "meaning": "v. 感觉；摸起来",
-    "sentence": "I feel happy today."
+    "sentence": "I feel happy today.",
+    "gameMeaningZh": "感觉"
   },
   {
     "word": "female",
     "phonetic": "/ˈfiːmeɪl/",
     "meaning": "adj. 女的；雌性的",
-    "sentence": "She is a female worker."
+    "sentence": "She is a female worker.",
+    "gameMeaningZh": "女的"
   },
   {
     "word": "fetch",
     "phonetic": "/fetʃ/",
     "meaning": "v. 去取来",
-    "sentence": "Fetch me a book."
+    "sentence": "Fetch me a book.",
+    "gameMeaningZh": "去取来"
   },
   {
     "word": "few",
     "phonetic": "/fjuː/",
     "meaning": "adj. 很少的",
-    "sentence": "Few people can do it."
+    "sentence": "Few people can do it.",
+    "gameMeaningZh": "很少的"
   },
   {
     "word": "field",
     "phonetic": "/fiːld/",
     "meaning": "n. 田地；领域",
-    "sentence": "We play in the field."
+    "sentence": "We play in the field.",
+    "gameMeaningZh": "田地"
   },
   {
     "word": "fierce",
     "phonetic": "/fɪəs/",
     "meaning": "adj. 凶猛的",
-    "sentence": "The tiger is fierce."
+    "sentence": "The tiger is fierce.",
+    "gameMeaningZh": "凶猛的"
   },
   {
     "word": "fifteen",
     "phonetic": "/ˌfɪfˈtiːn/",
     "meaning": "num. 十五",
-    "sentence": "She is fifteen years old."
+    "sentence": "She is fifteen years old.",
+    "gameMeaningZh": "十五"
   },
   {
     "word": "fifth",
     "phonetic": "/fɪfθ/",
     "meaning": "num. 第五",
-    "sentence": "Today is my fifth birthday."
+    "sentence": "Today is my fifth birthday.",
+    "gameMeaningZh": "第五"
   },
   {
     "word": "fifty",
     "phonetic": "/ˈfɪfti/",
     "meaning": "num. 五十",
-    "sentence": "He is fifty years old."
+    "sentence": "He is fifty years old.",
+    "gameMeaningZh": "五十"
   },
   {
     "word": "fight",
     "phonetic": "/faɪt/",
     "meaning": "v. 打架；战斗",
-    "sentence": "Don't fight with others."
+    "sentence": "Don't fight with others.",
+    "gameMeaningZh": "打架"
   },
   {
     "word": "fill",
     "phonetic": "/fɪl/",
     "meaning": "v. 装满；充满",
-    "sentence": "Fill the bottle with water."
+    "sentence": "Fill the bottle with water.",
+    "gameMeaningZh": "装满"
   },
   {
     "word": "film",
     "phonetic": "/fɪlm/",
     "meaning": "n. 电影",
-    "sentence": "We watch a film tonight."
+    "sentence": "We watch a film tonight.",
+    "gameMeaningZh": "电影"
   },
   {
     "word": "final",
     "phonetic": "/ˈfaɪnl/",
     "meaning": "adj. 最后的",
-    "sentence": "This is the final exam."
+    "sentence": "This is the final exam.",
+    "gameMeaningZh": "最后的"
   },
   {
     "word": "find",
     "phonetic": "/faɪnd/",
     "meaning": "v. 找到；发现",
-    "sentence": "I find my pen."
+    "sentence": "I find my pen.",
+    "gameMeaningZh": "找到"
   },
   {
     "word": "fine",
     "phonetic": "/faɪn/",
     "meaning": "adj. 好的；晴朗的",
-    "sentence": "It's a fine day today."
+    "sentence": "It's a fine day today.",
+    "gameMeaningZh": "好的"
   },
   {
     "word": "finger",
     "phonetic": "/ˈfɪŋɡə(r)/",
     "meaning": "n. 手指",
-    "sentence": "I have ten fingers."
+    "sentence": "I have ten fingers.",
+    "gameMeaningZh": "手指"
   },
   {
     "word": "fire",
     "phonetic": "/ˈfaɪə(r)/",
     "meaning": "n. 火；火灾",
-    "sentence": "Don't play with fire."
+    "sentence": "Don't play with fire.",
+    "gameMeaningZh": "火"
   },
   {
     "word": "firm",
     "phonetic": "/fɜːm/",
     "meaning": "adj. 坚定的",
-    "sentence": "He is firm in his idea."
+    "sentence": "He is firm in his idea.",
+    "gameMeaningZh": "坚定的"
   },
   {
     "word": "first",
     "phonetic": "/fɜːst/",
     "meaning": "num. 第一",
-    "sentence": "He is the first to come."
+    "sentence": "He is the first to come.",
+    "gameMeaningZh": "第一"
   },
   {
     "word": "fish",
     "phonetic": "/fɪʃ/",
     "meaning": "n. 鱼；鱼肉",
-    "sentence": "I like eating fish."
+    "sentence": "I like eating fish.",
+    "gameMeaningZh": "鱼"
   },
   {
     "word": "fit",
     "phonetic": "/fɪt/",
     "meaning": "adj. 健康的；适合的",
-    "sentence": "He is fit and strong."
+    "sentence": "He is fit and strong.",
+    "gameMeaningZh": "健康的"
   },
   {
     "word": "five",
     "phonetic": "/faɪv/",
     "meaning": "num. 五",
-    "sentence": "I have five books."
+    "sentence": "I have five books.",
+    "gameMeaningZh": "五"
   },
   {
     "word": "fix",
     "phonetic": "/fɪks/",
     "meaning": "v. 修理；固定",
-    "sentence": "He can fix the bike."
+    "sentence": "He can fix the bike.",
+    "gameMeaningZh": "修理"
   },
   {
     "word": "flag",
     "phonetic": "/flæɡ/",
     "meaning": "n. 旗帜",
-    "sentence": "This is our national flag."
+    "sentence": "This is our national flag.",
+    "gameMeaningZh": "旗帜"
   },
   {
     "word": "flat",
     "phonetic": "/flæt/",
     "meaning": "n. 公寓",
-    "sentence": "We live in a flat."
+    "sentence": "We live in a flat.",
+    "gameMeaningZh": "公寓"
   },
   {
     "word": "flight",
     "phonetic": "/flaɪt/",
     "meaning": "n. 航班；飞行",
-    "sentence": "My flight is at 9 o'clock."
+    "sentence": "My flight is at 9 o'clock.",
+    "gameMeaningZh": "航班"
   },
   {
     "word": "floor",
     "phonetic": "/flɔː(r)/",
     "meaning": "n. 地板；楼层",
-    "sentence": "The room is on the first floor."
+    "sentence": "The room is on the first floor.",
+    "gameMeaningZh": "地板"
   },
   {
     "word": "flower",
     "phonetic": "/ˈflaʊə(r)/",
     "meaning": "n. 花",
-    "sentence": "The flower is beautiful."
+    "sentence": "The flower is beautiful.",
+    "gameMeaningZh": "花"
   },
   {
     "word": "flu",
     "phonetic": "/fluː/",
     "meaning": "n. 流感",
-    "sentence": "He has a bad flu."
+    "sentence": "He has a bad flu.",
+    "gameMeaningZh": "流感"
   },
   {
     "word": "fly",
     "phonetic": "/flaɪ/",
     "meaning": "v. 飞；飞行",
-    "sentence": "Birds can fly."
+    "sentence": "Birds can fly.",
+    "gameMeaningZh": "飞"
   },
   {
     "word": "food",
     "phonetic": "/fuːd/",
     "meaning": "n. 食物",
-    "sentence": "We need food to live."
+    "sentence": "We need food to live.",
+    "gameMeaningZh": "食物"
   },
   {
     "word": "foot",
     "phonetic": "/fʊt/",
     "meaning": "n. 脚；英尺",
-    "sentence": "I go to school on foot."
+    "sentence": "I go to school on foot.",
+    "gameMeaningZh": "脚"
   },
   {
     "word": "football",
     "phonetic": "/ˈfʊtbɔːl/",
     "meaning": "n. 足球",
-    "sentence": "We play football after school."
+    "sentence": "We play football after school.",
+    "gameMeaningZh": "足球"
   },
   {
     "word": "for",
     "phonetic": "/fɔː(r)/",
     "meaning": "prep. 为了；给",
-    "sentence": "This gift is for you."
+    "sentence": "This gift is for you.",
+    "gameMeaningZh": "为了"
   },
   {
     "word": "force",
     "phonetic": "/fɔːs/",
     "meaning": "n. 力量；武力",
-    "sentence": "He uses force to open the door."
+    "sentence": "He uses force to open the door.",
+    "gameMeaningZh": "力量"
   },
   {
     "word": "foreign",
     "phonetic": "/ˈfɒrən/",
     "meaning": "adj. 外国的",
-    "sentence": "He can speak foreign languages."
+    "sentence": "He can speak foreign languages.",
+    "gameMeaningZh": "外国的"
   },
   {
     "word": "forest",
     "phonetic": "/ˈfɒrɪst/",
     "meaning": "n. 森林",
-    "sentence": "There are many trees in the forest."
+    "sentence": "There are many trees in the forest.",
+    "gameMeaningZh": "森林"
   },
   {
     "word": "forget",
     "phonetic": "/fəˈɡet/",
     "meaning": "v. 忘记",
-    "sentence": "Don't forget your homework."
+    "sentence": "Don't forget your homework.",
+    "gameMeaningZh": "忘记"
   },
   {
     "word": "fork",
     "phonetic": "/fɔːk/",
     "meaning": "n. 餐叉",
-    "sentence": "Use a fork to eat noodles."
+    "sentence": "Use a fork to eat noodles.",
+    "gameMeaningZh": "餐叉"
   },
   {
     "word": "form",
     "phonetic": "/fɔːm/",
     "meaning": "n. 形式；表格",
-    "sentence": "Please fill in this form."
+    "sentence": "Please fill in this form.",
+    "gameMeaningZh": "形式"
   },
   {
     "word": "forty",
     "phonetic": "/ˈfɔːti/",
     "meaning": "num. 四十",
-    "sentence": "He is forty years old."
+    "sentence": "He is forty years old.",
+    "gameMeaningZh": "四十"
   },
   {
     "word": "forward",
     "phonetic": "/ˈfɔːwəd/",
     "meaning": "adv. 向前",
-    "sentence": "Please step forward."
+    "sentence": "Please step forward.",
+    "gameMeaningZh": "向前"
   },
   {
     "word": "four",
     "phonetic": "/fɔː(r)/",
     "meaning": "num. 四",
-    "sentence": "I have four pens."
+    "sentence": "I have four pens.",
+    "gameMeaningZh": "四"
   },
   {
     "word": "fourteen",
     "phonetic": "/ˌfɔːˈtiːn/",
     "meaning": "num. 十四",
-    "sentence": "She is fourteen."
+    "sentence": "She is fourteen.",
+    "gameMeaningZh": "十四"
   },
   {
     "word": "fox",
     "phonetic": "/fɒks/",
     "meaning": "n. 狐狸",
-    "sentence": "The fox is very clever."
+    "sentence": "The fox is very clever.",
+    "gameMeaningZh": "狐狸"
   },
   {
     "word": "France",
     "phonetic": "/frɑːns/",
     "meaning": "n. 法国",
-    "sentence": "Paris is in France."
+    "sentence": "Paris is in France.",
+    "gameMeaningZh": "法国"
   },
   {
     "word": "free",
     "phonetic": "/friː/",
     "meaning": "adj. 自由的；免费的",
-    "sentence": "The park is free today."
+    "sentence": "The park is free today.",
+    "gameMeaningZh": "自由的"
   },
   {
     "word": "freeze",
     "phonetic": "/friːz/",
     "meaning": "v. 结冰；冻住",
-    "sentence": "Water will freeze in cold weather."
+    "sentence": "Water will freeze in cold weather.",
+    "gameMeaningZh": "结冰"
   },
   {
     "word": "fresh",
     "phonetic": "/freʃ/",
     "meaning": "adj. 新鲜的",
-    "sentence": "The fruit is fresh."
+    "sentence": "The fruit is fresh.",
+    "gameMeaningZh": "新鲜的"
   },
   {
     "word": "Friday",
     "phonetic": "/ˈfraɪdeɪ/",
     "meaning": "n. 星期五",
-    "sentence": "Today is Friday."
+    "sentence": "Today is Friday.",
+    "gameMeaningZh": "星期五"
   },
   {
     "word": "fridge",
     "phonetic": "/frɪdʒ/",
     "meaning": "n. 冰箱",
-    "sentence": "Put the milk in the fridge."
+    "sentence": "Put the milk in the fridge.",
+    "gameMeaningZh": "冰箱"
   },
   {
     "word": "friend",
     "phonetic": "/frend/",
     "meaning": "n. 朋友",
-    "sentence": "Tom is my good friend."
+    "sentence": "Tom is my good friend.",
+    "gameMeaningZh": "朋友"
   },
   {
     "word": "friendly",
     "phonetic": "/ˈfrendli/",
     "meaning": "adj. 友好的",
-    "sentence": "People here are friendly."
+    "sentence": "People here are friendly.",
+    "gameMeaningZh": "友好的"
   },
   {
     "word": "friendship",
     "phonetic": "/ˈfrendʃɪp/",
     "meaning": "n. 友谊",
-    "sentence": "Friendship is very important."
+    "sentence": "Friendship is very important.",
+    "gameMeaningZh": "友谊"
   },
   {
     "word": "frog",
     "phonetic": "/frɒɡ/",
     "meaning": "n. 青蛙",
-    "sentence": "The frog can jump high."
+    "sentence": "The frog can jump high.",
+    "gameMeaningZh": "青蛙"
   },
   {
     "word": "from",
     "phonetic": "/frəm/",
     "meaning": "prep. 从；来自",
-    "sentence": "I come from China."
+    "sentence": "I come from China.",
+    "gameMeaningZh": "从"
   },
   {
     "word": "front",
     "phonetic": "/frʌnt/",
     "meaning": "n. 前面",
-    "sentence": "He stands in front of me."
+    "sentence": "He stands in front of me.",
+    "gameMeaningZh": "前面"
   },
   {
     "word": "fruit",
     "phonetic": "/fruːt/",
     "meaning": "n. 水果",
-    "sentence": "I eat fruit every day."
+    "sentence": "I eat fruit every day.",
+    "gameMeaningZh": "水果"
   },
   {
     "word": "full",
     "phonetic": "/fʊl/",
     "meaning": "adj. 满的；饱的",
-    "sentence": "The bus is full of people."
+    "sentence": "The bus is full of people.",
+    "gameMeaningZh": "满的"
   },
   {
     "word": "fun",
     "phonetic": "/fʌn/",
     "meaning": "n. 乐趣；玩笑",
-    "sentence": "We have fun in the park."
+    "sentence": "We have fun in the park.",
+    "gameMeaningZh": "乐趣"
   },
   {
     "word": "funny",
     "phonetic": "/ˈfʌni/",
     "meaning": "adj. 滑稽的；有趣的",
-    "sentence": "The story is funny."
+    "sentence": "The story is funny.",
+    "gameMeaningZh": "滑稽的"
   },
   {
     "word": "future",
     "phonetic": "/ˈfjuːtʃə(r)/",
     "meaning": "n. 未来",
-    "sentence": "I want to be a doctor in the future."
+    "sentence": "I want to be a doctor in the future.",
+    "gameMeaningZh": "未来"
   },
   {
     "word": "textbook",
     "phonetic": "/ˈtekstbʊk/",
     "meaning": "n. 教科书；课本",
-    "sentence": "I read the textbook carefully."
+    "sentence": "I read the textbook carefully.",
+    "gameMeaningZh": "教科书"
   },
   {
     "word": "conversation",
     "phonetic": "/ˌkɒnvəˈseɪʃn/",
     "meaning": "n. 交谈；谈话",
-    "sentence": "I have a conversation with my friend."
+    "sentence": "I have a conversation with my friend.",
+    "gameMeaningZh": "交谈"
   },
   {
     "word": "aloud",
     "phonetic": "/əˈlaʊd/",
     "meaning": "adv. 大声地；出声地",
-    "sentence": "Read aloud to practice pronunciation."
+    "sentence": "Read aloud to practice pronunciation.",
+    "gameMeaningZh": "大声地"
   },
   {
     "word": "pronunciation",
     "phonetic": "/prəˌnʌnsiˈeɪʃn/",
     "meaning": "n. 发音；读音",
-    "sentence": "My pronunciation is poor."
+    "sentence": "My pronunciation is poor.",
+    "gameMeaningZh": "发音"
   },
   {
     "word": "sentence",
     "phonetic": "/ˈsentəns/",
     "meaning": "n. 句子",
-    "sentence": "Make a sentence with this word."
+    "sentence": "Make a sentence with this word.",
+    "gameMeaningZh": "句子"
   },
   {
     "word": "patient",
     "phonetic": "/ˈpeɪʃnt/",
     "meaning": "adj. 有耐心的；n. 病人",
-    "sentence": "Be patient with others."
+    "sentence": "Be patient with others.",
+    "gameMeaningZh": "有耐心的"
   },
   {
     "word": "expression",
     "phonetic": "/ɪkˈspreʃn/",
     "meaning": "n. 表达；表情",
-    "sentence": "Her expression is happy."
+    "sentence": "Her expression is happy.",
+    "gameMeaningZh": "表达"
   },
   {
     "word": "discover",
     "phonetic": "/dɪˈskʌvə(r)/",
     "meaning": "v. 发现；发觉",
-    "sentence": "I discover a new way."
+    "sentence": "I discover a new way.",
+    "gameMeaningZh": "发现"
   },
   {
     "word": "secret",
     "phonetic": "/ˈsiːkrət/",
     "meaning": "n. 秘密；adj. 秘密的",
-    "sentence": "It is a secret between us."
+    "sentence": "It is a secret between us.",
+    "gameMeaningZh": "秘密"
   },
   {
     "word": "grammar",
     "phonetic": "/ˈɡræmə(r)/",
     "meaning": "n. 语法",
-    "sentence": "I learn English grammar."
+    "sentence": "I learn English grammar.",
+    "gameMeaningZh": "语法"
   },
   {
     "word": "repeat",
     "phonetic": "/rɪˈpiːt/",
     "meaning": "v. 重复；重做",
-    "sentence": "Please repeat the sentence."
+    "sentence": "Please repeat the sentence.",
+    "gameMeaningZh": "重复"
   },
   {
     "word": "note",
     "phonetic": "/nəʊt/",
     "meaning": "n. 笔记；记录",
-    "sentence": "Take notes in class."
+    "sentence": "Take notes in class.",
+    "gameMeaningZh": "笔记"
   },
   {
     "word": "pal",
     "phonetic": "/pæl/",
     "meaning": "n. 朋友；伙伴",
-    "sentence": "He is my pen pal."
+    "sentence": "He is my pen pal.",
+    "gameMeaningZh": "伙伴"
   },
   {
     "word": "physics",
     "phonetic": "/ˈfɪzɪks/",
     "meaning": "n. 物理；物理学",
-    "sentence": "Physics is difficult."
+    "sentence": "Physics is difficult.",
+    "gameMeaningZh": "物理"
   },
   {
     "word": "memorize",
     "phonetic": "/ˈmeməraɪz/",
     "meaning": "v. 记忆；记住",
-    "sentence": "Memorize new words every day."
+    "sentence": "Memorize new words every day.",
+    "gameMeaningZh": "记忆"
   },
   {
     "word": "pattern",
     "phonetic": "/ˈpætn/",
     "meaning": "n. 模式；方式",
-    "sentence": "Learn the pattern of sentences."
+    "sentence": "Learn the pattern of sentences.",
+    "gameMeaningZh": "模式"
   },
   {
     "word": "increase",
     "phonetic": "/ɪnˈkriːs/",
     "meaning": "v. 增加；增长",
-    "sentence": "The population increases fast."
+    "sentence": "The population increases fast.",
+    "gameMeaningZh": "增加"
   },
   {
     "word": "speed",
     "phonetic": "/spiːd/",
     "meaning": "n. 速度",
-    "sentence": "He drives at high speed."
+    "sentence": "He drives at high speed.",
+    "gameMeaningZh": "速度"
   },
   {
     "word": "partner",
     "phonetic": "/ˈpɑːtnə(r)/",
     "meaning": "n. 搭档；同伴",
-    "sentence": "Work with your partner."
+    "sentence": "Work with your partner.",
+    "gameMeaningZh": "搭档"
   },
   {
     "word": "born",
     "phonetic": "/bɔːn/",
     "meaning": "v. 出生；adj. 天生的",
-    "sentence": "I was born in 2010."
+    "sentence": "I was born in 2010.",
+    "gameMeaningZh": "天生的"
   },
   {
     "word": "ability",
     "phonetic": "/əˈbɪləti/",
     "meaning": "n. 能力；才能",
-    "sentence": "She has the ability to learn."
+    "sentence": "She has the ability to learn.",
+    "gameMeaningZh": "能力"
   },
   {
     "word": "create",
     "phonetic": "/kriˈeɪt/",
     "meaning": "v. 创造；创建",
-    "sentence": "We create a new plan."
+    "sentence": "We create a new plan.",
+    "gameMeaningZh": "创造"
   },
   {
     "word": "brain",
     "phonetic": "/breɪn/",
     "meaning": "n. 大脑",
-    "sentence": "Use your brain to think."
+    "sentence": "Use your brain to think.",
+    "gameMeaningZh": "大脑"
   },
   {
     "word": "active",
     "phonetic": "/ˈæktɪv/",
     "meaning": "adj. 积极的；活跃的",
-    "sentence": "Be active in class."
+    "sentence": "Be active in class.",
+    "gameMeaningZh": "积极的"
   },
   {
     "word": "attention",
     "phonetic": "/əˈtenʃn/",
     "meaning": "n. 注意；关注",
-    "sentence": "Pay attention to the teacher."
+    "sentence": "Pay attention to the teacher.",
+    "gameMeaningZh": "注意"
   },
   {
     "word": "connect",
     "phonetic": "/kəˈnekt/",
     "meaning": "v. 连接；联系",
-    "sentence": "Connect the computer to Internet."
+    "sentence": "Connect the computer to Internet.",
+    "gameMeaningZh": "连接"
   },
   {
     "word": "overnight",
     "phonetic": "/ˌəʊvəˈnaɪt/",
     "meaning": "adv. 一夜之间；在夜间",
-    "sentence": "He became famous overnight."
+    "sentence": "He became famous overnight.",
+    "gameMeaningZh": "一夜之间"
   },
   {
     "word": "review",
     "phonetic": "/rɪˈvjuː/",
     "meaning": "v. & n. 复习；回顾",
-    "sentence": "Review what you have learned."
+    "sentence": "Review what you have learned.",
+    "gameMeaningZh": "复习"
   },
   {
     "word": "knowledge",
     "phonetic": "/ˈnɒlɪdʒ/",
     "meaning": "n. 知识；学问",
-    "sentence": "Knowledge is power."
+    "sentence": "Knowledge is power.",
+    "gameMeaningZh": "知识"
   },
   {
     "word": "wise",
     "phonetic": "/waɪz/",
     "meaning": "adj. 明智的；聪明的",
-    "sentence": "He is a wise man."
+    "sentence": "He is a wise man.",
+    "gameMeaningZh": "明智的"
   },
   {
     "word": "strange",
     "phonetic": "/streɪndʒ/",
     "meaning": "adj. 陌生的；奇怪的",
-    "sentence": "He is a strange person."
+    "sentence": "He is a strange person.",
+    "gameMeaningZh": "陌生的"
   },
   {
     "word": "relative",
     "phonetic": "/ˈrelətɪv/",
     "meaning": "n. 亲戚；亲属",
-    "sentence": "I have many relatives."
+    "sentence": "I have many relatives.",
+    "gameMeaningZh": "亲戚"
   },
   {
     "word": "punish",
     "phonetic": "/ˈpʌnɪʃ/",
     "meaning": "v. 处罚；惩罚",
-    "sentence": "Don't punish the child."
+    "sentence": "Don't punish the child.",
+    "gameMeaningZh": "处罚"
   },
   {
     "word": "warn",
     "phonetic": "/wɔːn/",
     "meaning": "v. 警告；告诫",
-    "sentence": "I warn you not to do that."
+    "sentence": "I warn you not to do that.",
+    "gameMeaningZh": "警告"
   },
   {
     "word": "present",
     "phonetic": "/ˈpreznt/",
     "meaning": "n. 礼物；现在",
-    "sentence": "He gave me a present."
+    "sentence": "He gave me a present.",
+    "gameMeaningZh": "礼物"
   },
   {
     "word": "spread",
     "phonetic": "/spred/",
     "meaning": "v. 传播；展开",
-    "sentence": "The fire spread quickly."
+    "sentence": "The fire spread quickly.",
+    "gameMeaningZh": "传播"
   },
   {
     "word": "novel",
     "phonetic": "/ˈnɒvl/",
     "meaning": "n. 小说",
-    "sentence": "I like reading English novels."
+    "sentence": "I like reading English novels.",
+    "gameMeaningZh": "小说"
   },
   {
     "word": "business",
     "phonetic": "/ˈbɪznəs/",
     "meaning": "n. 生意；商业",
-    "sentence": "He is on business."
+    "sentence": "He is on business.",
+    "gameMeaningZh": "生意"
   },
   {
     "word": "proud",
     "phonetic": "/praʊd/",
     "meaning": "adj. 骄傲的；自豪的",
-    "sentence": "I am proud of you."
+    "sentence": "I am proud of you.",
+    "gameMeaningZh": "骄傲的"
   },
   {
     "word": "pride",
     "phonetic": "/praɪd/",
     "meaning": "n. 骄傲；自豪",
-    "sentence": "He takes pride in his son."
+    "sentence": "He takes pride in his son.",
+    "gameMeaningZh": "骄傲"
   },
   {
     "word": "introduce",
     "phonetic": "/ˌɪntrəˈdjuːs/",
     "meaning": "v. 介绍；引见",
-    "sentence": "Let me introduce my friend."
+    "sentence": "Let me introduce my friend.",
+    "gameMeaningZh": "介绍"
   },
   {
     "word": "interview",
     "phonetic": "/ˈɪntəvjuː/",
     "meaning": "n. & v. 面试；采访",
-    "sentence": "I have an interview today."
+    "sentence": "I have an interview today.",
+    "gameMeaningZh": "面试"
   },
   {
     "word": "insect",
     "phonetic": "/ˈɪnsekt/",
     "meaning": "n. 昆虫",
-    "sentence": "Ant is a small insect."
+    "sentence": "Ant is a small insect.",
+    "gameMeaningZh": "昆虫"
   },
   {
     "word": "influence",
     "phonetic": "/ˈɪnfluəns/",
     "meaning": "v. & n. 影响",
-    "sentence": "Teachers influence students."
+    "sentence": "Teachers influence students.",
+    "gameMeaningZh": "影响"
   },
   {
     "word": "seldom",
     "phonetic": "/ˈseldəm/",
     "meaning": "adv. 很少；不常",
-    "sentence": "He seldom eats breakfast."
+    "sentence": "He seldom eats breakfast.",
+    "gameMeaningZh": "很少"
   },
   {
     "word": "general",
     "phonetic": "/ˈdʒenrəl/",
     "meaning": "adj. 总的；普遍的",
-    "sentence": "In general, he is a good boy."
+    "sentence": "In general, he is a good boy.",
+    "gameMeaningZh": "总的"
   },
   {
     "word": "exactly",
     "phonetic": "/ɪɡˈzæktli/",
     "meaning": "adv. 确切地；精确地",
-    "sentence": "That's exactly what I want."
+    "sentence": "That's exactly what I want.",
+    "gameMeaningZh": "确切地"
   },
   {
     "word": "introduction",
     "phonetic": "/ˌɪntrəˈdʌkʃn/",
     "meaning": "n. 介绍",
-    "sentence": "Read the introduction first."
+    "sentence": "Read the introduction first.",
+    "gameMeaningZh": "介绍内容"
   },
   {
     "word": "material",
     "phonetic": "/məˈtɪəriəl/",
     "meaning": "n. 材料；原料",
-    "sentence": "We need some building materials."
+    "sentence": "We need some building materials.",
+    "gameMeaningZh": "材料"
   },
   {
     "word": "chopstick",
     "phonetic": "/ˈtʃɒpstɪks/",
     "meaning": "n. 筷子",
-    "sentence": "Chinese use chopsticks."
+    "sentence": "Chinese use chopsticks.",
+    "gameMeaningZh": "筷子"
   },
   {
     "word": "coin",
     "phonetic": "/kɔɪn/",
     "meaning": "n. 硬币",
-    "sentence": "I have a coin."
+    "sentence": "I have a coin.",
+    "gameMeaningZh": "硬币"
   },
   {
     "word": "fork",
     "phonetic": "/fɔːk/",
     "meaning": "n. 餐叉；叉子",
-    "sentence": "Use a fork to eat."
+    "sentence": "Use a fork to eat.",
+    "gameMeaningZh": "餐叉"
   },
   {
     "word": "blouse",
     "phonetic": "/blaʊz/",
     "meaning": "n. 女衬衫；短上衣",
-    "sentence": "She wears a white blouse."
+    "sentence": "She wears a white blouse.",
+    "gameMeaningZh": "女衬衫"
   },
   {
     "word": "silver",
     "phonetic": "/ˈsɪlvə(r)/",
     "meaning": "n. 银；银器",
-    "sentence": "The ring is made of silver."
+    "sentence": "The ring is made of silver.",
+    "gameMeaningZh": "银"
   },
   {
     "word": "glass",
     "phonetic": "/ɡlɑːs/",
     "meaning": "n. 玻璃；玻璃杯",
-    "sentence": "This is a glass cup."
+    "sentence": "This is a glass cup.",
+    "gameMeaningZh": "玻璃"
   },
   {
     "word": "cotton",
     "phonetic": "/ˈkɒtn/",
     "meaning": "n. 棉；棉花",
-    "sentence": "My T-shirt is cotton."
+    "sentence": "My T-shirt is cotton.",
+    "gameMeaningZh": "棉"
   },
   {
     "word": "steel",
     "phonetic": "/stiːl/",
     "meaning": "n. 钢；钢铁",
-    "sentence": "The bridge is made of steel."
+    "sentence": "The bridge is made of steel.",
+    "gameMeaningZh": "钢"
   },
   {
     "word": "produce",
     "phonetic": "/prəˈdjuːs/",
     "meaning": "v. 生产；制造",
-    "sentence": "This factory produces cars."
+    "sentence": "This factory produces cars.",
+    "gameMeaningZh": "生产"
   },
   {
     "word": "process",
     "phonetic": "/ˈprəʊses/",
     "meaning": "n. 过程；进程",
-    "sentence": "It's a long process."
+    "sentence": "It's a long process.",
+    "gameMeaningZh": "过程"
   },
   {
     "word": "local",
     "phonetic": "/ˈləʊkl/",
     "meaning": "adj. 当地的；本地的",
-    "sentence": "We buy local food."
+    "sentence": "We buy local food.",
+    "gameMeaningZh": "当地的"
   },
   {
     "word": "brand",
     "phonetic": "/brænd/",
     "meaning": "n. 品牌；牌子",
-    "sentence": "It is a famous brand."
+    "sentence": "It is a famous brand.",
+    "gameMeaningZh": "品牌"
   },
   {
     "word": "avoid",
     "phonetic": "/əˈvɔɪd/",
     "meaning": "v. 避免；回避",
-    "sentence": "Avoid making mistakes."
+    "sentence": "Avoid making mistakes.",
+    "gameMeaningZh": "避免"
   },
   {
     "word": "product",
     "phonetic": "/ˈprɒdʌkt/",
     "meaning": "n. 产品；制品",
-    "sentence": "This is our new product."
+    "sentence": "This is our new product.",
+    "gameMeaningZh": "产品"
   },
   {
     "word": "handbag",
     "phonetic": "/ˈhændbæɡ/",
     "meaning": "n. 小手提包",
-    "sentence": "She has a nice handbag."
+    "sentence": "She has a nice handbag.",
+    "gameMeaningZh": "小手提包"
   },
   {
     "word": "cap",
     "phonetic": "/kæp/",
     "meaning": "n. 帽子；瓶盖",
-    "sentence": "He wears a cap."
+    "sentence": "He wears a cap.",
+    "gameMeaningZh": "帽子"
   },
   {
     "word": "international",
     "phonetic": "/ˌɪntəˈnæʃnəl/",
     "meaning": "adj. 国际的",
-    "sentence": "It is an international match."
+    "sentence": "It is an international match.",
+    "gameMeaningZh": "国际的"
   },
   {
     "word": "competitor",
     "phonetic": "/kəmˈpetɪtə(r)/",
     "meaning": "n. 参赛者；竞争者",
-    "sentence": "He is a strong competitor."
+    "sentence": "He is a strong competitor.",
+    "gameMeaningZh": "参赛者"
   },
   {
     "word": "form",
     "phonetic": "/fɔːm/",
     "meaning": "n. 形式；形状",
-    "sentence": "Ice is water in solid form."
+    "sentence": "Ice is water in solid form.",
+    "gameMeaningZh": "形式"
   },
   {
     "word": "balloon",
     "phonetic": "/bəˈluːn/",
     "meaning": "n. 气球",
-    "sentence": "I have a red balloon."
+    "sentence": "I have a red balloon.",
+    "gameMeaningZh": "气球"
   },
   {
     "word": "scissors",
     "phonetic": "/ˈsɪzəz/",
     "meaning": "n. 剪刀",
-    "sentence": "Use scissors to cut paper."
+    "sentence": "Use scissors to cut paper.",
+    "gameMeaningZh": "剪刀"
   },
   {
     "word": "lively",
     "phonetic": "/ˈlaɪvli/",
     "meaning": "adj. 生气勃勃的",
-    "sentence": "She is a lively girl."
+    "sentence": "She is a lively girl.",
+    "gameMeaningZh": "生气勃勃的"
   },
   {
     "word": "fairy",
     "phonetic": "/ˈfeəri/",
     "meaning": "n. 仙女；小精灵",
-    "sentence": "I like fairy tales."
+    "sentence": "I like fairy tales.",
+    "gameMeaningZh": "仙女"
   },
   {
     "word": "stick",
     "phonetic": "/stɪk/",
     "meaning": "n. 棍；棒",
-    "sentence": "He has a stick."
+    "sentence": "He has a stick.",
+    "gameMeaningZh": "棍"
   },
   {
     "word": "talent",
     "phonetic": "/ˈtælənt/",
     "meaning": "n. 天赋；才能",
-    "sentence": "She has a talent for music."
+    "sentence": "She has a talent for music.",
+    "gameMeaningZh": "天赋"
   },
   {
     "word": "doubt",
     "phonetic": "/daʊt/",
     "meaning": "n. & v. 怀疑；疑惑",
-    "sentence": "I have no doubt about it."
+    "sentence": "I have no doubt about it.",
+    "gameMeaningZh": "怀疑"
   },
   {
     "word": "regret",
     "phonetic": "/rɪˈɡret/",
     "meaning": "v. & n. 遗憾；后悔",
-    "sentence": "I never regret my choice."
+    "sentence": "I never regret my choice.",
+    "gameMeaningZh": "遗憾"
   },
   {
     "word": "mention",
     "phonetic": "/ˈmenʃn/",
     "meaning": "v. 提到；说起",
-    "sentence": "Don't mention it."
+    "sentence": "Don't mention it.",
+    "gameMeaningZh": "提到"
   },
   {
     "word": "national",
     "phonetic": "/ˈnæʃnəl/",
     "meaning": "adj. 国家的；民族的",
-    "sentence": "It is our national flag."
+    "sentence": "It is our national flag.",
+    "gameMeaningZh": "国家的"
   },
   {
     "word": "trade",
     "phonetic": "/treɪd/",
     "meaning": "n. 贸易；交易",
-    "sentence": "International trade is important."
+    "sentence": "International trade is important.",
+    "gameMeaningZh": "贸易"
   },
   {
     "word": "list",
     "phonetic": "/lɪst/",
     "meaning": "n. 清单；列表",
-    "sentence": "Make a shopping list."
+    "sentence": "Make a shopping list.",
+    "gameMeaningZh": "清单"
   },
   {
     "word": "smell",
     "phonetic": "/smel/",
     "meaning": "v. 闻；发出气味",
-    "sentence": "The flower smells good."
+    "sentence": "The flower smells good.",
+    "gameMeaningZh": "闻"
   },
   {
     "word": "sour",
     "phonetic": "/ˈsaʊə(r)/",
     "meaning": "adj. 酸的；馊的",
-    "sentence": "The milk is sour."
+    "sentence": "The milk is sour.",
+    "gameMeaningZh": "酸的"
   },
   {
     "word": "customer",
     "phonetic": "/ˈkʌstəmə(r)/",
     "meaning": "n. 顾客；客户",
-    "sentence": "The customer is always right."
+    "sentence": "The customer is always right.",
+    "gameMeaningZh": "顾客"
   },
   {
     "word": "daily",
     "phonetic": "/ˈdeɪli/",
     "meaning": "adj. 每日的；日常的",
-    "sentence": "This is my daily work."
+    "sentence": "This is my daily work.",
+    "gameMeaningZh": "日常的"
   },
   {
     "word": "library",
     "phonetic": "/ˈlaɪbrəri/",
     "meaning": "n. 图书馆",
-    "sentence": "I read books in the library."
+    "sentence": "I read books in the library.",
+    "gameMeaningZh": "图书馆"
   },
   {
     "word": "officer",
     "phonetic": "/ˈɒfɪsə(r)/",
     "meaning": "n. 军官；官员",
-    "sentence": "He is a police officer."
+    "sentence": "He is a police officer.",
+    "gameMeaningZh": "军官"
   },
   {
     "word": "airport",
     "phonetic": "/ˈeəpɔːt/",
     "meaning": "n. 机场",
-    "sentence": "I will meet you at the airport."
+    "sentence": "I will meet you at the airport.",
+    "gameMeaningZh": "机场"
   },
   {
     "word": "north",
     "phonetic": "/nɔːθ/",
     "meaning": "n. 北；北方",
-    "sentence": "Canada is north of the US."
+    "sentence": "Canada is north of the US.",
+    "gameMeaningZh": "北"
   },
   {
     "word": "south",
     "phonetic": "/saʊθ/",
     "meaning": "n. 南；南方",
-    "sentence": "It is warm in the south."
+    "sentence": "It is warm in the south.",
+    "gameMeaningZh": "南"
   },
   {
     "word": "west",
     "phonetic": "/west/",
     "meaning": "n. 西；西方",
-    "sentence": "The sun sets in the west."
+    "sentence": "The sun sets in the west.",
+    "gameMeaningZh": "西"
   },
   {
     "word": "pioneer",
     "phonetic": "/ˌpaɪəˈnɪə(r)/",
     "meaning": "n. 先锋；开拓者",
-    "sentence": "He is a pioneer in medicine."
+    "sentence": "He is a pioneer in medicine.",
+    "gameMeaningZh": "先锋"
   },
   {
     "word": "valuable",
     "phonetic": "/ˈvæljuəbl/",
     "meaning": "adj. 宝贵的；有价值的",
-    "sentence": "Time is valuable."
+    "sentence": "Time is valuable.",
+    "gameMeaningZh": "宝贵的"
   },
   {
     "word": "pink",
     "phonetic": "/pɪŋk/",
     "meaning": "adj. 粉色的",
-    "sentence": "She likes pink dresses."
+    "sentence": "She likes pink dresses.",
+    "gameMeaningZh": "粉色的"
   },
   {
     "word": "picnic",
     "phonetic": "/ˈpɪknɪk/",
     "meaning": "n. 野餐",
-    "sentence": "We have a picnic in the park."
+    "sentence": "We have a picnic in the park.",
+    "gameMeaningZh": "野餐"
   },
   {
     "word": "rabbit",
     "phonetic": "/ˈræbɪt/",
     "meaning": "n. 兔子",
-    "sentence": "The rabbit runs fast."
+    "sentence": "The rabbit runs fast.",
+    "gameMeaningZh": "兔子"
   },
   {
     "word": "attend",
     "phonetic": "/əˈtend/",
     "meaning": "v. 出席；参加",
-    "sentence": "I attend a meeting."
+    "sentence": "I attend a meeting.",
+    "gameMeaningZh": "出席"
   },
   {
     "word": "suit",
     "phonetic": "/suːt/",
     "meaning": "n. 套装；西装",
-    "sentence": "He wears a black suit."
+    "sentence": "He wears a black suit.",
+    "gameMeaningZh": "套装"
   },
   {
     "word": "express",
     "phonetic": "/ɪkˈspres/",
     "meaning": "v. 表达；表示",
-    "sentence": "I can't express my feeling."
+    "sentence": "I can't express my feeling.",
+    "gameMeaningZh": "表达出来"
   },
   {
     "word": "circle",
     "phonetic": "/ˈsɜːkl/",
     "meaning": "n. 圆圈；圈",
-    "sentence": "Sit in a circle."
+    "sentence": "Sit in a circle.",
+    "gameMeaningZh": "圆圈"
   },
   {
     "word": "mystery",
     "phonetic": "/ˈmɪstəri/",
     "meaning": "n. 奥秘；神秘的事",
-    "sentence": "It is a nature mystery."
+    "sentence": "It is a nature mystery.",
+    "gameMeaningZh": "奥秘"
   },
   {
     "word": "history",
     "phonetic": "/ˈhɪstri/",
     "meaning": "n. 历史",
-    "sentence": "We study history at school."
+    "sentence": "We study history at school.",
+    "gameMeaningZh": "历史"
   },
   {
     "word": "purpose",
     "phonetic": "/ˈpɜːpəs/",
     "meaning": "n. 目的；目标",
-    "sentence": "What is your purpose?"
+    "sentence": "What is your purpose?",
+    "gameMeaningZh": "目的"
   },
   {
     "word": "victory",
     "phonetic": "/ˈvɪktəri/",
     "meaning": "n. 胜利；成功",
-    "sentence": "We won a great victory."
+    "sentence": "We won a great victory.",
+    "gameMeaningZh": "胜利"
   },
   {
     "word": "enemy",
     "phonetic": "/ˈenəmi/",
     "meaning": "n. 敌人；敌军",
-    "sentence": "We should not be enemies."
+    "sentence": "We should not be enemies.",
+    "gameMeaningZh": "敌人"
   },
   {
     "word": "health",
     "phonetic": "/helθ/",
     "meaning": "n. 健康；人的身体",
-    "sentence": "Health is very important."
+    "sentence": "Health is very important.",
+    "gameMeaningZh": "健康"
   },
   {
     "word": "energy",
     "phonetic": "/ˈenədʒi/",
     "meaning": "n. 能量；精力",
-    "sentence": "I am full of energy."
+    "sentence": "I am full of energy.",
+    "gameMeaningZh": "能量"
   },
   {
     "word": "hurt",
     "phonetic": "/hɜːt/",
     "meaning": "v. 伤害；受伤",
-    "sentence": "Don't hurt others."
+    "sentence": "Don't hurt others.",
+    "gameMeaningZh": "伤害"
   },
   {
     "word": "courage",
     "phonetic": "/ˈkʌrɪdʒ/",
     "meaning": "n. 勇气；勇敢",
-    "sentence": "It takes courage to try."
+    "sentence": "It takes courage to try.",
+    "gameMeaningZh": "勇气"
   },
   {
     "word": "comfort",
     "phonetic": "/ˈkʌmfət/",
     "meaning": "n. & v. 安慰；舒适",
-    "sentence": "I need some comfort."
+    "sentence": "I need some comfort.",
+    "gameMeaningZh": "安慰"
   },
   {
     "word": "wealth",
     "phonetic": "/welθ/",
     "meaning": "n. 财富；富裕",
-    "sentence": "Wealth is not everything."
+    "sentence": "Wealth is not everything.",
+    "gameMeaningZh": "财富"
   },
   {
     "word": "support",
     "phonetic": "/səˈpɔːt/",
     "meaning": "v. & n. 支持；拥护",
-    "sentence": "My parents support me."
+    "sentence": "My parents support me.",
+    "gameMeaningZh": "支持"
   },
   {
     "word": "appear",
     "phonetic": "/əˈpɪə(r)/",
     "meaning": "v. 出现；显得",
-    "sentence": "He appears suddenly."
+    "sentence": "He appears suddenly.",
+    "gameMeaningZh": "出现"
   },
   {
     "word": "believe",
     "phonetic": "/bɪˈliːv/",
     "meaning": "v. 相信；认为",
-    "sentence": "I believe in you."
+    "sentence": "I believe in you.",
+    "gameMeaningZh": "相信"
   },
   {
     "word": "accept",
     "phonetic": "/əkˈsept/",
     "meaning": "v. 接受；收受",
-    "sentence": "I accept your advice."
+    "sentence": "I accept your advice.",
+    "gameMeaningZh": "接受"
   },
   {
     "word": "refuse",
     "phonetic": "/rɪˈfjuːz/",
     "meaning": "v. 拒绝；回绝",
-    "sentence": "He refused my help."
+    "sentence": "He refused my help.",
+    "gameMeaningZh": "拒绝"
   },
   {
     "word": "cancel",
     "phonetic": "/ˈkænsl/",
     "meaning": "v. 取消；终止",
-    "sentence": "We cancel the meeting."
+    "sentence": "We cancel the meeting.",
+    "gameMeaningZh": "取消"
   },
   {
     "word": "apologize",
     "phonetic": "/əˈpɒlədʒaɪz/",
     "meaning": "v. 道歉；谢罪",
-    "sentence": "I must apologize to you."
+    "sentence": "I must apologize to you.",
+    "gameMeaningZh": "道歉"
   },
   {
     "word": "promise",
     "phonetic": "/ˈprɒmɪs/",
     "meaning": "n. & v. 承诺；答应",
-    "sentence": "I promise to help you."
+    "sentence": "I promise to help you.",
+    "gameMeaningZh": "承诺"
   },
   {
     "word": "improve",
     "phonetic": "/ɪmˈpruːv/",
     "meaning": "v. 改进；改善",
-    "sentence": "I want to improve my English."
+    "sentence": "I want to improve my English.",
+    "gameMeaningZh": "改进"
   },
   {
     "word": "manage",
     "phonetic": "/ˈmænɪdʒ/",
     "meaning": "v. 管理；设法完成",
-    "sentence": "He can manage his time well."
+    "sentence": "He can manage his time well.",
+    "gameMeaningZh": "管理"
   },
   {
     "word": "require",
     "phonetic": "/rɪˈkwaɪə(r)/",
     "meaning": "v. 需要；要求",
-    "sentence": "You require more practice."
+    "sentence": "You require more practice.",
+    "gameMeaningZh": "需要"
   },
   {
     "word": "realize",
     "phonetic": "/ˈriːəlaɪz/",
     "meaning": "v. 意识到；实现",
-    "sentence": "I realize my mistake."
+    "sentence": "I realize my mistake.",
+    "gameMeaningZh": "意识到"
   },
   {
     "word": "respect",
     "phonetic": "/rɪˈspekt/",
     "meaning": "v. & n. 尊重；尊敬",
-    "sentence": "We should respect old people."
+    "sentence": "We should respect old people.",
+    "gameMeaningZh": "尊重"
   },
   {
     "word": "suggest",
     "phonetic": "/səˈdʒest/",
     "meaning": "v. 建议；提议",
-    "sentence": "I suggest you go there early."
+    "sentence": "I suggest you go there early.",
+    "gameMeaningZh": "建议"
   },
   {
     "word": "suppose",
     "phonetic": "/səˈpəʊz/",
     "meaning": "v. 推断；料想",
-    "sentence": "I suppose he is right."
+    "sentence": "I suppose he is right.",
+    "gameMeaningZh": "推断"
   },
   {
     "word": "return",
     "phonetic": "/rɪˈtɜːn/",
     "meaning": "v. 返回；归还",
-    "sentence": "I will return soon."
+    "sentence": "I will return soon.",
+    "gameMeaningZh": "返回"
   },
   {
     "word": "prepare",
     "phonetic": "/prɪˈpeə(r)/",
     "meaning": "v. 准备；预备",
-    "sentence": "Prepare for the exam."
+    "sentence": "Prepare for the exam.",
+    "gameMeaningZh": "准备"
   },
   {
     "word": "prevent",
     "phonetic": "/prɪˈvent/",
     "meaning": "v. 阻止；防止",
-    "sentence": "Prevent the accident."
+    "sentence": "Prevent the accident.",
+    "gameMeaningZh": "阻止"
   },
   {
     "word": "protect",
     "phonetic": "/prəˈtekt/",
     "meaning": "v. 保护；防护",
-    "sentence": "Protect the environment."
+    "sentence": "Protect the environment.",
+    "gameMeaningZh": "保护"
   },
   {
     "word": "provide",
     "phonetic": "/prəˈvaɪd/",
     "meaning": "v. 提供；供应",
-    "sentence": "They provide food for us."
+    "sentence": "They provide food for us.",
+    "gameMeaningZh": "提供"
   },
   {
     "word": "progress",
     "phonetic": "/ˈprəʊɡres/",
     "meaning": "n. 进步；进展",
-    "sentence": "I make great progress."
+    "sentence": "I make great progress.",
+    "gameMeaningZh": "进步"
   },
   {
     "word": "reply",
     "phonetic": "/rɪˈplaɪ/",
     "meaning": "v. & n. 回答；答复",
-    "sentence": "Please reply to my email."
+    "sentence": "Please reply to my email.",
+    "gameMeaningZh": "答复"
   },
   {
     "word": "report",
     "phonetic": "/rɪˈpɔːt/",
     "meaning": "n. & v. 报道；报告",
-    "sentence": "Here is the news report."
+    "sentence": "Here is the news report.",
+    "gameMeaningZh": "报道"
   },
   {
     "word": "research",
     "phonetic": "/rɪˈsɜːtʃ/",
     "meaning": "n. & v. 研究；调查",
-    "sentence": "We do some research."
+    "sentence": "We do some research.",
+    "gameMeaningZh": "研究"
   },
   {
     "word": "satisfy",
     "phonetic": "/ˈsætɪsfaɪ/",
     "meaning": "v. 满足；使满意",
-    "sentence": "You satisfy me."
+    "sentence": "You satisfy me.",
+    "gameMeaningZh": "满足"
   },
   {
     "word": "separate",
     "phonetic": "/ˈsepəreɪt/",
     "meaning": "v. 分开；分离",
-    "sentence": "Separate the good from the bad."
+    "sentence": "Separate the good from the bad.",
+    "gameMeaningZh": "分开"
   },
   {
     "word": "serve",
     "phonetic": "/sɜːv/",
     "meaning": "v. 服务；招待",
-    "sentence": "We serve the people."
+    "sentence": "We serve the people.",
+    "gameMeaningZh": "服务"
   },
   {
     "word": "share",
     "phonetic": "/ʃeə(r)/",
     "meaning": "v. 分享；共用",
-    "sentence": "Let's share the cake."
+    "sentence": "Let's share the cake.",
+    "gameMeaningZh": "分享"
   },
   {
     "word": "shine",
     "phonetic": "/ʃaɪn/",
     "meaning": "v. 照耀；发光",
-    "sentence": "The sun shines brightly."
+    "sentence": "The sun shines brightly.",
+    "gameMeaningZh": "照耀"
   },
   {
     "word": "shut",
     "phonetic": "/ʃʌt/",
     "meaning": "v. 关闭；合上",
-    "sentence": "Shut the door please."
+    "sentence": "Shut the door please.",
+    "gameMeaningZh": "关闭"
   },
   {
     "word": "succeed",
     "phonetic": "/səkˈsiːd/",
     "meaning": "v. 成功；达到",
-    "sentence": "If you try, you will succeed."
+    "sentence": "If you try, you will succeed.",
+    "gameMeaningZh": "成功"
   },
   {
     "word": "supply",
     "phonetic": "/səˈplaɪ/",
     "meaning": "v. 供应；供给",
-    "sentence": "We supply water to the city."
+    "sentence": "We supply water to the city.",
+    "gameMeaningZh": "供应"
   },
   {
     "word": "survive",
     "phonetic": "/səˈvaɪv/",
     "meaning": "v. 生存；存活",
-    "sentence": "We need water to survive."
+    "sentence": "We need water to survive.",
+    "gameMeaningZh": "生存"
   },
   {
     "word": "treat",
     "phonetic": "/triːt/",
     "meaning": "v. 对待；治疗",
-    "sentence": "Treat others kindly."
+    "sentence": "Treat others kindly.",
+    "gameMeaningZh": "对待"
   },
   {
     "word": "trust",
     "phonetic": "/trʌst/",
     "meaning": "v. & n. 相信；信任",
-    "sentence": "I trust you completely."
+    "sentence": "I trust you completely.",
+    "gameMeaningZh": "信任"
   },
   {
     "word": "understand",
     "phonetic": "/ˌʌndəˈstænd/",
     "meaning": "v. 理解；明白",
-    "sentence": "I understand your feeling."
+    "sentence": "I understand your feeling.",
+    "gameMeaningZh": "理解"
   },
   {
     "word": "unite",
     "phonetic": "/juˈnaɪt/",
     "meaning": "v. 联合；团结",
-    "sentence": "We unite together."
+    "sentence": "We unite together.",
+    "gameMeaningZh": "联合"
   },
   {
     "word": "value",
     "phonetic": "/ˈvæljuː/",
     "meaning": "n. 价值；重要性",
-    "sentence": "The value of friendship."
+    "sentence": "The value of friendship.",
+    "gameMeaningZh": "价值"
   },
   {
     "word": "wonder",
     "phonetic": "/ˈwʌndə(r)/",
     "meaning": "v. 想知道；疑惑",
-    "sentence": "I wonder who he is."
+    "sentence": "I wonder who he is.",
+    "gameMeaningZh": "想知道"
   },
   {
     "word": "worry",
     "phonetic": "/ˈwʌri/",
     "meaning": "v. & n. 担心；担忧",
-    "sentence": "Don't worry about me."
+    "sentence": "Don't worry about me.",
+    "gameMeaningZh": "担心"
   },
   {
     "word": "worth",
     "phonetic": "/wɜːθ/",
     "meaning": "adj. 值得；有价值",
-    "sentence": "It is worth trying."
+    "sentence": "It is worth trying.",
+    "gameMeaningZh": "值得"
   },
   {
     "word": "would",
     "phonetic": "/wʊd/",
     "meaning": "modal v. 将；将会",
-    "sentence": "I would like a cup of tea."
+    "sentence": "I would like a cup of tea.",
+    "gameMeaningZh": "v. 将"
   },
   {
     "word": "write",
     "phonetic": "/raɪt/",
     "meaning": "v. 写；写作",
-    "sentence": "I write a letter to my friend."
+    "sentence": "I write a letter to my friend.",
+    "gameMeaningZh": "写"
   }
 ]
