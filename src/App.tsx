@@ -383,6 +383,24 @@ export default function App() {
 
         {route === "videos" ? <VideosPage videos={videoItems} settings={safeSettings} onReward={showReward} /> : null}
       </AppShell>
+      <footer className="mt-auto flex flex-col items-center gap-1 py-4 text-xs text-ink/50">
+        <a
+          href="https://beian.miit.gov.cn/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-ink/70"
+        >
+          浙ICP备2026029622号-1
+        </a>
+        <a
+          href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011302001116"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-ink/70"
+        >
+          浙公网安备33011302001116号
+        </a>
+      </footer>
     </>
   );
 }
